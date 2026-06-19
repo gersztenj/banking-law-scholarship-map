@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Banking-Law Scholarship Map · 2000–2025</title>
+<meta name="author" content="Jacob Gerszten">
+<meta name="description" content="An interactive map of a quarter-century of U.S. banking-law scholarship (2000–2025), and a companion to Jacob Gerszten's working papers on the OCC national trust charter, the GENIUS Act, and state-issued stablecoins.">
+<style>
+  :root{
+    --paper:#fbfaf7; --panel:#ffffff; --ink:#1c1b19; --ink-soft:#55514b;
+    --line:#e7e2d8; --line-soft:#f0ece3; --accent:#2d4a8a; --accent-soft:#eaeef6;
+    --warm:#c45b28; --green:#3f8f6b; --red:#c0506a; --gold:#b0992a;
+    --shadow:0 1px 2px rgba(40,33,20,.05),0 8px 24px rgba(40,33,20,.06);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,"Times New Roman",serif;
+    --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);
+    font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 22px}
+
+  /* ---- header ---- */
+  header.hero{padding:56px 0 30px;border-bottom:1px solid var(--line)}
+  .kicker{font-family:var(--sans);font-size:12.5px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--warm);font-weight:600;margin:0 0 14px}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(30px,5vw,46px);
+    line-height:1.08;margin:0 0 16px;letter-spacing:-.01em}
+  .lede{font-family:var(--serif);font-size:clamp(17px,2.3vw,20px);color:var(--ink-soft);
+    max-width:60ch;margin:0 0 26px}
+  .lede b{color:var(--ink);font-weight:600}
+  .byline{font-size:15px;color:var(--ink-soft);margin:2px 0 28px}
+  .byline b{color:var(--ink);font-weight:600}
+
+  /* working-paper cards */
+  .papers{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .paper{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:22px 22px 20px;box-shadow:var(--shadow);color:inherit;
+    transition:transform .12s,box-shadow .12s,border-color .12s}
+  .paper:hover{transform:translateY(-2px);border-color:#d6cfbf;text-decoration:none;
+    box-shadow:0 4px 10px rgba(40,33,20,.07),0 16px 36px rgba(40,33,20,.09)}
+  .ptag{display:inline-block;font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:600;
+    color:#9a5a16;background:#fbeede;padding:3px 9px;border-radius:6px;margin-bottom:13px}
+  .paper h3{font-family:var(--serif);font-size:21px;font-weight:600;margin:0 0 5px;line-height:1.16;color:var(--ink)}
+  .paper .psub{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px;margin:0 0 13px;line-height:1.3}
+  .paper .pdesc{font-size:14px;color:var(--ink-soft);margin:0 0 16px;line-height:1.55}
+  .paper .dl{font-size:14px;font-weight:600;color:var(--accent)}
+  .paper:hover .dl{text-decoration:underline}
+
+  .statband{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:8px}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;
+    padding:16px 18px;box-shadow:var(--shadow)}
+  .stat .n{font-family:var(--serif);font-size:30px;font-weight:600;line-height:1}
+  .stat .l{font-size:12.5px;color:var(--ink-soft);margin-top:6px;letter-spacing:.01em}
+
+  /* ---- sticky nav ---- */
+  nav.toc{position:sticky;top:0;z-index:30;background:rgba(251,250,247,.86);
+    backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  nav.toc .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:9px;padding-bottom:9px}
+  nav.toc a{font-size:13.5px;color:var(--ink-soft);padding:6px 12px;border-radius:999px;
+    white-space:nowrap;font-weight:500}
+  nav.toc a:hover{background:var(--line-soft);text-decoration:none}
+  nav.toc a.on{background:var(--accent);color:#fff}
+
+  /* ---- sections ---- */
+  section{padding:46px 0;border-bottom:1px solid var(--line)}
+  .seclabel{font-size:12px;letter-spacing:.13em;text-transform:uppercase;
+    color:var(--warm);font-weight:600;margin:0 0 8px}
+  h2{font-family:var(--serif);font-weight:600;font-size:clamp(22px,3.2vw,30px);
+    margin:0 0 10px;letter-spacing:-.01em}
+  .sub{color:var(--ink-soft);max-width:66ch;margin:0 0 22px;font-size:15.5px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:20px 20px 14px;box-shadow:var(--shadow)}
+  .figcap{font-size:12.5px;color:var(--ink-soft);margin-top:10px;font-style:italic}
+
+  /* chips / legend */
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin:0 0 16px}
+  .chip{font-size:12.5px;padding:5px 11px;border-radius:999px;border:1px solid var(--line);
+    cursor:pointer;user-select:none;background:var(--panel);display:flex;align-items:center;gap:7px;
+    transition:all .12s;line-height:1.2}
+  .chip:hover{border-color:#c9c2b4}
+  .chip .sw{width:10px;height:10px;border-radius:3px;flex:none}
+  .chip.off{opacity:.42}
+  .chip.off .sw{background:#cfcabf!important}
+
+  svg.chart{width:100%;height:auto;display:block;overflow:visible}
+  .axis text{font-size:11px;fill:var(--ink-soft);font-family:var(--sans)}
+  .grid line{stroke:var(--line-soft)}
+  .ax line{stroke:var(--line)}
+  .lbl{font-size:11.5px;fill:var(--ink);font-family:var(--sans)}
+  .lblsoft{font-size:11px;fill:var(--ink-soft);font-family:var(--sans)}
+
+  /* tables */
+  .tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}
+  input[type=search]{font-family:var(--sans);font-size:14px;padding:9px 13px;border:1px solid var(--line);
+    border-radius:9px;width:240px;background:var(--panel);color:var(--ink)}
+  input[type=search]:focus{outline:2px solid var(--accent-soft);border-color:var(--accent)}
+  .toggle{font-size:13px;color:var(--ink-soft);display:flex;align-items:center;gap:7px;cursor:pointer}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:left;font-weight:600;font-size:12.5px;color:var(--ink-soft);
+    padding:9px 10px;border-bottom:2px solid var(--line);cursor:pointer;white-space:nowrap;position:sticky}
+  th.sortable:hover{color:var(--ink)}
+  th .ar{opacity:.4;font-size:10px}
+  th.sorted .ar{opacity:1;color:var(--accent)}
+  td{padding:9px 10px;border-bottom:1px solid var(--line-soft);vertical-align:top}
+  tr.row{cursor:pointer}
+  tr.row:hover{background:var(--line-soft)}
+  .rk{color:var(--ink-soft);font-variant-numeric:tabular-nums;width:34px}
+  .nm{font-weight:600}
+  .nbar{display:inline-block;height:8px;border-radius:4px;background:var(--accent);vertical-align:middle;margin-left:8px}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:999px;
+    background:var(--accent-soft);color:var(--accent);margin:2px 4px 2px 0;white-space:nowrap}
+  .detail{background:var(--line-soft)}
+  .detail td{padding:14px 16px}
+  .detail .row2{display:flex;flex-wrap:wrap;gap:22px}
+  .meta-k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--ink-soft);margin-bottom:3px}
+  .flag{display:inline-block;font-size:10.5px;padding:1px 7px;border-radius:999px;
+    background:#fbeede;color:#9a5a16;margin-left:6px;font-weight:600}
+  .rd{display:inline-block;font-size:10.5px;padding:1px 7px;border-radius:999px;font-weight:600}
+  .rd.confirmed{background:#e4f3ec;color:#216b4c}
+  .rd.failed{background:#fbe6e9;color:#9a2540}
+  .rd.staff{background:#eef0f5;color:#3a4a72}
+
+  /* leadlag */
+  .ll{display:grid;grid-template-columns:1fr;gap:8px}
+  .llrow{display:grid;grid-template-columns:84px 1fr 150px;gap:14px;align-items:center;
+    padding:11px 14px;background:var(--panel);border:1px solid var(--line);border-radius:10px}
+  .llrow .yr{font-family:var(--serif);font-size:17px;font-weight:600;color:var(--ink-soft)}
+  .llrow .ev{font-size:13.5px;line-height:1.35}
+  .llrow .ev .tp{font-size:11px;color:var(--ink-soft);display:block;margin-top:2px}
+  .ratio{display:flex;align-items:center;gap:8px;justify-content:flex-end}
+  .barpair{display:flex;align-items:center;gap:3px;height:18px}
+  .barpair .pre{background:#cdd6e8;height:100%;border-radius:2px 0 0 2px}
+  .barpair .post{background:var(--accent);height:100%;border-radius:0 2px 2px 0}
+  .verdict{font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+  .verdict.lag{background:var(--accent-soft);color:var(--accent)}
+  .verdict.lead{background:#fdeee4;color:var(--warm)}
+  .verdict.thin{background:var(--line-soft);color:var(--ink-soft)}
+
+  .cluster{break-inside:avoid;background:var(--panel);border:1px solid var(--line);
+    border-radius:12px;padding:15px 17px;margin-bottom:14px}
+  .cluster h4{margin:0 0 4px;font-family:var(--serif);font-size:16px;font-weight:600}
+  .cluster .cnt{font-size:12px;color:var(--ink-soft);margin-bottom:9px}
+  .cluster .mem{font-size:12.5px;color:var(--ink-soft);line-height:1.7}
+  .cluster .mem span{display:inline-block;background:var(--line-soft);border-radius:6px;
+    padding:1px 8px;margin:0 4px 4px 0}
+  .cols2{column-count:2;column-gap:16px}
+
+  .note{background:#fffdf7;border:1px solid var(--line);border-left:3px solid var(--gold);
+    border-radius:0 10px 10px 0;padding:14px 18px;font-size:13.5px;color:var(--ink-soft);margin-top:18px}
+  .note b{color:var(--ink)}
+  footer{padding:40px 0 70px;color:var(--ink-soft);font-size:13px}
+  footer h3{font-family:var(--serif);color:var(--ink);font-size:18px;margin:0 0 8px}
+  .draft{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;
+    background:#fbeede;color:#9a5a16;padding:3px 10px;border-radius:6px;font-weight:600}
+
+  @media(max-width:760px){
+    .statband{grid-template-columns:repeat(2,1fr)}
+    .cols2{column-count:1}
+    .llrow{grid-template-columns:54px 1fr;}
+    .llrow .ratio{grid-column:1/-1;justify-content:flex-start;margin-top:4px}
+    table{font-size:13px}
+    .hide-sm{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero"><div class="wrap">
+  <p class="kicker">An interactive companion · banking-law scholarship, 2000–2025</p>
+  <h1>Mapping a quarter-century of U.S. banking-law scholarship</h1>
+  <p class="lede">A hand-built corpus of <b id="h-articles">—</b> banking-law review articles, classified across <b id="h-topics">—</b> doctrinal topics and <b id="h-scholars">—</b> scholars. The throughline: this literature is largely <b>reactive</b> — it interprets crises and statutes <i>after</i> they land, with only a small upstream vanguard.</p>
+  <p class="byline">By <b>Jacob Gerszten</b> · Independent researcher · <a href="#papers">companion working papers ↓</a></p>
+  <div class="statband" id="statband"></div>
+</div></header>
+
+<nav class="toc"><div class="wrap" id="toc"></div></nav>
+
+<main>
+  <section id="trends"><div class="wrap">
+    <p class="seclabel">The shape of the field</p>
+    <h2>What banking-law scholars write about — and when</h2>
+    <p class="sub">Yearly article counts by doctrinal topic. The fintech / crypto / stablecoin line is the defining story of the last decade. Toggle topics to compare; the y-axis rescales to what's shown.</p>
+    <div class="card">
+      <div class="chips" id="topicChips"></div>
+      <svg class="chart" id="trendChart" viewBox="0 0 920 420" preserveAspectRatio="xMidYMid meet"></svg>
+      <p class="figcap">Counts reflect articles the corpus could reach (see method note). The partial current year is omitted to avoid a false decline.</p>
+    </div>
+  </div></section>
+
+  <section id="rising"><div class="wrap">
+    <p class="seclabel">Momentum</p>
+    <h2>What's surging, what's fading</h2>
+    <p class="sub">Change in article volume from the 2010–2014 window to 2020–2025. Fintech leads the surge; the crisis-era and Dodd-Frank-specific literatures have cooled as the statutes aged into routine.</p>
+    <div class="card">
+      <svg class="chart" id="accelChart" viewBox="0 0 920 560" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+  </div></section>
+
+  <section id="scholars"><div class="wrap">
+    <p class="seclabel">Who writes it</p>
+    <h2>The scholar explorer</h2>
+    <p class="sub">Every author with multiple banking-law articles in the corpus, with their dominant topics and venues. Search by name, school, or topic; click any row for detail; click a column to sort.</p>
+    <div class="tools">
+      <input type="search" id="scholarSearch" placeholder="Search name, school, topic…">
+      <span id="scholarCount" style="font-size:13px;color:var(--ink-soft)"></span>
+    </div>
+    <div class="card" style="padding-top:6px">
+      <table id="scholarTable">
+        <thead><tr>
+          <th class="rk">#</th>
+          <th class="sortable sorted" data-k="n">Articles <span class="ar">▼</span></th>
+          <th class="sortable" data-k="name">Scholar <span class="ar">▲▼</span></th>
+          <th class="sortable hide-sm" data-k="last">Active <span class="ar">▲▼</span></th>
+          <th class="hide-sm">Primary topic</th>
+        </tr></thead>
+        <tbody id="scholarBody"></tbody>
+      </table>
+    </div>
+  </div></section>
+
+  <section id="reactive"><div class="wrap">
+    <p class="seclabel">The central finding</p>
+    <h2>Reactive, not anticipatory</h2>
+    <p class="sub">For each major banking-policy event, the corpus compares scholarship in the three years <i>before</i> versus the three years <i>after</i>. Most topics surge only once the statute or crisis has already arrived — the literature follows policy more than it leads it.</p>
+    <div class="tools">
+      <span class="toggle" data-f="all" id="llf-all">All</span>
+      <span class="toggle" data-f="LAGS" id="llf-LAGS">Reactive (lags)</span>
+      <span class="toggle" data-f="LEADS" id="llf-LEADS">Anticipatory (leads)</span>
+    </div>
+    <div class="ll" id="leadlag"></div>
+    <div class="note"><b>How to read this:</b> bars show article counts in the 3 years pre-event (grey) vs. post-event (blue). “Reactive” means the post-event window is meaningfully larger. <b>Correlation isn't causation</b> — co-movement can reflect shared drivers, and this measures topic <i>volume</i>, not influence.</div>
+  </div></section>
+
+  <section id="footprint"><div class="wrap">
+    <p class="seclabel">From page to policy</p>
+    <h2>The policy footprint</h2>
+    <p class="sub">How often each scholar's name surfaces in the Congressional Record (hearings and committee reports), and who has crossed into government. Presence is a proxy for the testimony-and-discourse channel, not a citation count.</p>
+    <div class="tools">
+      <label class="toggle"><input type="checkbox" id="hideCollide" checked> Hide likely name-collisions</label>
+    </div>
+    <div class="card">
+      <svg class="chart" id="presenceChart" viewBox="0 0 920 520" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+    <div class="note" id="rdNote"></div>
+  </div></section>
+
+  <section id="venues"><div class="wrap">
+    <p class="seclabel">Where it lives</p>
+    <h2>The venues that carry the field</h2>
+    <p class="sub">Banking-law scholarship concentrates in a few homes — a specialty institute, a handful of flagship and faculty repositories, and an SSRN working-paper layer that has grown sharply. Bars are split by five-year period.</p>
+    <div class="card">
+      <svg class="chart" id="venueChart" viewBox="0 0 920 440" preserveAspectRatio="xMidYMid meet"></svg>
+    </div>
+  </div></section>
+
+  <section id="clusters"><div class="wrap">
+    <p class="seclabel">Research communities</p>
+    <h2>Co-authorship clusters</h2>
+    <p class="sub">Connected components of the co-authorship graph — the collaboration neighborhoods of banking law. The largest is the money-and-banking cluster around Schwarcz, Zaring, Kress and the Michigan/Vanderbilt group.</p>
+    <div class="cols2" id="clusterGrid"></div>
+  </div></section>
+
+  <section id="papers"><div class="wrap">
+    <p class="seclabel">The companion papers</p>
+    <h2>Working papers</h2>
+    <p class="sub">This dashboard is the empirical companion to two working papers on the current wave of bank-charter and stablecoin policy. Both are drafts — comments and corrections are welcome.</p>
+    <div class="papers">
+      <a class="paper" href="papers/Gerszten-National-Trust-Charter.pdf">
+        <span class="ptag">Draft · PDF</span>
+        <h3>The Rise of the National Trust Charter</h3>
+        <p class="psub">Digital Assets, the GENIUS Act, and the Reinvention of the Special-Purpose Bank</p>
+        <p class="pdesc">Reads the OCC's December 2025 approval of five crypto-native trust charters — Circle, Ripple, BitGo, Fidelity, and Paxos — alongside the GENIUS Act as the third act of a decade-long campaign to detach the national bank charter from deposit-taking, and proposes a purpose-built "National Payments and Custody Institution" charter in response.</p>
+        <span class="dl">Download PDF →</span>
+      </a>
+      <a class="paper" href="papers/Gerszten-Sovereign-Stablecoins.pdf">
+        <span class="ptag">Draft · PDF</span>
+        <h3>Sovereign Stablecoins</h3>
+        <p class="psub">State-issued stablecoins, with Wyoming's FRNT and North Dakota's Roughrider Coin as case studies</p>
+        <p class="pdesc">Asks whether and how states can issue their own fiat-backed stablecoins, using Wyoming's Frontier Stable Token (FRNT) and North Dakota's Roughrider Coin as paired case studies in placing sovereign money on public blockchains — and what that means for the dual-banking system.</p>
+        <span class="dl">Download PDF →</span>
+      </a>
+    </div>
+  </div></section>
+</main>
+
+<footer><div class="wrap">
+  <h3>About the data <span class="draft">Research draft</span></h3>
+  <p>This dashboard visualizes an original corpus of U.S. banking-law review articles (2000–2025) assembled from open sources — law-school institutional repositories (bepress/Digital Commons), open journal systems, publisher sitemaps, OpenAlex, and Crossref. Topics are assigned by a rule-based classifier over a 30+ category taxonomy.</p>
+  <p><b>Known limits, stated plainly:</b> sources behind paywalls or restrictive terms (HeinOnline, Westlaw, Lexis, and some flagship reviews) were deliberately not scraped, so venues such as the <i>Yale Law Journal</i>, <i>Stanford Law Review</i>, and the <i>Banking Law Journal</i> are undercounted. Congressional “presence” is a name-match and can collide with namesakes (flagged). Lead/lag measures topic volume around events, not causal influence. Figures are best read as <i>directional</i>.</p>
+  <p style="margin-top:14px">Built by <b>Jacob Gerszten</b> (independent researcher) as a companion to his working papers on the OCC national trust charter, the GENIUS Act, and state-issued stablecoins. Charts are generated from local CSVs by <code>build_data.py</code>; no external services. <span id="builtline"></span></p>
+</div></footer>
+
+<script src="data.js"></script>
+<script>
+(function(){
+"use strict";
+var D = window.DASH;
+var $ = function(s,r){return (r||document).querySelector(s)};
+var ce = function(t,a){var e=document.createElementNS("http://www.w3.org/2000/svg",t);if(a)for(var k in a)e.setAttribute(k,a[k]);return e};
+var fmt = function(n){return n.toLocaleString("en-US")};
+
+var PALETTE = ["#2d4a8a","#c45b28","#3f8f6b","#8a4f9e","#b0992a","#5a8fb0",
+  "#c0506a","#7a5c3a","#4a9d8e","#9a5b8a","#5f6db0","#6b8f3f","#b0673a","#737884"];
+
+/* short labels for long topic names */
+function shortTopic(t){
+  return t
+    .replace("Fintech, crypto banking, stablecoins, CBDC","Fintech / crypto / stablecoins")
+    .replace("General bank regulation, supervision & reform","General bank regulation")
+    .replace("Federal Reserve governance & agency independence","Fed governance & independence")
+    .replace("Too-big-to-fail & systemic risk","Too-big-to-fail / systemic risk")
+    .replace("Crisis-era programs (TARP, emergency lending, 13(3))","Crisis-era programs (TARP/13(3))")
+    .replace("Shadow banking & nonbank financial intermediation","Shadow banking / nonbanks")
+    .replace("Federal preemption & dual banking system","Preemption / dual banking")
+    .replace("Glass-Steagall, GLBA & bank-securities boundary","Glass-Steagall / GLBA")
+    .replace("Securitization & structured finance","Securitization / structured finance")
+    .replace("Housing finance & GSE regulation","Housing finance / GSEs")
+    .replace("Capital requirements & Basel III/IV","Capital / Basel")
+    .replace("Bank M&A, chartering, branching","Bank M&A / chartering")
+    .replace("Bank governance, executive comp, culture","Bank governance / comp")
+    .replace("Resolution, bail-in & TLAC","Resolution / bail-in")
+    .replace("Commercial lending, secured transactions & UCC","Commercial lending / UCC")
+    .replace("Climate & ESG banking regulation","Climate & ESG")
+    .replace("Data privacy & cybersecurity","Data privacy / cyber")
+    .replace("Deposit insurance & FDIC","Deposit insurance / FDIC")
+    .replace("Bank fraud, enforcement & litigation","Fraud / enforcement")
+    .replace("Stress testing & macroprudential supervision","Stress testing / macropru")
+    .replace("Money market funds & repo","MMFs / repo")
+    .replace("Liquidity regulation (LCR/NSFR)","Liquidity (LCR/NSFR)")
+    .replace("Community banks & regulatory tiering","Community banks / tiering")
+    .replace("Bank antitrust & competition","Bank antitrust")
+    .replace("Payments systems & Fed services","Payments / Fed services")
+    .replace("AML / BSA / sanctions","AML / BSA / sanctions")
+    .replace("Cross-border / international banking","Cross-border banking")
+    .replace("Other / international banking","Other / intl");
+}
+function titleCaseName(s){return s.replace(/\b\w/g,function(c){return c.toUpperCase()})}
+
+/* ---------- hero ---------- */
+$("#h-articles").textContent = fmt(D.meta.total_articles);
+$("#h-topics").textContent = D.meta.n_topics;
+$("#h-scholars").textContent = fmt(D.meta.n_scholars);
+var risingN = D.accel.filter(function(a){return a.direction==="RISING"}).length;
+var stats = [
+  [fmt(D.meta.total_articles), "articles classified, "+D.meta.year_min+"–"+D.meta.year_max],
+  [fmt(D.meta.n_scholars), "scholars with ≥2 articles"],
+  [D.meta.n_topics, "doctrinal topics tracked"],
+  [D.leadlag.filter(function(e){return /LAGS/.test(e.direction)}).length+"/"+D.leadlag.length, "policy events the literature trailed"]
+];
+var sb = $("#statband");
+stats.forEach(function(s){
+  var d=document.createElement("div");d.className="stat";
+  d.innerHTML='<div class="n">'+s[0]+'</div><div class="l">'+s[1]+'</div>';
+  sb.appendChild(d);
+});
+
+/* ---------- toc ---------- */
+var SECS=[["trends","Topics over time"],["rising","Rising & fading"],["scholars","Scholar explorer"],
+  ["reactive","Reactive thesis"],["footprint","Policy footprint"],["venues","Venues"],["clusters","Communities"],
+  ["papers","Papers"]];
+var toc=$("#toc");
+SECS.forEach(function(s){var a=document.createElement("a");a.href="#"+s[0];a.textContent=s[1];a.dataset.s=s[0];toc.appendChild(a);});
+var obs=new IntersectionObserver(function(es){
+  es.forEach(function(e){if(e.isIntersecting){
+    toc.querySelectorAll("a").forEach(function(a){a.classList.toggle("on",a.dataset.s===e.target.id);});
+  }});
+},{rootMargin:"-45% 0px -50% 0px"});
+SECS.forEach(function(s){var el=document.getElementById(s[0]);if(el)obs.observe(el);});
+
+/* ================= TOPIC TRENDS ================= */
+var topTopics = D.rankedTopics.slice(0,12);
+var topicColor={}; topTopics.forEach(function(t,i){topicColor[t]=PALETTE[i%PALETTE.length];});
+var selected={}; topTopics.slice(0,6).forEach(function(t){selected[t]=true;});
+
+var chipWrap=$("#topicChips");
+topTopics.forEach(function(t){
+  var c=document.createElement("div");
+  c.className="chip"+(selected[t]?"":" off");
+  c.innerHTML='<span class="sw" style="background:'+topicColor[t]+'"></span>'+shortTopic(t);
+  c.onclick=function(){selected[t]=!selected[t];c.classList.toggle("off",!selected[t]);drawTrend();};
+  chipWrap.appendChild(c);
+});
+
+function drawTrend(){
+  var svg=$("#trendChart");svg.innerHTML="";
+  var W=920,H=420,m={t:14,r:16,b:34,l:42};
+  var iw=W-m.l-m.r, ih=H-m.t-m.b;
+  var yrs=D.years, n=yrs.length;
+  var on=topTopics.filter(function(t){return selected[t]});
+  var ymax=1;
+  on.forEach(function(t){D.topicSeries[t].forEach(function(v){if(v>ymax)ymax=v;});});
+  ymax=Math.ceil(ymax/5)*5||5;
+  var X=function(i){return m.l+(n<=1?0:i/(n-1)*iw)};
+  var Y=function(v){return m.t+ih-v/ymax*ih};
+  // gridlines + y ticks
+  var g=ce("g",{class:"grid"});
+  var steps=5;
+  for(var s=0;s<=steps;s++){
+    var yv=ymax*s/steps, yy=Y(yv);
+    g.appendChild(ce("line",{x1:m.l,y1:yy,x2:m.l+iw,y2:yy}));
+    var tx=ce("text",{x:m.l-8,y:yy+4,"text-anchor":"end",class:"axis"});tx.textContent=Math.round(yv);
+    g.appendChild(tx);
+  }
+  svg.appendChild(g);
+  // x ticks every 5 yrs
+  var ax=ce("g",{class:"axis"});
+  yrs.forEach(function(y,i){if(y%5===0){
+    var t=ce("text",{x:X(i),y:H-m.b+18,"text-anchor":"middle"});t.textContent=y;ax.appendChild(t);
+    ax.appendChild(ce("line",{x1:X(i),y1:m.t,x2:X(i),y2:m.t+ih,stroke:"#f0ece3"}));
+  }});
+  svg.appendChild(ax);
+  // lines
+  on.forEach(function(t){
+    var col=topicColor[t], vals=D.topicSeries[t];
+    var d=vals.map(function(v,i){return (i?"L":"M")+X(i).toFixed(1)+" "+Y(v).toFixed(1)}).join(" ");
+    svg.appendChild(ce("path",{d:d,fill:"none",stroke:col,"stroke-width":2.4,
+      "stroke-linejoin":"round","stroke-linecap":"round"}));
+    // endpoint dot + label for the latest value
+    var li=vals.length-1;
+    svg.appendChild(ce("circle",{cx:X(li),cy:Y(vals[li]),r:3,fill:col}));
+    // hover points
+    vals.forEach(function(v,i){
+      var c=ce("circle",{cx:X(i),cy:Y(v),r:8,fill:"transparent"});
+      var ttl=ce("title");ttl.textContent=shortTopic(t)+" · "+yrs[i]+": "+v+" articles";
+      c.appendChild(ttl);svg.appendChild(c);
+    });
+  });
+  // annotate fintech peak if shown
+  var ft="Fintech, crypto banking, stablecoins, CBDC";
+  if(selected[ft]){
+    var fv=D.topicSeries[ft], pk=fv.indexOf(Math.max.apply(null,fv));
+    var t=ce("text",{x:X(pk),y:Y(fv[pk])-10,"text-anchor":"middle",class:"lbl",fill:topicColor[ft],"font-weight":"600"});
+    t.textContent="Fintech peak: "+fv[pk];
+    svg.appendChild(t);
+  }
+}
+drawTrend();
+
+/* ================= ACCELERATION ================= */
+(function(){
+  var svg=$("#accelChart");
+  var data=D.accel.filter(function(a){return (a.early+a.late)>=8}).slice();
+  data.sort(function(a,b){return (b.late-b.early)-(a.late-a.early)});
+  data=data.slice(0,18);
+  var W=920,rowH=26,m={t:10,r:120,b:24,l:210};
+  var H=m.t+m.b+data.length*rowH;
+  svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.innerHTML="";
+  var iw=W-m.l-m.r;
+  var maxV=Math.max.apply(null,data.map(function(d){return Math.max(d.early,d.late)}));
+  var X=function(v){return m.l+v/maxV*iw};
+  // axis line
+  svg.appendChild(ce("line",{x1:m.l,y1:m.t,x2:m.l,y2:H-m.b,stroke:"#e7e2d8"}));
+  [0,.25,.5,.75,1].forEach(function(f){
+    var xv=m.l+f*iw;
+    svg.appendChild(ce("line",{x1:xv,y1:m.t,x2:xv,y2:H-m.b,stroke:"#f0ece3"}));
+    var t=ce("text",{x:xv,y:H-m.b+16,"text-anchor":"middle",class:"axis"});t.textContent=Math.round(maxV*f);
+    svg.appendChild(t);
+  });
+  data.forEach(function(d,i){
+    var y=m.t+i*rowH+rowH/2;
+    var lab=ce("text",{x:m.l-12,y:y+4,"text-anchor":"end",class:"lbl"});lab.textContent=shortTopic(d.topic);
+    svg.appendChild(lab);
+    // dumbbell: early -> late
+    var rising=d.late>=d.early;
+    svg.appendChild(ce("line",{x1:X(d.early),y1:y,x2:X(d.late),y2:y,
+      stroke:rising?"#3f8f6b":"#c0506a","stroke-width":3,"stroke-linecap":"round","opacity":.5}));
+    svg.appendChild(ce("circle",{cx:X(d.early),cy:y,r:4.5,fill:"#cdd6e8",stroke:"#9aa8c9"}));
+    svg.appendChild(ce("circle",{cx:X(d.late),cy:y,r:5.5,fill:rising?"#3f8f6b":"#c0506a"}));
+    var v=ce("text",{x:X(d.late)+(d.late>=d.early?12:-12),y:y+4,
+      "text-anchor":d.late>=d.early?"start":"end",class:"lblsoft","font-weight":"600",
+      fill:rising?"#216b4c":"#9a2540"});
+    v.textContent=d.early+"→"+d.late;
+    svg.appendChild(v);
+  });
+  // legend
+  var lg=ce("g",{});
+  lg.appendChild(ce("circle",{cx:m.l+4,cy:m.t- (0)+0,r:0}));
+  var leg=document.createElementNS("http://www.w3.org/2000/svg","text");
+  // simple legend text
+  var l1=ce("text",{x:m.l,y:H-2,class:"lblsoft"});l1.textContent="○ 2010–2014    ● 2020–2025    (green = rising, red = fading)";
+  svg.appendChild(l1);
+})();
+
+/* ================= SCHOLAR EXPLORER ================= */
+(function(){
+  var body=$("#scholarBody"), search=$("#scholarSearch"), cnt=$("#scholarCount");
+  var state={q:"",k:"n",dir:-1,open:null};
+  var maxN=Math.max.apply(null,D.scholars.map(function(s){return s.n}));
+  function matches(s){
+    if(!state.q)return true;
+    var q=state.q.toLowerCase();
+    if(s.name.toLowerCase().indexOf(q)>=0)return true;
+    if(s.aff && s.aff.toLowerCase().indexOf(q)>=0)return true;
+    return s.topics.some(function(t){return t.topic.toLowerCase().indexOf(q)>=0});
+  }
+  function render(){
+    var rows=D.scholars.filter(matches).slice();
+    rows.sort(function(a,b){
+      var av=a[state.k],bv=b[state.k];
+      if(state.k==="name"){av=av.toLowerCase();bv=bv.toLowerCase();return av<bv?-1*state.dir:av>bv?1*state.dir:0;}
+      return (av-bv)*state.dir;
+    });
+    cnt.textContent=rows.length+" scholars"+(state.q?' matching “'+state.q+'”':"");
+    body.innerHTML="";
+    rows.forEach(function(s){
+      var tr=document.createElement("tr");tr.className="row";
+      var bw=Math.max(6,s.n/maxN*70);
+      var topic=s.topics[0]?shortTopic(s.topics[0].topic):"—";
+      tr.innerHTML='<td class="rk">'+s.rank+'</td>'+
+        '<td><b>'+s.n+'</b><span class="nbar" style="width:'+bw+'px"></span></td>'+
+        '<td class="nm">'+titleCaseName(s.name)+'</td>'+
+        '<td class="hide-sm">'+s.first+'–'+s.last+'</td>'+
+        '<td class="hide-sm">'+topic+'</td>';
+      tr.onclick=function(){toggle(s,tr);};
+      body.appendChild(tr);
+    });
+  }
+  function toggle(s,tr){
+    var nx=tr.nextSibling;
+    if(nx && nx.classList && nx.classList.contains("detail")){nx.remove();return;}
+    document.querySelectorAll(".detail").forEach(function(d){d.remove();});
+    var d=document.createElement("tr");d.className="detail";
+    var topics=s.topics.map(function(t){return '<span class="tag">'+shortTopic(t.topic)+' · '+t.n+'</span>'}).join("");
+    var venues=s.venues.map(function(v){return '<span class="tag" style="background:#f0ece3;color:#55514b">'+v+'</span>'}).join("");
+    d.innerHTML='<td></td><td colspan="4"><div class="row2">'+
+      '<div><div class="meta-k">Dominant topics</div>'+(topics||"—")+'</div>'+
+      '<div><div class="meta-k">Top venues</div>'+(venues||"—")+'</div></div>'+
+      (s.aff?'<div style="margin-top:10px"><div class="meta-k">Affiliation</div>'+s.aff+'</div>':"")+
+      (s.sample?'<div style="margin-top:10px"><div class="meta-k">Representative title</div><i>'+s.sample+'</i></div>':"")+
+      '</td>';
+    tr.parentNode.insertBefore(d,tr.nextSibling);
+  }
+  search.oninput=function(){state.q=search.value.trim();render();};
+  document.querySelectorAll("#scholarTable th.sortable").forEach(function(th){
+    th.onclick=function(){
+      var k=th.dataset.k;
+      if(state.k===k)state.dir*=-1;else{state.k=k;state.dir=(k==="name")?1:-1;}
+      document.querySelectorAll("#scholarTable th").forEach(function(h){h.classList.remove("sorted");var a=h.querySelector(".ar");if(a)a.textContent="▲▼";});
+      th.classList.add("sorted");th.querySelector(".ar").textContent=state.dir<0?"▼":"▲";
+      render();
+    };
+  });
+  render();
+})();
+
+/* ================= LEAD / LAG ================= */
+(function(){
+  var wrap=$("#leadlag");
+  var filt="all";
+  var maxPost=Math.max.apply(null,D.leadlag.map(function(e){return Math.max(e.pre,e.post)}))||1;
+  function verdict(e){
+    if(/LAGS/.test(e.direction))return ["lag","Reactive"];
+    if(/LEADS/.test(e.direction))return ["lead","Anticipatory"];
+    return ["thin","Inconclusive"];
+  }
+  function match(e){
+    if(filt==="all")return true;
+    if(filt==="LAGS")return /LAGS/.test(e.direction);
+    if(filt==="LEADS")return /LEADS/.test(e.direction);
+    return true;
+  }
+  function render(){
+    var data=D.leadlag.filter(match).slice().sort(function(a,b){return a.date<b.date?-1:1});
+    wrap.innerHTML="";
+    data.forEach(function(e){
+      var v=verdict(e);
+      var yr=(e.date||"").slice(0,4);
+      var pw=Math.max(2,e.pre/maxPost*70), qw=Math.max(2,e.post/maxPost*70);
+      var row=document.createElement("div");row.className="llrow";
+      row.innerHTML='<div class="yr">'+yr+'</div>'+
+        '<div class="ev">'+e.event+'<span class="tp">'+shortTopic(e.topic)+'</span></div>'+
+        '<div class="ratio">'+
+          '<div class="barpair" title="'+e.pre+' before · '+e.post+' after">'+
+            '<div class="pre" style="width:'+pw+'px"></div>'+
+            '<div class="post" style="width:'+qw+'px"></div>'+
+          '</div>'+
+          '<span class="verdict '+v[0]+'">'+v[1]+'</span>'+
+        '</div>';
+      wrap.appendChild(row);
+    });
+  }
+  ["all","LAGS","LEADS"].forEach(function(f){
+    var el=$("#llf-"+f);
+    el.onclick=function(){
+      filt=f;
+      ["all","LAGS","LEADS"].forEach(function(g){$("#llf-"+g).style.fontWeight=(g===f)?"700":"400";$("#llf-"+g).style.color=(g===f)?"var(--accent)":"var(--ink-soft)";});
+      render();
+    };
+  });
+  $("#llf-all").style.fontWeight="700";$("#llf-all").style.color="var(--accent)";
+  render();
+})();
+
+/* ================= POLICY FOOTPRINT ================= */
+(function(){
+  var svg=$("#presenceChart"), note=$("#rdNote"), cb=$("#hideCollide");
+  function draw(){
+    var hide=cb.checked;
+    var data=D.influence.filter(function(d){return d.presence>0 && !(hide&&d.collision)});
+    data.sort(function(a,b){return b.presence-a.presence});
+    data=data.slice(0,16);
+    var W=920,rowH=27,m={t:8,r:54,b:26,l:184};
+    var H=m.t+m.b+data.length*rowH;
+    svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.innerHTML="";
+    var iw=W-m.l-m.r;
+    var maxV=Math.max.apply(null,data.map(function(d){return d.presence}))||1;
+    [0,.25,.5,.75,1].forEach(function(f){
+      var xv=m.l+f*iw;
+      svg.appendChild(ce("line",{x1:xv,y1:m.t,x2:xv,y2:H-m.b,stroke:"#f0ece3"}));
+      var t=ce("text",{x:xv,y:H-m.b+16,"text-anchor":"middle",class:"axis"});t.textContent=Math.round(maxV*f);
+      svg.appendChild(t);
+    });
+    data.forEach(function(d,i){
+      var y=m.t+i*rowH, h=rowH-9;
+      var w=d.presence/maxV*iw;
+      var rd=(d.rd||"").toLowerCase();
+      var col=rd==="confirmed"?"#3f8f6b":rd==="failed"?"#c0506a":d.rd?"#5f6db0":"#2d4a8a";
+      var nm=ce("text",{x:m.l-12,y:y+h/2+4,"text-anchor":"end",class:"lbl"});
+      nm.textContent=titleCaseName(d.scholar.replace(/,.*$/,"")) ; // surname
+      var full=d.scholar.replace(/^([^,]+),\s*(.+)$/,"$2 $1");
+      var tt=ce("title");tt.textContent=full+(d.rd?(" — "+d.rd_detail):"");nm.appendChild(tt);
+      svg.appendChild(nm);
+      var bar=ce("rect",{x:m.l,y:y,width:Math.max(2,w),height:h,rx:3,fill:col,opacity:.9});
+      bar.appendChild((function(){var t=ce("title");t.textContent=full+": "+d.presence+" mentions"+(d.rd_detail?" · "+d.rd_detail:"");return t;})());
+      svg.appendChild(bar);
+      var val=ce("text",{x:m.l+w+8,y:y+h/2+4,class:"lblsoft","font-weight":"600"});val.textContent=d.presence;
+      svg.appendChild(val);
+    });
+  }
+  cb.onchange=draw; draw();
+
+  // revolving-door roster
+  var rd=D.influence.filter(function(d){return d.rd}).sort(function(a,b){
+    var order={confirmed:0,failed:1};return (order[a.rd]||2)-(order[b.rd]||2);
+  });
+  var html='<b>The revolving door.</b> ';
+  var conf=rd.filter(function(d){return d.rd==="confirmed"}).map(function(d){return nameOnly(d.scholar)});
+  var fail=rd.filter(function(d){return d.rd==="failed"}).map(function(d){return nameOnly(d.scholar)});
+  var staff=rd.filter(function(d){return d.rd!=="confirmed"&&d.rd!=="failed"}).map(function(d){return nameOnly(d.scholar)});
+  if(conf.length)html+='<span class="rd confirmed">Senate-confirmed</span> '+conf.join(", ")+'. ';
+  if(fail.length)html+='<span class="rd failed">Nominated / not confirmed</span> '+fail.join(", ")+'. ';
+  if(staff.length)html+='<span class="rd staff">Agency or advisory roles</span> '+staff.slice(0,12).join(", ")+(staff.length>12?", …":"")+'.';
+  note.innerHTML=html;
+  function nameOnly(s){return s.replace(/^([^,]+),\s*(.+)$/,"$2 $1").replace(/\s+Jr\.?$/,"")}
+})();
+
+/* ================= VENUES ================= */
+(function(){
+  var svg=$("#venueChart");
+  var data=D.venuesPeriod.slice().sort(function(a,b){return b.total-a.total}).slice(0,10);
+  var cols=D.meta.venue_period_cols;
+  var W=920,rowH=34,m={t:30,r:60,b:14,l:230};
+  var H=m.t+m.b+data.length*rowH;
+  svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.innerHTML="";
+  var iw=W-m.l-m.r;
+  var maxV=Math.max.apply(null,data.map(function(d){return d.total}));
+  var X=function(v){return v/maxV*iw};
+  var shades=["#cdd6e8","#9fb0d6","#6f86c2","#46639f","#2d4a8a"];
+  // legend
+  cols.forEach(function(c,i){
+    var lx=m.l+i*128;
+    svg.appendChild(ce("rect",{x:lx,y:6,width:12,height:12,rx:2,fill:shades[i]}));
+    var t=ce("text",{x:lx+17,y:16,class:"lblsoft"});t.textContent=c;svg.appendChild(t);
+  });
+  data.forEach(function(d,i){
+    var y=m.t+i*rowH, h=rowH-12, x=m.l;
+    var nm=ce("text",{x:m.l-12,y:y+h/2+4,"text-anchor":"end",class:"lbl"});
+    nm.textContent=d.venue.length>34?d.venue.slice(0,33)+"…":d.venue;
+    var tt=ce("title");tt.textContent=d.venue+" · "+d.total+" articles";nm.appendChild(tt);
+    svg.appendChild(nm);
+    d.counts.forEach(function(v,j){
+      var w=X(v);
+      if(w>0){
+        var r=ce("rect",{x:x,y:y,width:w,height:h,fill:shades[j]});
+        var t2=ce("title");t2.textContent=d.venue+" — "+cols[j]+": "+v;r.appendChild(t2);
+        svg.appendChild(r);x+=w;
+      }
+    });
+    var tot=ce("text",{x:m.l+X(d.total)+8,y:y+h/2+4,class:"lblsoft","font-weight":"600"});tot.textContent=d.total;
+    svg.appendChild(tot);
+  });
+})();
+
+/* ================= CLUSTERS ================= */
+(function(){
+  var wrap=$("#clusterGrid");
+  var clusters=D.clusters.filter(function(c){return c.size>=5}).slice(0,8);
+  clusters.forEach(function(c){
+    var div=document.createElement("div");div.className="cluster";
+    var members=c.members.slice(0,16).map(function(m){return '<span>'+titleCaseName(m)+'</span>'}).join("");
+    var more=c.members.length>16?' <span style="background:none;color:var(--ink-soft)">+'+(c.members.length-16)+' more</span>':"";
+    div.innerHTML='<h4>The '+titleCaseName(c.root)+' neighborhood</h4>'+
+      '<div class="cnt">'+c.size+' connected co-authors</div>'+
+      '<div class="mem">'+members+more+'</div>';
+    wrap.appendChild(div);
+  });
+})();
+
+})();
+</script>
+</body>
+</html>

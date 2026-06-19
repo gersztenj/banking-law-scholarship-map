@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Nothing secret lives here — this folder is self-contained and safe to publish.
+# Never add ../.env or the scraper outputs with raw data dumps.
