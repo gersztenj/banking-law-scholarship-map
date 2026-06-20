@@ -184,7 +184,7 @@
   <p class="kicker">An interactive companion · banking-law scholarship, 2000–2025</p>
   <h1>Mapping a quarter-century of U.S. banking-law scholarship</h1>
   <p class="lede">A hand-built corpus of <b id="h-articles">—</b> banking-law review articles, classified across <b id="h-topics">—</b> doctrinal topics and <b id="h-scholars">—</b> scholars. The throughline: this literature is largely <b>reactive</b> — it interprets crises and statutes <i>after</i> they land, with only a small upstream vanguard.</p>
-  <p class="byline">By <b>Jacob Gerszten</b> · Independent researcher · <a href="#papers">companion working papers ↓</a></p>
+  <p class="byline">By <b>Jacob Gerszten</b> · Independent researcher</p>
   <div class="statband" id="statband"></div>
 </div></header>
 
@@ -282,27 +282,6 @@
     <div class="cols2" id="clusterGrid"></div>
   </div></section>
 
-  <section id="papers"><div class="wrap">
-    <p class="seclabel">The companion papers</p>
-    <h2>Working papers</h2>
-    <p class="sub">This dashboard is the empirical companion to two working papers on the current wave of bank-charter and stablecoin policy. Both are drafts — comments and corrections are welcome.</p>
-    <div class="papers">
-      <a class="paper" href="papers/Gerszten-National-Trust-Charter.pdf">
-        <span class="ptag">Draft · PDF</span>
-        <h3>The Rise of the National Trust Charter</h3>
-        <p class="psub">Digital Assets, the GENIUS Act, and the Reinvention of the Special-Purpose Bank</p>
-        <p class="pdesc">Reads the OCC's December 2025 approval of five crypto-native trust charters — Circle, Ripple, BitGo, Fidelity, and Paxos — alongside the GENIUS Act as the third act of a decade-long campaign to detach the national bank charter from deposit-taking, and proposes a purpose-built "National Payments and Custody Institution" charter in response.</p>
-        <span class="dl">Download PDF →</span>
-      </a>
-      <a class="paper" href="papers/Gerszten-Sovereign-Stablecoins.pdf">
-        <span class="ptag">Draft · PDF</span>
-        <h3>Sovereign Stablecoins</h3>
-        <p class="psub">State-issued stablecoins, with Wyoming's FRNT and North Dakota's Roughrider Coin as case studies</p>
-        <p class="pdesc">Asks whether and how states can issue their own fiat-backed stablecoins, using Wyoming's Frontier Stable Token (FRNT) and North Dakota's Roughrider Coin as paired case studies in placing sovereign money on public blockchains — and what that means for the dual-banking system.</p>
-        <span class="dl">Download PDF →</span>
-      </a>
-    </div>
-  </div></section>
 </main>
 
 <footer><div class="wrap">
@@ -414,7 +393,7 @@ stats.forEach(function(s){
 /* ---------- toc ---------- */
 var SECS=[["findings","Key findings"],["trends","Topics over time"],["rising","Rising & fading"],
   ["scholars","Scholar explorer"],["reactive","Reactive thesis"],["footprint","Policy footprint"],
-  ["venues","Venues"],["clusters","Communities"],["papers","Papers"]];
+  ["venues","Venues"],["clusters","Communities"]];
 var toc=$("#toc");
 SECS.forEach(function(s){var a=document.createElement("a");a.href="#"+s[0];a.textContent=s[1];a.dataset.s=s[0];toc.appendChild(a);});
 var obs=new IntersectionObserver(function(es){
