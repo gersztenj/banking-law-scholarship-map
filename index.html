@@ -35,6 +35,17 @@
   .byline{font-size:15px;color:var(--ink-soft);margin:2px 0 28px}
   .byline b{color:var(--ink);font-weight:600}
 
+  /* key findings (executive summary) */
+  #findings{background:#f6f3ec}
+  .findings{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+  .finding{background:var(--panel);border:1px solid var(--line);border-radius:14px;
+    padding:20px 20px 18px;box-shadow:var(--shadow)}
+  .finding .fstat{font-family:var(--serif);font-size:34px;font-weight:600;color:var(--accent);line-height:1}
+  .finding .flabel{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-soft);margin:5px 0 13px}
+  .finding h3{font-family:var(--serif);font-size:18px;margin:0 0 7px;font-weight:600;line-height:1.2}
+  .finding p{font-size:13.5px;color:var(--ink-soft);margin:0;line-height:1.5}
+  .finding p i{color:var(--ink);font-style:italic}
+
   /* working-paper cards */
   .papers{display:grid;grid-template-columns:1fr 1fr;gap:16px}
   .paper{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;
@@ -180,6 +191,13 @@
 <nav class="toc"><div class="wrap" id="toc"></div></nav>
 
 <main>
+  <section id="findings"><div class="wrap">
+    <p class="seclabel">Start here</p>
+    <h2>Key findings</h2>
+    <p class="sub">The five things the data says, in plain language. Each is drawn straight from the corpus below — scroll on for the charts behind them.</p>
+    <div class="findings" id="findingGrid"></div>
+  </div></section>
+
   <section id="trends"><div class="wrap">
     <p class="seclabel">The shape of the field</p>
     <h2>What banking-law scholars write about — and when</h2>
@@ -358,10 +376,45 @@ stats.forEach(function(s){
   sb.appendChild(d);
 });
 
+/* ---------- key findings (computed from the data) ---------- */
+(function(){
+  var fin = D.accel.filter(function(a){return /^Fintech/.test(a.topic)})[0] || {late:0,ratio:0};
+  var lags = D.leadlag.filter(function(e){return /LAGS/.test(e.direction)}).length;
+  var llTotal = D.leadlag.length;
+  var dodd = (D.periods.filter(function(p){return /Dodd-Frank/.test(p.topic)})[0] || {counts:[0]}).counts;
+  var doddPeak = Math.max.apply(null, dodd);
+  var byN = D.scholars.slice().sort(function(a,b){return b.n-a.n});
+  var topS = byN[0], schwarcz = D.scholars.filter(function(s){return /Schwarcz/.test(s.name)})[0];
+  var topVenue = D.venuesPeriod.slice().sort(function(a,b){return b.total-a.total})[0];
+  var ssrn = D.venuesPeriod.filter(function(v){return /SSRN/.test(v.venue)})[0];
+  var ssrnGrow = ssrn ? Math.round(ssrn.counts[ssrn.counts.length-1]/Math.max(1,ssrn.counts[0])) : null;
+  var surname = function(s){return titleCaseName(s.name.replace(/,.*$/,""))};
+
+  var cards = [
+    {stat:"×"+fin.ratio.toFixed(1), label:"fintech growth, 2010s→2020s", head:"Fintech took over the field",
+     body:"Crypto, stablecoin, and fintech scholarship grew "+fin.ratio.toFixed(1)+"× in a decade — to "+fin.late+" articles in 2020–2025 — and is now the single most-written-about topic in banking law."},
+    {stat:lags+" / "+llTotal, label:"policy events the literature trailed", head:"It reacts more than it anticipates",
+     body:"Across "+llTotal+" major policy events, scholarship surged <i>after</i> the event far more often than before it. Total output peaks two to three years <i>behind</i> each policy shock."},
+    {stat:String(doddPeak), label:"Dodd-Frank articles, just after the Act", head:"Dodd-Frank is the textbook case",
+     body:"Writing specifically on the Dodd-Frank Act jumped from almost nothing to "+doddPeak+" in the window right after the 2010 statute — then faded. Scholarship chasing the law, not shaping it."},
+    {stat:String(D.meta.n_scholars), label:"scholars, a few dominant", head:"A small vanguard carries it",
+     body:D.meta.n_scholars+" scholars have multiple banking-law articles, but the volume concentrates in a handful — led by "+surname(topS)+" ("+topS.n+")"+(schwarcz?", Schwarcz ("+schwarcz.n+")":"")+", and Wilmarth."},
+    {stat:String(topVenue.total), label:"articles in one venue", head:"A narrow center of gravity",
+     body:"A single specialty journal — "+topVenue.venue+" — carries "+topVenue.total+" of the articles"+(ssrnGrow?", while SSRN working papers have grown roughly "+ssrnGrow+"× since 2000":"")+"."}
+  ];
+  var grid = $("#findingGrid");
+  cards.forEach(function(c){
+    var d=document.createElement("div");d.className="finding";
+    d.innerHTML='<div class="fstat">'+c.stat+'</div><div class="flabel">'+c.label+'</div>'+
+      '<h3>'+c.head+'</h3><p>'+c.body+'</p>';
+    grid.appendChild(d);
+  });
+})();
+
 /* ---------- toc ---------- */
-var SECS=[["trends","Topics over time"],["rising","Rising & fading"],["scholars","Scholar explorer"],
-  ["reactive","Reactive thesis"],["footprint","Policy footprint"],["venues","Venues"],["clusters","Communities"],
-  ["papers","Papers"]];
+var SECS=[["findings","Key findings"],["trends","Topics over time"],["rising","Rising & fading"],
+  ["scholars","Scholar explorer"],["reactive","Reactive thesis"],["footprint","Policy footprint"],
+  ["venues","Venues"],["clusters","Communities"],["papers","Papers"]];
 var toc=$("#toc");
 SECS.forEach(function(s){var a=document.createElement("a");a.href="#"+s[0];a.textContent=s[1];a.dataset.s=s[0];toc.appendChild(a);});
 var obs=new IntersectionObserver(function(es){
@@ -374,7 +427,7 @@ SECS.forEach(function(s){var el=document.getElementById(s[0]);if(el)obs.observe(
 /* ================= TOPIC TRENDS ================= */
 var topTopics = D.rankedTopics.slice(0,12);
 var topicColor={}; topTopics.forEach(function(t,i){topicColor[t]=PALETTE[i%PALETTE.length];});
-var selected={}; topTopics.slice(0,6).forEach(function(t){selected[t]=true;});
+var selected={}; topTopics.slice(0,4).forEach(function(t){selected[t]=true;});
 
 var chipWrap=$("#topicChips");
 topTopics.forEach(function(t){
@@ -445,7 +498,7 @@ drawTrend();
   var svg=$("#accelChart");
   var data=D.accel.filter(function(a){return (a.early+a.late)>=8}).slice();
   data.sort(function(a,b){return (b.late-b.early)-(a.late-a.early)});
-  data=data.slice(0,18);
+  data=data.slice(0,12);
   var W=920,rowH=26,m={t:10,r:120,b:24,l:210};
   var H=m.t+m.b+data.length*rowH;
   svg.setAttribute("viewBox","0 0 "+W+" "+H);svg.innerHTML="";
@@ -688,7 +741,7 @@ drawTrend();
 /* ================= CLUSTERS ================= */
 (function(){
   var wrap=$("#clusterGrid");
-  var clusters=D.clusters.filter(function(c){return c.size>=5}).slice(0,8);
+  var clusters=D.clusters.filter(function(c){return c.size>=5}).slice(0,6);
   clusters.forEach(function(c){
     var div=document.createElement("div");div.className="cluster";
     var members=c.members.slice(0,16).map(function(m){return '<span>'+titleCaseName(m)+'</span>'}).join("");
