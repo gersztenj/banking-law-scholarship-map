@@ -6849,34 +6849,18 @@ window.DASH = {
 {
 "scholar": "Sunstein, Cass R.",
 "articles": 3,
-"presence": 167,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Smith Jr., Joseph A.",
-"articles": 6,
-"presence": 161,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Johnson, Simon",
-"articles": 2,
-"presence": 86,
+"presence": 154,
 "rd": "",
 "rd_detail": "",
 "collision": true
 },
 {
-"scholar": "Barr, Michael S.",
-"articles": 8,
-"presence": 68,
-"rd": "confirmed",
-"rd_detail": "Fed Vice Chair for Supervision; Treasury Asst Sec",
-"collision": false
+"scholar": "Johnson, Simon",
+"articles": 2,
+"presence": 84,
+"rd": "",
+"rd_detail": "",
+"collision": true
 },
 {
 "scholar": "Peirce, Hester",
@@ -6887,44 +6871,28 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Coffee Jr., John C.",
-"articles": 2,
-"presence": 55,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Solana, Javier",
-"articles": 2,
-"presence": 55,
-"rd": "",
-"rd_detail": "",
+"scholar": "Barr, Michael S.",
+"articles": 8,
+"presence": 67,
+"rd": "confirmed",
+"rd_detail": "Fed Vice Chair for Supervision; Treasury Asst Sec",
 "collision": false
 },
 {
 "scholar": "Tarullo, Daniel K.",
 "articles": 3,
-"presence": 54,
+"presence": 53,
 "rd": "confirmed",
 "rd_detail": "Fed Governor (lead for supervision)",
 "collision": false
 },
 {
-"scholar": "Crawford, John",
-"articles": 5,
-"presence": 51,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Evans, David S.",
+"scholar": "Solana, Javier",
 "articles": 2,
-"presence": 50,
+"presence": 49,
 "rd": "",
 "rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Levitin, Adam J.",
@@ -6937,31 +6905,15 @@ window.DASH = {
 {
 "scholar": "Zywicki, Todd J.",
 "articles": 2,
-"presence": 47,
+"presence": 44,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "Saunders, Margot",
-"articles": 4,
+"scholar": "Coffee Jr., John C.",
+"articles": 2,
 "presence": 38,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Hunt, John Patrick",
-"articles": 2,
-"presence": 37,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Taylor, Michael W.",
-"articles": 2,
-"presence": 36,
 "rd": "",
 "rd_detail": "",
 "collision": false
@@ -6975,20 +6927,20 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Douglas, John L.",
-"articles": 3,
-"presence": 34,
+"scholar": "Saunders, Margot",
+"articles": 4,
+"presence": 32,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "White, Alan M.",
+"scholar": "Evans, David S.",
 "articles": 2,
-"presence": 32,
+"presence": 31,
 "rd": "",
 "rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Neiman, Richard",
@@ -6999,19 +6951,27 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Wächter, Susan M.",
-"articles": 7,
-"presence": 26,
+"scholar": "Taylor, Michael W.",
+"articles": 2,
+"presence": 28,
+"rd": "",
+"rd_detail": "",
+"collision": true
+},
+{
+"scholar": "Smith Jr., Joseph A.",
+"articles": 6,
+"presence": 28,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "Skeel, David A.",
-"articles": 3,
-"presence": 26,
-"rd": "served",
-"rd_detail": "PROMESA Oversight Board member→chair (Puerto Rico)",
+"scholar": "Wächter, Susan M.",
+"articles": 7,
+"presence": 25,
+"rd": "",
+"rd_detail": "",
 "collision": false
 },
 {
@@ -7023,12 +6983,28 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "White, Alan M.",
+"articles": 2,
+"presence": 25,
+"rd": "",
+"rd_detail": "",
+"collision": true
+},
+{
+"scholar": "Skeel, David A.",
+"articles": 3,
+"presence": 25,
+"rd": "served",
+"rd_detail": "PROMESA Oversight Board member→chair (Puerto Rico)",
+"collision": false
+},
+{
 "scholar": "Greenberger, Michael",
 "articles": 2,
 "presence": 23,
 "rd": "",
 "rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Calomiris, Charles W.",
@@ -7044,15 +7020,7 @@ window.DASH = {
 "presence": 19,
 "rd": "",
 "rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Epstein, Richard A.",
-"articles": 3,
-"presence": 18,
-"rd": "",
-"rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Partnoy, Frank",
@@ -7071,12 +7039,12 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Schwartz, Paul M.",
-"articles": 2,
-"presence": 16,
+"scholar": "Epstein, Richard A.",
+"articles": 3,
+"presence": 17,
 "rd": "",
 "rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Painter, Richard W.",
@@ -7084,31 +7052,23 @@ window.DASH = {
 "presence": 16,
 "rd": "",
 "rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Reuter, Peter H.",
-"articles": 2,
-"presence": 16,
-"rd": "",
-"rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Levi, Michael",
 "articles": 2,
-"presence": 15,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Posner, Eric A.",
-"articles": 5,
 "presence": 14,
 "rd": "",
 "rd_detail": "",
-"collision": false
+"collision": true
+},
+{
+"scholar": "Schwartz, Paul M.",
+"articles": 2,
+"presence": 14,
+"rd": "",
+"rd_detail": "",
+"collision": true
 },
 {
 "scholar": "Omarova, Saule T.",
@@ -7133,6 +7093,22 @@ window.DASH = {
 "rd": "",
 "rd_detail": "",
 "collision": false
+},
+{
+"scholar": "Posner, Eric A.",
+"articles": 5,
+"presence": 13,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Reuter, Peter H.",
+"articles": 2,
+"presence": 13,
+"rd": "",
+"rd_detail": "",
+"collision": true
 },
 {
 "scholar": "Schwarcz, Daniel",
@@ -7167,24 +7143,16 @@ window.DASH = {
 "collision": true
 },
 {
-"scholar": "McCoy, Patricia A.",
-"articles": 28,
+"scholar": "Douglas, John L.",
+"articles": 3,
 "presence": 11,
-"rd": "served",
-"rd_detail": "First Asst Director Mortgage Markets, CFPB",
-"collision": false
+"rd": "",
+"rd_detail": "",
+"collision": true
 },
 {
 "scholar": "Hill, Julie Andersen",
 "articles": 4,
-"presence": 11,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Hawkins, Jim",
-"articles": 3,
 "presence": 11,
 "rd": "",
 "rd_detail": "",
@@ -7199,17 +7167,41 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Jackson, Howell E.",
-"articles": 3,
-"presence": 10,
-"rd": "served",
-"rd_detail": "NEC Senior Adviser; CFPB Visiting Scholar",
+"scholar": "Crawford, John",
+"articles": 5,
+"presence": 9,
+"rd": "",
+"rd_detail": "",
 "collision": true
 },
 {
 "scholar": "Eggert, Kurt",
 "articles": 2,
 "presence": 9,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "McCoy, Patricia A.",
+"articles": 28,
+"presence": 8,
+"rd": "served",
+"rd_detail": "First Asst Director Mortgage Markets, CFPB",
+"collision": false
+},
+{
+"scholar": "Pennington‐Cross, Anthony",
+"articles": 3,
+"presence": 8,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Harris, Adrienne A.",
+"articles": 3,
+"presence": 8,
 "rd": "",
 "rd_detail": "",
 "collision": false
@@ -7231,28 +7223,12 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Pennington‐Cross, Anthony",
+"scholar": "Johnson, Kristin N.",
 "articles": 3,
-"presence": 8,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Harris, Adrienne A.",
-"articles": 3,
-"presence": 8,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Kress, Jeremy C.",
-"articles": 15,
 "presence": 7,
-"rd": "served",
-"rd_detail": "Fed Board attorney; DOJ Antitrust counsel (detail)",
-"collision": false
+"rd": "",
+"rd_detail": "",
+"collision": true
 },
 {
 "scholar": "Judge, Kathryn",
@@ -7263,40 +7239,16 @@ window.DASH = {
 "collision": true
 },
 {
-"scholar": "Macey, Jonathan R.",
-"articles": 3,
+"scholar": "Kress, Jeremy C.",
+"articles": 15,
 "presence": 7,
-"rd": "",
-"rd_detail": "",
+"rd": "served",
+"rd_detail": "Fed Board attorney; DOJ Antitrust counsel (detail)",
 "collision": false
 },
 {
 "scholar": "Peterson, Christopher L.",
 "articles": 3,
-"presence": 7,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Johnson, Kristin N.",
-"articles": 3,
-"presence": 7,
-"rd": "",
-"rd_detail": "",
-"collision": true
-},
-{
-"scholar": "Fitzpatrick, Thomas J.",
-"articles": 2,
-"presence": 7,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Conley, John M",
-"articles": 2,
 "presence": 7,
 "rd": "",
 "rd_detail": "",
@@ -7311,6 +7263,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Engel, Kathleen C.",
+"articles": 10,
+"presence": 6,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Wilmarth, Arthur E., Jr.",
 "articles": 30,
 "presence": 6,
@@ -7319,8 +7279,8 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Engel, Kathleen C.",
-"articles": 10,
+"scholar": "Tarbert, Heath Price",
+"articles": 3,
 "presence": 6,
 "rd": "",
 "rd_detail": "",
@@ -7335,7 +7295,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Tarbert, Heath Price",
+"scholar": "Macey, Jonathan R.",
 "articles": 3,
 "presence": 6,
 "rd": "",
@@ -7343,23 +7303,23 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Dana, David A.",
-"articles": 2,
-"presence": 6,
-"rd": "",
-"rd_detail": "",
-"collision": false
+"scholar": "Jackson, Howell E.",
+"articles": 3,
+"presence": 5,
+"rd": "served",
+"rd_detail": "NEC Senior Adviser; CFPB Visiting Scholar",
+"collision": true
 },
 {
-"scholar": "Lin, Tom C. W.",
-"articles": 5,
+"scholar": "Tahyar, Margaret E.",
+"articles": 3,
 "presence": 5,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "Tahyar, Margaret E.",
+"scholar": "Hawkins, Jim",
 "articles": 3,
 "presence": 5,
 "rd": "",
@@ -7375,20 +7335,20 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Ayres, Ian",
-"articles": 2,
-"presence": 5,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Schwarcz, Steven L.",
 "articles": 46,
 "presence": 4,
 "rd": "",
 "rd_detail": "",
 "collision": true
+},
+{
+"scholar": "Ricks, Morgan",
+"articles": 6,
+"presence": 4,
+"rd": "served",
+"rd_detail": "Treasury senior policy advisor",
+"collision": false
 },
 {
 "scholar": "Gerding, Erik F.",
@@ -7399,11 +7359,11 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Ricks, Morgan",
-"articles": 6,
+"scholar": "Ayres, Ian",
+"articles": 2,
 "presence": 4,
-"rd": "served",
-"rd_detail": "Treasury senior policy advisor",
+"rd": "",
+"rd_detail": "",
 "collision": false
 },
 {
@@ -7455,7 +7415,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Kim, Peter S.",
+"scholar": "Conley, John M",
 "articles": 2,
 "presence": 3,
 "rd": "",
@@ -7471,9 +7431,49 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Horn, Charles M.",
+"scholar": "Odinet, Christopher K.",
+"articles": 17,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Johnson, Creola",
+"articles": 3,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": true
+},
+{
+"scholar": "Menand, Lev",
+"articles": 21,
+"presence": 2,
+"rd": "served",
+"rd_detail": "Treasury senior advisor; FRBNY economist",
+"collision": false
+},
+{
+"scholar": "Schooner, Heidi Mandanis",
+"articles": 13,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Lubben, Stephen J.",
+"articles": 3,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Meyer, Timothy",
 "articles": 2,
-"presence": 3,
+"presence": 2,
 "rd": "",
 "rd_detail": "",
 "collision": false
@@ -7487,28 +7487,12 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Menand, Lev",
-"articles": 21,
-"presence": 2,
-"rd": "served",
-"rd_detail": "Treasury senior advisor; FRBNY economist",
-"collision": false
-},
-{
-"scholar": "Odinet, Christopher K.",
-"articles": 17,
+"scholar": "Hunt, John Patrick",
+"articles": 2,
 "presence": 2,
 "rd": "",
 "rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Schooner, Heidi Mandanis",
-"articles": 13,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": false
+"collision": true
 },
 {
 "scholar": "Hockett, Robert",
@@ -7527,31 +7511,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Johnson, Creola",
-"articles": 3,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": true
-},
-{
-"scholar": "Lubben, Stephen J.",
-"articles": 3,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Abramowicz, Michael B.",
-"articles": 2,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Meyer, Timothy",
 "articles": 2,
 "presence": 2,
 "rd": "",
@@ -7583,6 +7543,38 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Reiss, David",
+"articles": 14,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Alexander, Ronald E.",
+"articles": 2,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Johnson, Christian A.",
+"articles": 4,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": true
+},
+{
+"scholar": "Gorton, Gary B.",
+"articles": 2,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Markham, Jerry W.",
 "articles": 4,
 "presence": 1,
@@ -7591,16 +7583,24 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Conti‐Brown, Peter",
-"articles": 19,
+"scholar": "Wishnick, David A.",
+"articles": 3,
 "presence": 1,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "Reiss, David",
-"articles": 14,
+"scholar": "Schiltz, Elizabeth R.",
+"articles": 2,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Conti‐Brown, Peter",
+"articles": 19,
 "presence": 1,
 "rd": "",
 "rd_detail": "",
@@ -7623,7 +7623,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Felsenfeld, Carl",
+"scholar": "Lin, Tom C. W.",
 "articles": 5,
 "presence": 1,
 "rd": "",
@@ -7639,14 +7639,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Johnson, Christian A.",
-"articles": 4,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": true
-},
-{
 "scholar": "Mitts, Joshua",
 "articles": 4,
 "presence": 1,
@@ -7657,14 +7649,6 @@ window.DASH = {
 {
 "scholar": "Rauterberg, Gabriel V.",
 "articles": 4,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Wishnick, David A.",
-"articles": 3,
 "presence": 1,
 "rd": "",
 "rd_detail": "",
@@ -7703,14 +7687,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Alexander, Ronald E.",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Kini, Satish M.",
 "articles": 2,
 "presence": 1,
@@ -7727,7 +7703,15 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Joo, Thomas W.",
+"scholar": "Fitzpatrick, Thomas J.",
+"articles": 2,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Kim, Peter S.",
 "articles": 2,
 "presence": 1,
 "rd": "",
@@ -7743,22 +7727,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Hirsch Jr., Frank A.",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Gorton, Gary B.",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Anabtawi, Iman",
 "articles": 2,
 "presence": 1,
@@ -7767,15 +7735,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Spindler, James C.",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Johnston, Kenneth C.",
+"scholar": "Dana, David A.",
 "articles": 2,
 "presence": 1,
 "rd": "",
@@ -7791,7 +7751,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Schiltz, Elizabeth R.",
+"scholar": "Williams, Cynthia A.",
 "articles": 2,
 "presence": 1,
 "rd": "",
@@ -7799,9 +7759,97 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Williams, Cynthia A.",
+"scholar": "Horn, Charles M.",
 "articles": 2,
 "presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Lamson, Donald",
+"articles": 3,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Chaffee, Eric C.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Murdock, Charles W.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Milhaupt, Curtis J.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Zhang, Jeffery Y.",
+"articles": 9,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Taylor, Winnie F.",
+"articles": 3,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": true
+},
+{
+"scholar": "Hill, Claire",
+"articles": 3,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Skinner, Christina Parajon",
+"articles": 3,
+"presence": 0,
+"rd": "served",
+"rd_detail": "Treasury Deputy Asst Sec for FSOC",
+"collision": false
+},
+{
+"scholar": "Stojkovic, Marko",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Boyack, Andrea J.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Manns, Jeffrey",
+"articles": 2,
+"presence": 0,
 "rd": "",
 "rd_detail": "",
 "collision": false
@@ -7816,14 +7864,6 @@ window.DASH = {
 },
 {
 "scholar": "Kaal, Wulf A.",
-"articles": 9,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Zhang, Jeffery Y.",
 "articles": 9,
 "presence": 0,
 "rd": "",
@@ -7887,6 +7927,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Felsenfeld, Carl",
+"articles": 5,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Bilali, Genci",
 "articles": 5,
 "presence": 0,
@@ -7935,14 +7983,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Lamson, Donald",
-"articles": 3,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "McDonnell, Brett",
 "articles": 3,
 "presence": 0,
@@ -7975,23 +8015,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Taylor, Winnie F.",
-"articles": 3,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Baker, Colleen",
-"articles": 3,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Hill, Claire",
 "articles": 3,
 "presence": 0,
 "rd": "",
@@ -8004,14 +8028,6 @@ window.DASH = {
 "presence": 0,
 "rd": "",
 "rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Skinner, Christina Parajon",
-"articles": 3,
-"presence": 0,
-"rd": "served",
-"rd_detail": "Treasury Deputy Asst Sec for FSOC",
 "collision": false
 },
 {
@@ -8135,14 +8151,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Stojkovic, Marko",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Pasley, Robert S.",
 "articles": 2,
 "presence": 0,
@@ -8215,14 +8223,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Boyack, Andrea J.",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Karmel, Roberta S.",
 "articles": 2,
 "presence": 0,
@@ -8287,6 +8287,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Joo, Thomas W.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Hazen, Thomas Lee",
 "articles": 2,
 "presence": 0,
@@ -8327,7 +8335,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Manns, Jeffrey",
+"scholar": "Annunziata, Filippo",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -8335,7 +8343,7 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Annunziata, Filippo",
+"scholar": "Hirsch Jr., Frank A.",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -8360,6 +8368,14 @@ window.DASH = {
 },
 {
 "scholar": "Orescanin, James",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Spindler, James C.",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -8423,6 +8439,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Johnston, Kenneth C.",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Hylton, Keith N.",
 "articles": 2,
 "presence": 0,
@@ -8464,14 +8488,6 @@ window.DASH = {
 },
 {
 "scholar": "Aguila, Emma",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Chaffee, Eric C.",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -8591,14 +8607,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Milhaupt, Curtis J.",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Howard, Cory",
 "articles": 2,
 "presence": 0,
@@ -8608,14 +8616,6 @@ window.DASH = {
 },
 {
 "scholar": "O'Brien, Carrie A.",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Murdock, Charles W.",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -8977,36 +8977,36 @@ window.DASH = {
 ]
 },
 {
-"venue": "SSRN Electronic Journal",
-"total": 110,
-"counts": [
-5,
-11,
-24,
-20,
-50
-]
-},
-{
-"venue": "eYLS (Yale Law School)",
-"total": 83,
-"counts": [
-5,
-6,
-19,
-35,
-18
-]
-},
-{
 "venue": "Columbia Business Law Review",
-"total": 83,
+"total": 86,
 "counts": [
 0,
 12,
 16,
 26,
-29
+32
+]
+},
+{
+"venue": "SSRN Electronic Journal",
+"total": 79,
+"counts": [
+4,
+8,
+17,
+14,
+36
+]
+},
+{
+"venue": "eYLS (Yale Law School)",
+"total": 74,
+"counts": [
+5,
+6,
+18,
+29,
+16
 ]
 },
 {
@@ -9021,21 +9021,10 @@ window.DASH = {
 ]
 },
 {
-"venue": "Duke Faculty Scholarship",
-"total": 44,
+"venue": "Fordham Journal of Corporate & Financial Law",
+"total": 43,
 "counts": [
 3,
-4,
-19,
-12,
-6
-]
-},
-{
-"venue": "Fordham Journal of Corporate & Financial Law",
-"total": 42,
-"counts": [
-2,
 4,
 18,
 9,
@@ -9043,69 +9032,58 @@ window.DASH = {
 ]
 },
 {
-"venue": "GW Law Faculty Publications",
-"total": 32,
+"venue": "Yale Journal on Regulation",
+"total": 29,
 "counts": [
-2,
-3,
-7,
-6,
+0,
+0,
+0,
+15,
 14
 ]
 },
 {
-"venue": "Yale Journal on Regulation",
-"total": 27,
+"venue": "Brooklyn Journal of Corporate, Financial & Commercial Law",
+"total": 26,
 "counts": [
-0,
 0,
 0,
 14,
-13
-]
-},
-{
-"venue": "Facsch Lawrev",
-"total": 24,
-"counts": [
-0,
-3,
 9,
-4,
-8
-]
-},
-{
-"venue": "Brooklyn Journal of Corporate, Financial & Commercial Law",
-"total": 24,
-"counts": [
-0,
-0,
-13,
-8,
 3
 ]
 },
 {
 "venue": "Harvard Business Law Review",
-"total": 23,
+"total": 25,
 "counts": [
 0,
 0,
-16,
+17,
 6,
-1
+2
 ]
 },
 {
-"venue": "Brooklyn Faculty Scholarship",
+"venue": "GW Law Faculty Publications",
+"total": 23,
+"counts": [
+1,
+2,
+4,
+4,
+12
+]
+},
+{
+"venue": "University of Chicago Law Review",
 "total": 18,
 "counts": [
-2,
-2,
-11,
-1,
-2
+0,
+0,
+3,
+8,
+7
 ]
 },
 {
@@ -9120,17 +9098,6 @@ window.DASH = {
 ]
 },
 {
-"venue": "University of Chicago Law Review",
-"total": 16,
-"counts": [
-0,
-0,
-3,
-7,
-6
-]
-},
-{
 "venue": "Minnesota Law Review",
 "total": 16,
 "counts": [
@@ -9139,6 +9106,17 @@ window.DASH = {
 5,
 4,
 0
+]
+},
+{
+"venue": "Georgia Law Review",
+"total": 15,
+"counts": [
+0,
+2,
+1,
+8,
+4
 ]
 },
 {
@@ -9153,25 +9131,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "Georgia Law Review",
+"venue": "Duke Faculty Scholarship",
 "total": 14,
 "counts": [
 0,
-1,
-1,
-8,
-4
-]
-},
-{
-"venue": "Michigan Faculty Scholarship",
-"total": 13,
-"counts": [
-2,
-4,
-1,
 0,
-6
+8,
+5,
+1
 ]
 },
 {
@@ -9183,6 +9150,50 @@ window.DASH = {
 4,
 1,
 5
+]
+},
+{
+"venue": "Southern California Law Review",
+"total": 13,
+"counts": [
+0,
+0,
+5,
+1,
+7
+]
+},
+{
+"venue": "Loyola University Chicago Law Journal",
+"total": 12,
+"counts": [
+1,
+0,
+4,
+6,
+1
+]
+},
+{
+"venue": "Journal of Business & Technology Law",
+"total": 12,
+"counts": [
+0,
+1,
+5,
+2,
+4
+]
+},
+{
+"venue": "Vanderbilt Law Review",
+"total": 12,
+"counts": [
+0,
+0,
+3,
+3,
+6
 ]
 },
 {
@@ -9208,36 +9219,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "Vanderbilt Law Review",
-"total": 12,
+"venue": "Seattle University Law Review",
+"total": 11,
 "counts": [
 0,
 0,
 3,
-3,
-6
-]
-},
-{
-"venue": "Journal of Business & Technology Law",
-"total": 12,
-"counts": [
-0,
-1,
-5,
-2,
-4
-]
-},
-{
-"venue": "Loyola University Chicago Law Journal",
-"total": 12,
-"counts": [
-1,
-0,
-4,
 6,
-1
+2
 ]
 },
 {
@@ -9252,17 +9241,6 @@ window.DASH = {
 ]
 },
 {
-"venue": "Fordham International Law Journal",
-"total": 11,
-"counts": [
-2,
-2,
-4,
-2,
-1
-]
-},
-{
 "venue": "Bclj",
 "total": 11,
 "counts": [
@@ -9274,25 +9252,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "Seattle University Law Review",
+"venue": "American University Business Law Review",
 "total": 11,
 "counts": [
 0,
 0,
-3,
 6,
-2
-]
-},
-{
-"venue": "Chapman Law Review",
-"total": 11,
-"counts": [
-0,
-1,
-5,
-0,
-5
+2,
+3
 ]
 },
 {
@@ -9318,7 +9285,40 @@ window.DASH = {
 ]
 },
 {
-"venue": "American University Business Law Review",
+"venue": "Fordham International Law Journal",
+"total": 11,
+"counts": [
+2,
+2,
+4,
+2,
+1
+]
+},
+{
+"venue": "Chapman Law Review",
+"total": 11,
+"counts": [
+0,
+1,
+5,
+0,
+5
+]
+},
+{
+"venue": "Fordham Law Review",
+"total": 10,
+"counts": [
+1,
+0,
+2,
+3,
+4
+]
+},
+{
+"venue": "Indiana Law Journal",
 "total": 10,
 "counts": [
 0,
@@ -9329,13 +9329,24 @@ window.DASH = {
 ]
 },
 {
-"venue": "Southern California Law Review",
+"venue": "William & Mary Law Review",
 "total": 10,
 "counts": [
 0,
 0,
-4,
+0,
 1,
+9
+]
+},
+{
+"venue": "George Washington Law Review",
+"total": 10,
+"counts": [
+0,
+0,
+1,
+4,
 5
 ]
 },
@@ -9351,14 +9362,25 @@ window.DASH = {
 ]
 },
 {
-"venue": "Fordham Law Review",
-"total": 10,
+"venue": "Cornell Law Review",
+"total": 9,
 "counts": [
-1,
 0,
+0,
+5,
 2,
-3,
-4
+2
+]
+},
+{
+"venue": "Shlr",
+"total": 9,
+"counts": [
+0,
+0,
+5,
+1,
+3
 ]
 },
 {
@@ -9370,28 +9392,6 @@ window.DASH = {
 2,
 3,
 4
-]
-},
-{
-"venue": "George Washington Law Review",
-"total": 9,
-"counts": [
-0,
-0,
-1,
-4,
-4
-]
-},
-{
-"venue": "William & Mary Law Review",
-"total": 9,
-"counts": [
-0,
-0,
-0,
-1,
-8
 ]
 },
 {
@@ -9414,12 +9414,12 @@ window.DASH = {
 },
 {
 "school": "Yale (eYLS + JREG)",
-"n": 117,
+"n": 110,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
 "school": "Columbia (CBLR + faculty)",
-"n": 94,
+"n": 98,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
@@ -9429,7 +9429,7 @@ window.DASH = {
 },
 {
 "school": "Harvard (HBLR + faculty)",
-"n": 35,
+"n": 39,
 "top_topic": "Dodd-Frank specific"
 },
 {
@@ -9444,7 +9444,7 @@ window.DASH = {
 },
 {
 "school": "U Chicago (UCLR)",
-"n": 17,
+"n": 19,
 "top_topic": "Dodd-Frank specific"
 },
 {
