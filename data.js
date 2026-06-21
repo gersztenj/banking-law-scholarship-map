@@ -4,6 +4,7 @@ window.DASH = {
 "year_min": 2000,
 "year_max": 2025,
 "n_scholars": 225,
+"n_scholars_shown": 100,
 "n_topics": 30,
 "period_cols": [
 "2000-2004",
@@ -1686,7 +1687,188 @@ window.DASH = {
 "Facsch Lawrev",
 "SSRN Electronic Journal"
 ],
-"sample": "Fintech and Techno-Solutionism"
+"titles": [
+{
+"year": 2025,
+"title": "America’s Crypto Apocalypse"
+},
+{
+"year": 2025,
+"title": "Fintech Dystopia: A Summer Beach Read about Silicon Valley Ruining Things"
+},
+{
+"year": 2025,
+"title": "Fintech and Techno-Solutionism"
+},
+{
+"year": 2025,
+"title": "Interest Rates, Venture Capital, and Financial Stability"
+},
+{
+"year": 2025,
+"title": "Markets: Crypto Week Kicks Off in Congress, Will Tesla Invest in xAI? & Google’s $2.4B Windsurf Deal."
+},
+{
+"year": 2025,
+"title": "Minority Day Hearing on American Innovation and the Future of Digital Assets: From Blueprint to a Functional Framework"
+},
+{
+"year": 2025,
+"title": "Tech Does Not Deserve Special Legal Treatment"
+},
+{
+"year": 2025,
+"title": "Will 2026 Bring Financial Crisis?"
+},
+{
+"year": 2024,
+"title": "Regulating Fintech: A Harm Focused Approach"
+},
+{
+"year": 2023,
+"title": "DeFi: Shadow Banking 2.0?"
+},
+{
+"year": 2023,
+"title": "Regulatory Managerialism Inaction: A Case Study of Bank Regulation and Climate Change"
+},
+{
+"year": 2023,
+"title": "Testimony of Hilary J. Allen, U.S. Senate Committee on Banking, Housing, and Urban Affairs Hearing on 'Crypto Crash: Why the FTX Bubble Burst and the Harm to Consumers'"
+},
+{
+"year": 2021,
+"title": "Testimony of Hilary J. Allen, House Subcommittee on Consumer Protection and Financial Institutions Hearing on “Addressing Climate as a Systemic Risk: The Need to Build Resilience within Our Banking and Financial System”"
+},
+{
+"year": 2021,
+"title": "Testimony of Hilary J. Allen, U.S. Senate Committee on Banking, Housing, and Urban Affairs Hearing on 'Stablecoins: How Do They Work, How Are They Used, and What Are Their Risks?'"
+},
+{
+"year": 2020,
+"title": "Experimental Strategies for Regulating Fintech"
+},
+{
+"year": 2019,
+"title": "Ipse Dixit Podcast: Hilary Allen on Driverless Finance"
+},
+{
+"year": 2019,
+"title": "Regulating the Development of Driverless Finance"
+},
+{
+"year": 2019,
+"title": "The Financial Stability Implications of Cryptoassets"
+},
+{
+"year": 2018,
+"title": "Fintech and Financial Stability"
+},
+{
+"year": 2018,
+"title": "The SEC as Financial Stability Regulator_January 5, 2018"
+},
+{
+"year": 2017,
+"title": "The SEC as Financial Stability Regulator_June 8, 2017"
+},
+{
+"year": 2016,
+"title": "Is a Preapproval Regime for Complex Financial Products Feasible"
+},
+{
+"year": 2016,
+"title": "Putting the “Financial Stability” In FSOC_June 3, 2016"
+},
+{
+"year": 2015,
+"title": "Financial Stability Regulation as Indirect Investor/Consumer Protection Regulation: Implications for Regulatory Mandates and Structure"
+},
+{
+"year": 2015,
+"title": "Legal and Business Innovation: Perspectives From Banking and Finance"
+},
+{
+"year": 2015,
+"title": "Putting the 'Financial Stability' in Financial Stability Oversight Council"
+},
+{
+"year": 2015,
+"title": "Putting the “Financial Stability” In FSOC"
+},
+{
+"year": 2015,
+"title": "The FCIC and Shadow Banking"
+},
+{
+"year": 2015,
+"title": "The Financial Stability Oversight Council (FSOC): It's Not All About the Designation"
+},
+{
+"year": 2014,
+"title": "A Financial Stability Mandate For All"
+},
+{
+"year": 2014,
+"title": "Putting the “Financial Stability” In FSOC_May 30, 2014"
+},
+{
+"year": 2014,
+"title": "What Is 'Financial Stability' -The Need for Some Common Language in International Financial Regulation"
+},
+{
+"year": 2013,
+"title": "A New Philosophy for Financial Stability Regulation"
+},
+{
+"year": 2013,
+"title": "Financial Stability as a Moral Imperative"
+},
+{
+"year": 2013,
+"title": "Is Financial Instability A Tax Problem With A Tax Solution"
+},
+{
+"year": 2013,
+"title": "Let's Talk about Tax: Fixing Bank Incentives to Sabotage Stability"
+},
+{
+"year": 2013,
+"title": "The SEC as Financial Stability Regulator"
+},
+{
+"year": 2012,
+"title": "Cocos Can Drive Markets Cuckoo"
+},
+{
+"year": 2012,
+"title": "Current Issues in Consumer Financial Protection and Financial Regulation"
+},
+{
+"year": 2011,
+"title": "Basel's Gone Cold on Cocos, But Is This a Blessing in Disguise for Banks?"
+},
+{
+"year": 2011,
+"title": "Consumer Financial Protection: It's A Smaller World After All.pdf"
+},
+{
+"year": 2011,
+"title": "SEC and CFTC Joint Rulemakings Under Dodd-Frank - A Regulatory Odd Couple?"
+},
+{
+"year": 2011,
+"title": "The Consumer Financial Protection Bureau: Stand-Up or Stand Off?"
+},
+{
+"year": 2011,
+"title": "The Financial Stability Oversight Council: New or Deja Vu?"
+},
+{
+"year": 2010,
+"title": "Money Market Fund Reform Viewed Through A Systemic Risk Lens"
+}
+]
 },
 {
 "rank": 2,
@@ -1714,7 +1896,184 @@ window.DASH = {
 "Vanderbilt Law Review",
 "Notre Dame Law Review"
 ],
-"sample": "Next-Generation Securitization: NFTs, Tokenization, and the Monetization of ‘Things’"
+"titles": [
+{
+"year": 2023,
+"title": "Next-Generation Securitization: NFTs, Tokenization, and the Monetization of ‘Things’"
+},
+{
+"year": 2022,
+"title": "Regulating Global Stablecoins: A Model-Law Strategy"
+},
+{
+"year": 2021,
+"title": "Central Bank Digital Currencies and Law"
+},
+{
+"year": 2021,
+"title": "Insuring the 'Uninsurable': Catastrophe Bonds, Pandemics, and Risk Securitization"
+},
+{
+"year": 2021,
+"title": "Protecting Financial Stability: Lessons from the COVID-19 Pandemic"
+},
+{
+"year": 2019,
+"title": "Systematic Regulation of Systemic Risk"
+},
+{
+"year": 2018,
+"title": "Secured Transactions and Financial Stability: Regulatory Challenges"
+},
+{
+"year": 2018,
+"title": "Securitization Ten Years after the Financial Crisis: An Overview"
+},
+{
+"year": 2017,
+"title": "Controlling Systemic Risk Through Corporate Governance"
+},
+{
+"year": 2016,
+"title": "Keynote Address, Regulating Corporate Governance in the Public Interest: The Case of Systemic Risk"
+},
+{
+"year": 2016,
+"title": "Macroprudential Regulation of Mortgage Lending"
+},
+{
+"year": 2016,
+"title": "Perspectives on Regulating Systemic Risk"
+},
+{
+"year": 2016,
+"title": "Securitization and Post-Crisis Financial Regulation"
+},
+{
+"year": 2016,
+"title": "Shadow Banking and Regulation in China and Other Developing Countries"
+},
+{
+"year": 2016,
+"title": "The Macroprudential Quandary: Unsystematic Efforts to Reform Financial Regulation"
+},
+{
+"year": 2015,
+"title": "Banking and Financial Regulation"
+},
+{
+"year": 2015,
+"title": "Derivatives and Collateral: Balancing Remedies and Systemic Risk"
+},
+{
+"year": 2014,
+"title": "Regulating Systemic Risk in Insurance"
+},
+{
+"year": 2014,
+"title": "Shadow Banking, Financial Risk, and Regulation in China and Other Developing Countries"
+},
+{
+"year": 2014,
+"title": "The Governance Structure of Shadow Banking: Rethinking Assumptions about Limited Liability"
+},
+{
+"year": 2013,
+"title": "Lawyers in the Shadows: The Transactional Lawyer in a World of Shadow Banking"
+},
+{
+"year": 2013,
+"title": "Regulating Shadows: Financial\nRegulation and Responsibility Failure"
+},
+{
+"year": 2013,
+"title": "Securitization, Structured Finance, and Covered Bonds"
+},
+{
+"year": 2012,
+"title": "In-House Counsel’s Role in the Structuring of Mortgage-Backed Securities"
+},
+{
+"year": 2012,
+"title": "Regulating Shadow Banking"
+},
+{
+"year": 2012,
+"title": "Shadow Banking, Financial Markets, and the Real Estate Sector"
+},
+{
+"year": 2012,
+"title": "The 2011 Diane Sanger Memorial Lecture Protecting Investors in Securitization Transactions: Does Dodd–Frank Help, or Hurt?"
+},
+{
+"year": 2012,
+"title": "The Roberta Mitchell Lecture: Structuring Responsibility in Securitization Transactions"
+},
+{
+"year": 2012,
+"title": "What is Securitization? And for What Purpose?"
+},
+{
+"year": 2011,
+"title": "Keynote Address: A Regulatory Framework for Managing Systemic Risk"
+},
+{
+"year": 2011,
+"title": "Keynote Address: Identifying and Managing Systemic Risk: An Assessment of Our Progress"
+},
+{
+"year": 2011,
+"title": "Regulating Systemic Risk: Towards an Analytical Framework"
+},
+{
+"year": 2010,
+"title": "Facing the Debt Challenge of Countries That Are Too Big to Fail"
+},
+{
+"year": 2010,
+"title": "Leverhulme Lecture: The Future of Securitization"
+},
+{
+"year": 2010,
+"title": "Leverhulme Lecture: The Global Financial Crisis and Systemic Risk"
+},
+{
+"year": 2010,
+"title": "Too Big to Fail?: Recasting the Financial Safety Net"
+},
+{
+"year": 2009,
+"title": "Keynote Address: Understanding the ‘Subprime’ Financial Crisis"
+},
+{
+"year": 2009,
+"title": "The Future of Securitization"
+},
+{
+"year": 2008,
+"title": "Disclosure's Failure in the Subprime Mortgage Crisis"
+},
+{
+"year": 2008,
+"title": "Protecting Financial Markets: Lessons from the Subprime Mortgage Meltdown"
+},
+{
+"year": 2008,
+"title": "Systemic Risk"
+},
+{
+"year": 2005,
+"title": "The Confused U.S. Framework for Foreign-Bank Insolvency: An Open Research Agenda"
+},
+{
+"year": 2004,
+"title": "Securitization Post-Enron"
+},
+{
+"year": 2002,
+"title": "The Universal Language of International Securitization"
+}
+]
 },
 {
 "rank": 3,
@@ -1742,7 +2101,128 @@ window.DASH = {
 "Georgia Law Review",
 "Connecticut Law Review"
 ],
-"sample": "Policy Brief: The Hagerty-Scott-Lummis-Gillibrand Stablecoin Bill Would Cause Great Harm to Consumers, Investors, Our Financial System, and Our Economy"
+"titles": [
+{
+"year": 2025,
+"title": "Policy Brief: The Federal Banking Agencies Should Withdraw Their Deeply Misguided Proposal to Weaken Leverage Capital Requirements for the Largest U.S. Banks"
+},
+{
+"year": 2025,
+"title": "Policy Brief: The Hagerty-Scott-Lummis-Gillibrand Stablecoin Bill Would Cause Great Harm to Consumers, Investors, Our Financial System, and Our Economy"
+},
+{
+"year": 2025,
+"title": "The Looming Threat of Uninsured Nonbank Stablecoins"
+},
+{
+"year": 2024,
+"title": "Policy Brief: Congress Should Reject the Lummis-Gillibrand Stablecoin Bill Because It Would Endanger Consumers, Investors, and Our Financial System"
+},
+{
+"year": 2024,
+"title": "Policy Brief: On Remand in Cantero, the Second Circuit Should Uphold New York's Interest-on-Escrow Law and Reject Bank of America's Preemption Claim"
+},
+{
+"year": 2024,
+"title": "We Need a New Glass-Steagall Act to End the Toxic Symbiosis Between Universal Banks and Shadow Banks, Which Professor Corrigan Has More Fully Revealed"
+},
+{
+"year": 2023,
+"title": "We Must Protect Investors and Our Banking System from the Crypto Industry"
+},
+{
+"year": 2022,
+"title": "Afterword: Why \"Taming the Megabanks\" Should Remain a Top Priority for Financial Regulators and Policymakers"
+},
+{
+"year": 2022,
+"title": "Comment Letter to the U.S. Treasury Department regarding the Risks of Stablecoins"
+},
+{
+"year": 2022,
+"title": "The Second Circuit's Cantero Decision Is Wrong about Preemption under the National Bank Act"
+},
+{
+"year": 2021,
+"title": "It's Time to Regulate Stablecoins as Deposits and Require Their Issuers to Be FDIC-Insured Banks"
+},
+{
+"year": 2021,
+"title": "Policy Brief: The OCC’s Repeated Failures to Comply with the Dodd-Frank Act and Other Legal Authorities Governing the Scope of Preemption for National Banks and Federal Savings Associations"
+},
+{
+"year": 2020,
+"title": "Taming the Megabanks: Why We Need a New Glass-Steagall Act"
+},
+{
+"year": 2020,
+"title": "The FDIC Should Not Allow Commercial Firms to Acquire Industrial Banks"
+},
+{
+"year": 2020,
+"title": "The OCC's and FDIC's Attempts to Confer Banking Privileges on Nonbanks and Commercial Firms Violate Federal Laws and Are Contrary to Public Policy"
+},
+{
+"year": 2018,
+"title": "Was Glass-Steagall's Demise Inevitable and Unimportant?"
+},
+{
+"year": 2017,
+"title": "The Road to Repeal of the Glass-Steagall Act"
+},
+{
+"year": 2016,
+"title": "Prelude to Glass-Steagall: Abusive Securities Practices by National City Bank and Chase National Bank During the “Roaring Twenties”"
+},
+{
+"year": 2016,
+"title": "SPOE + TLAC = More Bailouts for Wall Street"
+},
+{
+"year": 2015,
+"title": "The Financial Industry's Plan for Resolving Failed Megabanks Will Ensure Future Bailouts for Wall Street"
+},
+{
+"year": 2014,
+"title": "A Two-Tiered System of Regulation is Needed to Preserve the Viability of Community Banks and Reduce the Risks of Megabanks"
+},
+{
+"year": 2014,
+"title": "Narrow Banking as a Structural Remedy for the Problem of Systemic Risk: A Comment on Professor Schwarcz's Ring-Fencing"
+},
+{
+"year": 2012,
+"title": "The Financial Services Industry's Misguided Quest to Undermine the Consumer Financial Protection Bureau"
+},
+{
+"year": 2011,
+"title": "The Dodd-Frank Act's Expansion of State Authority to Protect Consumers of Financial Services"
+},
+{
+"year": 2011,
+"title": "The Dodd-Frank Act: A Flawed and Inadequate Response to the Too-Big-To-Fail Problem"
+},
+{
+"year": 2010,
+"title": "Cuomo v. Clearing House: The Supreme Court Responds to the Subprime Financial Crisis and Delivers a Major Victory for the Dual Banking System and Consumer Protection"
+},
+{
+"year": 2009,
+"title": "The Dark Side of Universal Banking: Financial Conglomerates and the Origins of the Subprime Financial Crisis"
+},
+{
+"year": 2008,
+"title": "Subprime Crisis Confirms Wisdom of Separating Banking and Commerce"
+},
+{
+"year": 2004,
+"title": "The OCC's Preemption Rules Exceed the Agency's Authority and Present a Serious Threat to the Dual Banking System and Consumer Protection"
+},
+{
+"year": 2003,
+"title": "Does Financial Liberalization Increase the Likelihood of a Systemic Banking Crisis? Evidence from the Past Three Decades and the Great Depression"
+}
+]
 },
 {
 "rank": 4,
@@ -1770,7 +2250,120 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Boston College environmental affairs law review"
 ],
-"sample": "Evolving Approaches to Systemic Risk Regulation in Insurance"
+"titles": [
+{
+"year": 2022,
+"title": "Evolving Approaches to Systemic Risk Regulation in Insurance"
+},
+{
+"year": 2020,
+"title": "Constitutionalizing Financial Stability"
+},
+{
+"year": 2020,
+"title": "The Macroprudential Implications of the Qualified Mortgage Debate"
+},
+{
+"year": 2019,
+"title": "Comment of Legal Scholars on Authority To Require Supervision and Regulation of Certain Nonbank Financial Companies, Financial Stability Oversight Council RIN 4030-AA00"
+},
+{
+"year": 2019,
+"title": "Comment of Professor Patricia A. McCoy on Docket No. CFPB-2019-0039"
+},
+{
+"year": 2019,
+"title": "Inside Job: The Assault on the Structure of the Consumer Financial Protection Bureau"
+},
+{
+"year": 2019,
+"title": "Why the Ability-to-Repay Rule Is Vital to Financial Stability"
+},
+{
+"year": 2018,
+"title": "Activities Are Not Enough!: Why Nonbank SIFI Designations Are Essential to Prevent Systemic Risk"
+},
+{
+"year": 2018,
+"title": "Comment on the Request for Information on Rulemaking Processes by the Consumer Financial Protection Bureau, CFPB Docket No. CFPB-2018-0009"
+},
+{
+"year": 2018,
+"title": "Regulating Entities and Activities: Complementary Approaches to Nonbank Systemic Risk"
+},
+{
+"year": 2017,
+"title": "Knightian Uncertainty, Systemic Risk Regulation, and the Limits of Judicial Review"
+},
+{
+"year": 2016,
+"title": "Coalescence in the Housing Finance Reform Debate"
+},
+{
+"year": 2015,
+"title": "A Behavioral Analysis of Predatory Lending"
+},
+{
+"year": 2013,
+"title": "Keeping Tabs on Financial Innovation: Product Identifiers in Consumer Financial Regulation"
+},
+{
+"year": 2012,
+"title": "Public Engagement in Rulemaking:  The Consumer Financial Protection Bureau's New Approach"
+},
+{
+"year": 2011,
+"title": "The Consumer Financial Protection Bureau: Financial Regulation for the twenty-First Century"
+},
+{
+"year": 2009,
+"title": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+},
+{
+"year": 2009,
+"title": "Systemic Risk through Securitization: The Result of Deregulation and Regulatory Failure"
+},
+{
+"year": 2008,
+"title": "The Impact of State Anti-Predatory Lending Laws: Policy Implications and Insights"
+},
+{
+"year": 2007,
+"title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
+},
+{
+"year": 2007,
+"title": "The Legal Infrastructure of Subprime and Nontraditional Home Mortgages"
+},
+{
+"year": 2007,
+"title": "Turning a Blind Eye: Wall Street Finance of Predatory Lending"
+},
+{
+"year": 2006,
+"title": "Predatory Lending and Community Development at Loggerheads"
+},
+{
+"year": 2006,
+"title": "Rethinking Disclosure in a World of Risk-Based Pricing"
+},
+{
+"year": 2002,
+"title": "The CRA Implications of Predatory Lending"
+},
+{
+"year": 2001,
+"title": "A Tale of Three Markets: The Law and Economics of Predatory Lending"
+},
+{
+"year": 2001,
+"title": "Musings on the Seeming Inevitability of Global Convergence in Banking Law"
+},
+{
+"year": 2001,
+"title": "THE CRA IMPLICATIONS OF PREDATORY LENDING"
+}
+]
 },
 {
 "rank": 5,
@@ -1798,7 +2391,88 @@ window.DASH = {
 "University of Chicago Law Review",
 "Vanderbilt Law Review"
 ],
-"sample": "The Unitary Executive and the Federal Reserve"
+"titles": [
+{
+"year": 2025,
+"title": "One System, Two Mandates: The Fed and Orderly Markets in Government Debt"
+},
+{
+"year": 2025,
+"title": "One System, Two Mandates: The Federal Reserve and the Public Debt"
+},
+{
+"year": 2025,
+"title": "Regionalism and the Federal Reserve Banks"
+},
+{
+"year": 2025,
+"title": "The Federal Reserve Board and the FOMC are Government Regulators Not Banks: A Reply to Baude, Bamzai, and Nielson"
+},
+{
+"year": 2025,
+"title": "The Unitary Executive and the Federal Reserve"
+},
+{
+"year": 2023,
+"title": "Money and the Public Debt: Treasury Market Liquidity as a Legal Phenomenon"
+},
+{
+"year": 2022,
+"title": "The Logic and Limits of the Federal Reserve Act"
+},
+{
+"year": 2021,
+"title": "FedAccounts: Digital Dollars"
+},
+{
+"year": 2021,
+"title": "Federal Corporate Law and the Business of Banking"
+},
+{
+"year": 2021,
+"title": "Should Central Banks Use Distributed Ledger Technology and Digital Currencies to Advance Financial Inclusion?"
+},
+{
+"year": 2021,
+"title": "The Banker Removal Power"
+},
+{
+"year": 2021,
+"title": "Why Supervise Banks? The Foundations of the American Monetary Settlement"
+},
+{
+"year": 2021,
+"title": "Written Testimony in a Senate Hearing on Building a Stronger Financial System: Opportunities of a Central Bank Digital Currency"
+},
+{
+"year": 2020,
+"title": "Building the Payment System of the Future: How Central Banks Can Improve Payments to Enhance Financial Inclusion"
+},
+{
+"year": 2020,
+"title": "Comment Letter - Office of the Comptroller of the Currency: Warning of the Dangers Posed by the Shadow Payment System and Shadow Digital Money"
+},
+{
+"year": 2020,
+"title": "Recovering the Lost History of Presidential Removal Law"
+},
+{
+"year": 2020,
+"title": "Unappropriated Dollars: The Fed's Ad Hoc Lending Facilities and the Rules That Govern Them"
+},
+{
+"year": 2019,
+"title": "The Monetary Basis of Bank Supervision"
+},
+{
+"year": 2018,
+"title": "A Public Option for Bank Accounts (Or Central Banking for All)"
+},
+{
+"year": 2017,
+"title": "Too Big to Supervise: The Rise of Financial Conglomerates and the Decline of Discretionary Oversight in Banking"
+}
+]
 },
 {
 "rank": 6,
@@ -1826,7 +2500,76 @@ window.DASH = {
 "Columbia Business Law Review",
 "Washington University Law Review"
 ],
-"sample": "Risk, Discretion, and Bank Supervision: Peter Conti-Brown & Sean Vanatta"
+"titles": [
+{
+"year": 2025,
+"title": "Risk, Discretion, and Bank Supervision"
+},
+{
+"year": 2025,
+"title": "Risk, Discretion, and Bank Supervision: Peter Conti-Brown & Sean Vanatta"
+},
+{
+"year": 2024,
+"title": "Politics, Independence, and Retirees: Long-term Low Interest Rates at the US Federal Reserve"
+},
+{
+"year": 2024,
+"title": "The Federal Reserve System: Diversity and Governance&amp;nbsp;"
+},
+{
+"year": 2024,
+"title": "Ulysses and the Punch Bowl: The Governance, Accountability, and Independence of the Federal Reserve"
+},
+{
+"year": 2022,
+"title": "Board Diversity Matters: An Empirical Assessment of Community Lending at Federal Reserve-Regulated Banks"
+},
+{
+"year": 2020,
+"title": "Bank Supervision, the Great Depression, and the Creation of the New Deal"
+},
+{
+"year": 2020,
+"title": "Restoring the Promise of Federal Reserve Governance"
+},
+{
+"year": 2020,
+"title": "Technocratic pragmatism, bureaucratic expertise, and the federal reserve"
+},
+{
+"year": 2020,
+"title": "Twitter and the Federal Reserve"
+},
+{
+"year": 2015,
+"title": "The Twelve Federal Reserve Banks: Governance and Accountability in the 21st Century"
+},
+{
+"year": 2013,
+"title": "Governing the Federal Reserve System after the Dodd-Frank Act"
+},
+{
+"year": 2013,
+"title": "The Structure of Federal Reserve Independence"
+},
+{
+"year": 2011,
+"title": "Elective Shareholder Liability"
+},
+{
+"year": 2011,
+"title": "Liability Holding Companies"
+},
+{
+"year": 2011,
+"title": "The Accidental History of the Federal Securities and Banking Laws: A Review of Michael Perino's Hellhound of Wall Street: How Ferdinand Pecora's Investigation of the Great Crash Forever Changed American Finance"
+},
+{
+"year": 2009,
+"title": "A Proposed Fat-Tail Risk Metric: Disclosures, Derivatives, and the Measurement of Financial Risk"
+}
+]
 },
 {
 "rank": 7,
@@ -1854,7 +2597,76 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Indiana Law Journal"
 ],
-"sample": "Bankrupt Crypto Organizations"
+"titles": [
+{
+"year": 2025,
+"title": "Bankrupt Crypto Organizations"
+},
+{
+"year": 2025,
+"title": "Regulating Stablecoins: Comparing MiCAR and the GENIUS Act"
+},
+{
+"year": 2024,
+"title": "Floating Liens Over Crypto-in-Commerce"
+},
+{
+"year": 2023,
+"title": "The Intersection of NFTs and Structured Finance"
+},
+{
+"year": 2022,
+"title": "Crypto Finance in Real Estate Markets"
+},
+{
+"year": 2022,
+"title": "The Private Law of Stablecoins"
+},
+{
+"year": 2021,
+"title": "Modernizing Mortgage Law"
+},
+{
+"year": 2021,
+"title": "Predatory Fintech and the Politics of Banking"
+},
+{
+"year": 2020,
+"title": "Comment on FDIC Request for Information on Standard Setting and Voluntary Certification for Models and Third-Party Providers of Technology and Other Services, RIN 3064–ZA18"
+},
+{
+"year": 2020,
+"title": "Comments to Office of the Comptroller of the Currency's Advance Notice of Proposed Rulemaking Regarding National Bank and Federal Savings Association Digital Activities (Docket ID OCC-2019-0028)"
+},
+{
+"year": 2020,
+"title": "Comments to Office of the Comptroller of the Currency's Advance Notice of Proposed Rulemaking Regarding National Bank and Federal Savings Association Digital Activities (Docket Id Occ-2019-0028)"
+},
+{
+"year": 2020,
+"title": "Securitizing Digital Debts"
+},
+{
+"year": 2019,
+"title": "The New Data of Student Debt"
+},
+{
+"year": 2018,
+"title": "Consumer BitCredit and Fintech Lending"
+},
+{
+"year": 2016,
+"title": "Regulating Debt Collection"
+},
+{
+"year": 2016,
+"title": "The Unfinished Business of Dodd-Frank: Reforming the Mortgage Contract"
+},
+{
+"year": 2015,
+"title": "Payday Lenders, Vehicle Title Loans, and Small-Value Financing: The CFPB's Proposal to Regulate the Fringe Economy"
+}
+]
 },
 {
 "rank": 8,
@@ -1882,7 +2694,64 @@ window.DASH = {
 "Northwestern University Law Review",
 "Duke Law Journal"
 ],
-"sample": "Basel Endgame: Bank Capital Requirements and the Future of International Standard Setting"
+"titles": [
+{
+"year": 2025,
+"title": "Basel Endgame: Bank Capital Requirements and the Future of International Standard Setting"
+},
+{
+"year": 2024,
+"title": "The Macroprudential Myth"
+},
+{
+"year": 2022,
+"title": "Banking's Climate Conundrum"
+},
+{
+"year": 2022,
+"title": "Evolving Approaches to Systemic Risk Regulation in Insurance"
+},
+{
+"year": 2022,
+"title": "Reviving Bank Antitrust"
+},
+{
+"year": 2022,
+"title": "Who's Looking Out for the Banks?"
+},
+{
+"year": 2021,
+"title": "Rethinking Countercyclical Financial Regulation"
+},
+{
+"year": 2020,
+"title": "Too Many to Fail: Against Community Bank Deregulation"
+},
+{
+"year": 2019,
+"title": "Comment of Legal Scholars on Authority To Require Supervision and Regulation of Certain Nonbank Financial Companies, Financial Stability Oversight Council RIN 4030-AA00"
+},
+{
+"year": 2019,
+"title": "Modernizing Bank Merger Review"
+},
+{
+"year": 2018,
+"title": "Activities Are Not Enough!: Why Nonbank SIFI Designations Are Essential to Prevent Systemic Risk"
+},
+{
+"year": 2018,
+"title": "Regulating Entities and Activities: Complementary Approaches to Nonbank Systemic Risk"
+},
+{
+"year": 2018,
+"title": "The Last SIFI: The Unwise and Illegal Deregulation of Prudential Financial"
+},
+{
+"year": 2011,
+"title": "Credit Default Swap Clearinghouses and Systemic Risk: Why Centralized Counterparties Must Have Access to Central Bank Liquidity"
+}
+]
 },
 {
 "rank": 9,
@@ -1910,7 +2779,64 @@ window.DASH = {
 "Georgia Law Review",
 "Brooklyn Journal of Corporate, Financial & Commercial Law"
 ],
-"sample": "Underwriting Sustainable Homeownership: The Federal Housing Administration and the Low Down Payment Loan"
+"titles": [
+{
+"year": 2015,
+"title": "Underwriting Sustainable Homeownership: The Federal Housing Administration and the Low Down Payment Loan"
+},
+{
+"year": 2013,
+"title": "The Emperor's New Loans: A Cautionary Tale from the Subprime Era"
+},
+{
+"year": 2012,
+"title": "Consumer Protection Out of the Shadows of Shadow Banking:  The Role of the Consumer Financial Protection Bureau"
+},
+{
+"year": 2012,
+"title": "Message in Mortgage: What Dodd-Frank's 'Qualified Mortgage' Tells Us About Ourselves"
+},
+{
+"year": 2012,
+"title": "Reforming the Residential Mortgage-Backed Securities Market"
+},
+{
+"year": 2010,
+"title": "Fannie Mae and Freddie Mac and the Future of Federal Housing Finance Policy: A Study of Regulatory Privilege"
+},
+{
+"year": 2010,
+"title": "Fannie Mae and Freddie Mac: Creatures of Regulatory Privilege"
+},
+{
+"year": 2010,
+"title": "Fannie Mae and Freddie Mac: Privatizing Profit and Subsidizing Loss"
+},
+{
+"year": 2010,
+"title": "Rating Agencies: Facilitators of Predatory Lending in the Subprime Market"
+},
+{
+"year": 2010,
+"title": "Regulation of Subprime and Predatory Lending (forthcoming)"
+},
+{
+"year": 2008,
+"title": "The Federal Government's Implied Guarantee of Fannie Mae and Freddie Mac's Obligations: Uncle Sam Will Pick Up the Tab"
+},
+{
+"year": 2007,
+"title": "The Federal Government's Implied Guarantee of Fannie Mae and Freddie Mac's Obligations: Uncle Sam Will Pick up the Tab"
+},
+{
+"year": 2006,
+"title": "Subprime Standardization: How Rating Agencies Allow Predatory Lending to Flourish in the Secondary Mortgage Market"
+},
+{
+"year": 2004,
+"title": "Modeling a Response to Predatory Lending: The New Jersey Home Ownership Security Act of 2002"
+}
+]
 },
 {
 "rank": 10,
@@ -1938,7 +2864,60 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Loyola Consumer Law Review"
 ],
-"sample": "Deference and Discretion in Bank Regulation"
+"titles": [
+{
+"year": 2025,
+"title": "Deference and Discretion in Bank Regulation"
+},
+{
+"year": 2022,
+"title": "The Role of Rival Litigation in Wilmarth's New Glass-Steagall"
+},
+{
+"year": 2021,
+"title": "Fintech: New Battle Lines in the Patent Wars?"
+},
+{
+"year": 2017,
+"title": "Big Bank Boards: The Case for Heightened Administrative Enforcement"
+},
+{
+"year": 2016,
+"title": "Top-Down Bank Capital Regulation"
+},
+{
+"year": 2015,
+"title": "Regulating Angels"
+},
+{
+"year": 2014,
+"title": "Big Banks and Business Method Patents"
+},
+{
+"year": 2005,
+"title": "Consuming Debt: Structuring the Federal Response to Abuses in Consumer Credit"
+},
+{
+"year": 2003,
+"title": "Central Banks' Role in Bank Supervision in the United States and United Kingdom"
+},
+{
+"year": 2003,
+"title": "Secrets of Bank Regulation: A Reply to Professor Cohen"
+},
+{
+"year": 2003,
+"title": "The Role of the Central Banks in Bank Supervision in the United States and the United Kingdom"
+},
+{
+"year": 2003,
+"title": "United Kingdom and United States Responses to the Regulatory Challenges of Modern Financial Markets"
+},
+{
+"year": 2001,
+"title": "Functional Regulation: The Securitization of Banking Law"
+}
+]
 },
 {
 "rank": 11,
@@ -1966,7 +2945,52 @@ window.DASH = {
 "SSRN Electronic Journal",
 "University of Chicago Law Review"
 ],
-"sample": "Regionalism and the Federal Reserve Banks"
+"titles": [
+{
+"year": 2025,
+"title": "Emergency Lending by the Federal Reserve"
+},
+{
+"year": 2025,
+"title": "Regionalism and the Federal Reserve Banks"
+},
+{
+"year": 2025,
+"title": "The Politics of Bank Supervision: From Eccles to Bessent"
+},
+{
+"year": 2020,
+"title": "Stress Testing During Times of War"
+},
+{
+"year": 2020,
+"title": "The New Mechanisms of Market Inefficiency"
+},
+{
+"year": 2018,
+"title": "The Origins of a Capital Market Union in the United States"
+},
+{
+"year": 2016,
+"title": "The Importance of \"Money\""
+},
+{
+"year": 2015,
+"title": "The Federal Reserve: A Study in Soft Constraints"
+},
+{
+"year": 2015,
+"title": "The First Year: The Role of a Modern Lender of Last Resort"
+},
+{
+"year": 2014,
+"title": "Three Discount Windows"
+},
+{
+"year": 2012,
+"title": "Fragmentation Nodes: A Study in Financial Innovation, Complexity and Systemic Risk"
+}
+]
 },
 {
 "rank": 12,
@@ -1994,7 +3018,40 @@ window.DASH = {
 "University of Chicago Law Review",
 "Minnesota Faculty Articles"
 ],
-"sample": "Evolving Approaches to Systemic Risk Regulation in Insurance"
+"titles": [
+{
+"year": 2022,
+"title": "Evolving Approaches to Systemic Risk Regulation in Insurance"
+},
+{
+"year": 2019,
+"title": "Comment of Legal Scholars on Authority To Require Supervision and Regulation of Certain Nonbank Financial Companies, Financial Stability Oversight Council RIN 4030-AA00"
+},
+{
+"year": 2019,
+"title": "Regulating Entities and Activities: Complementary Approaches to Nonbank Systemic Risk"
+},
+{
+"year": 2018,
+"title": "Activities Are Not Enough!: Why Nonbank SIFI Designations Are Essential to Prevent Systemic Risk"
+},
+{
+"year": 2017,
+"title": "Regulation by Threat: Dodd-Frank and the Nonbank Problem"
+},
+{
+"year": 2017,
+"title": "The Impact of Individualized Feedback on Law Student Performance"
+},
+{
+"year": 2014,
+"title": "Regulating Systemic Risk in Insurance"
+},
+{
+"year": 2010,
+"title": "Regulating Insurance Sales or Selling Insurance Regulation?: Against Regulatory Competition in Insurance"
+}
+]
 },
 {
 "rank": 13,
@@ -2018,7 +3075,48 @@ window.DASH = {
 "Fordham Urban Law Journal",
 "Fordham law review"
 ],
-"sample": "False Security: How Securitization Failed to Protect Arrangers and Investors from Borrower Claims"
+"titles": [
+{
+"year": 2011,
+"title": "Complexity, Complicity, and Liability Up the Securitization Food Chain: Investor and Arranger Exposure to Consumer Claims"
+},
+{
+"year": 2011,
+"title": "False Security: How Securitization Failed to Protect Arrangers and Investors from Borrower Claims"
+},
+{
+"year": 2009,
+"title": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+},
+{
+"year": 2008,
+"title": "The Impact of State Anti-Predatory Lending Laws: Policy Implications and Insights"
+},
+{
+"year": 2007,
+"title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
+},
+{
+"year": 2007,
+"title": "Turning a Blind Eye: Wall Street Finance of Predatory Lending"
+},
+{
+"year": 2006,
+"title": "Predatory Lending and Community Development at Loggerheads"
+},
+{
+"year": 2002,
+"title": "The CRA Implications of Predatory Lending"
+},
+{
+"year": 2001,
+"title": "A Tale of Three Markets: The Law and Economics of Predatory Lending"
+},
+{
+"year": 2001,
+"title": "THE CRA IMPLICATIONS OF PREDATORY LENDING"
+}
+]
 },
 {
 "rank": 14,
@@ -2046,7 +3144,48 @@ window.DASH = {
 "Columbia Business Law Review",
 "Journal of Corporate Law Studies"
 ],
-"sample": "Green Gatekeepers"
+"titles": [
+{
+"year": 2024,
+"title": "Green Gatekeepers"
+},
+{
+"year": 2022,
+"title": "Mandatory Corporate Climate Disclosures"
+},
+{
+"year": 2022,
+"title": "Mandatory Corporate Climate Disclosures: Now, But How?"
+},
+{
+"year": 2021,
+"title": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
+},
+{
+"year": 2020,
+"title": "Bank–fintech partnerships, outsourcing arrangements and the case for a mentorship regime"
+},
+{
+"year": 2020,
+"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
+},
+{
+"year": 2020,
+"title": "Pandemic Crisis and Financial Stability"
+},
+{
+"year": 2014,
+"title": "Quack Corporate Governance, Round Ill? Bank Board Regulation Under the New European Capital Requirement Directive"
+},
+{
+"year": 2013,
+"title": "The Risky Business of Regulating Risk Management in Listed Companies"
+},
+{
+"year": 2009,
+"title": "<i>Centros</i> and the Cost of Branching"
+}
+]
 },
 {
 "rank": 15,
@@ -2074,7 +3213,44 @@ window.DASH = {
 "Michigan Business & Entrepreneurial Law Review",
 "Northwestern Journal of International Law & Business"
 ],
-"sample": "Stable Cryptocurrencies"
+"titles": [
+{
+"year": 2020,
+"title": "Stable Cryptocurrencies"
+},
+{
+"year": 2014,
+"title": "Private Fund Disclosure Under the Dodd-Frank Act"
+},
+{
+"year": 2014,
+"title": "The Systematic Risk of Private Funds After the Dodd-Frank Act"
+},
+{
+"year": 2013,
+"title": "Hedge Fund Manager Registration Under the Dodd-Frank Act"
+},
+{
+"year": 2012,
+"title": "Contingent Capital in ExecutiveCompensation"
+},
+{
+"year": 2012,
+"title": "Initial Reflections on the Possible Application of Contingent Capital in Corporate Governance"
+},
+{
+"year": 2011,
+"title": "Contingent Capital in European Union Bank Restructuring"
+},
+{
+"year": 2011,
+"title": "Hedge Fund Regulation via Basel III"
+},
+{
+"year": 2010,
+"title": "Initial Reflections on an Evolving Standard: Constraints on Risk Taking by Directors and Officers in Germany and the United States"
+}
+]
 },
 {
 "rank": 16,
@@ -2102,7 +3278,44 @@ window.DASH = {
 "Columbia Business Law Review",
 "University of Chicago Law Review"
 ],
-"sample": "Shadow Investment Companies"
+"titles": [
+{
+"year": 2026,
+"title": "Shadow Investment Companies"
+},
+{
+"year": 2025,
+"title": "Crypto Kleptocracy"
+},
+{
+"year": 2025,
+"title": "Shadow Banking and Securities Law"
+},
+{
+"year": 2024,
+"title": "Bank Runs During Crypto Winter"
+},
+{
+"year": 2024,
+"title": "The Macroprudential Myth"
+},
+{
+"year": 2023,
+"title": "Taming Wildcat Stablecoins"
+},
+{
+"year": 2023,
+"title": "The Federal Reserve's Mandates"
+},
+{
+"year": 2022,
+"title": "The Orkney Slew and Central Bank Digital Currencies"
+},
+{
+"year": 2020,
+"title": "Capital, Contagion, And Financial Crises: What Stops A Run From Spreading?"
+}
+]
 },
 {
 "rank": 17,
@@ -2130,7 +3343,40 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "SSRN Electronic Journal"
 ],
-"sample": "Equity for Intermediaries: The Resolution of Financial Firms in Bankruptcy and Bank Resolution"
+"titles": [
+{
+"year": 2024,
+"title": "Equity for Intermediaries: The Resolution of Financial Firms in Bankruptcy and Bank Resolution"
+},
+{
+"year": 2016,
+"title": "Implementing Symmetric Treatment of Financial Contracts in Bankruptcy and Bank Resolution"
+},
+{
+"year": 2015,
+"title": "Symposium Introduction:  Treatment of Financial Contracts in Bankruptcy and Bank Resolution"
+},
+{
+"year": 2011,
+"title": "Reforming Regulation in the Markets for Home Loans"
+},
+{
+"year": 2010,
+"title": "Demand-Side Gatekeepers in the Market for Home Loans"
+},
+{
+"year": 2006,
+"title": "Notification of Data Security Breaches"
+},
+{
+"year": 2002,
+"title": "Muddy Rules for Securitization Transactions"
+},
+{
+"year": 2002,
+"title": "The Gramm-Leach-Bliley Act, Information Privacy, and the Limits of Default Rules"
+}
+]
 },
 {
 "rank": 18,
@@ -2158,7 +3404,36 @@ window.DASH = {
 "Indiana Law Journal",
 "University of Chicago Law Review"
 ],
-"sample": "The Federal Reserve as Agent to Another Principal: Monetary Penalties 1997-2022"
+"titles": [
+{
+"year": 2024,
+"title": "The Federal Reserve as Agent to Another Principal: Monetary Penalties 1997-2022"
+},
+{
+"year": 2023,
+"title": "The Federal Reserve's Mandates"
+},
+{
+"year": 2019,
+"title": "Modernizing the Bank Charter"
+},
+{
+"year": 2019,
+"title": "Regulating Banking Ethics: A Toolkit"
+},
+{
+"year": 2017,
+"title": "Regulation by Threat: Dodd-Frank and the Nonbank Problem"
+},
+{
+"year": 2014,
+"title": "After the Deal: Fannie, Freddie and the Financial Crisis Aftermath"
+},
+{
+"year": 2010,
+"title": "Administration by Treasury"
+}
+]
 },
 {
 "rank": 19,
@@ -2186,7 +3461,40 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Lawreview"
 ],
-"sample": "Should Central Banks Use Distributed Ledger Technology and Digital Currencies to Advance Financial Inclusion?"
+"titles": [
+{
+"year": 2021,
+"title": "Central Bank of the Future Summary and Recommendations for Further Inquiry"
+},
+{
+"year": 2021,
+"title": "Should Central Banks Use Distributed Ledger Technology and Digital Currencies to Advance Financial Inclusion?"
+},
+{
+"year": 2020,
+"title": "Building the Payment System of the Future: How Central Banks Can Improve Payments to Enhance Financial Inclusion"
+},
+{
+"year": 2016,
+"title": "Financial Regulation: Law and Policy, Chapter 1.1 - Finance Today"
+},
+{
+"year": 2006,
+"title": "CREDIT WHERE IT COUNTS: MAINTAINING A STRONG COMMUNITY REINVESTMENT ACT"
+},
+{
+"year": 2006,
+"title": "Global Administrative Law: The View from Basel"
+},
+{
+"year": 2005,
+"title": "Credit Where It Counts: The Community Reinvestment Act and Its Critics"
+},
+{
+"year": 2001,
+"title": "The Community Reinvestment Act: Its Impact on Lending in Low-Income Communities in the United States"
+}
+]
 },
 {
 "rank": 20,
@@ -2214,7 +3522,36 @@ window.DASH = {
 "Washington University Law Review",
 "SMU Law Review"
 ],
-"sample": "Credit, Morality, and the Small-Dollar Loan"
+"titles": [
+{
+"year": 2021,
+"title": "Credit, Morality, and the Small-Dollar Loan"
+},
+{
+"year": 2020,
+"title": "Banking on Democracy"
+},
+{
+"year": 2019,
+"title": "Jim Crow Credit"
+},
+{
+"year": 2018,
+"title": "Postal Banking's Public Benefits"
+},
+{
+"year": 2014,
+"title": "Regulation by Hypothetical"
+},
+{
+"year": 2012,
+"title": "How the Poor Got Cut Out of Banking"
+},
+{
+"year": 2010,
+"title": "The ILC and the Reconstruction of U.S. Banking"
+}
+]
 },
 {
 "rank": 21,
@@ -2242,7 +3579,36 @@ window.DASH = {
 "Georgia Law Review",
 "Washington Law Review"
 ],
-"sample": "Disclosure 2.0: Can Technology Solve Overload, Complexity, and Other Information Failures?"
+"titles": [
+{
+"year": 2016,
+"title": "Disclosure 2.0: Can Technology Solve Overload, Complexity, and Other Information Failures?"
+},
+{
+"year": 2016,
+"title": "The Dialectics of Bank Capital: Regulation and Regulatory Capital Arbitrage"
+},
+{
+"year": 2015,
+"title": "Bank Regulation and Securitization: How the Law Improved Transmission Lines Between Real Estate and Banking Crises"
+},
+{
+"year": 2013,
+"title": "Contract as Pattern Language"
+},
+{
+"year": 2011,
+"title": "\"Credit Derivatives, Leverage, and Financial Regulation's Missing Macroeconomic Dimension\""
+},
+{
+"year": 2009,
+"title": "Code, Crash, and Open Source: The Outsourcing of Financial Regulation to Risk Models and the Global Financial Crisis"
+},
+{
+"year": 2009,
+"title": "The Subprime Crisis and the Link between Consumer Financial Protection and Systemic Risk"
+}
+]
 },
 {
 "rank": 22,
@@ -2268,7 +3634,36 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "The Federal Home Loan Banks Approach 100: Evolution from Housing Lender to Liquidity Provider"
+"titles": [
+{
+"year": 2024,
+"title": "The Federal Home Loan Banks Approach 100: Evolution from Housing Lender to Liquidity Provider"
+},
+{
+"year": 2022,
+"title": "Regulatory Loan Forbearance in the Banking Industry"
+},
+{
+"year": 2020,
+"title": "An Examination of the Factors Influencing the Enactment of Banking Legislation and Regulation: Evidence from Fifty Years of Banking Laws and Twenty-Five Years of Regulation"
+},
+{
+"year": 2019,
+"title": "“Super Lien” Doesn’t Mean Super Risk: Money Market Intermediation, Security Interests, Federal Home Loan Bank Lien Protections and Systemic Risk"
+},
+{
+"year": 2017,
+"title": "Smart Contracts: Legal Agreements for the Blockchain"
+},
+{
+"year": 2012,
+"title": "Reforming America's Mortgage Market: What Comes after Fannie Mae and Freddie Mac"
+},
+{
+"year": 2009,
+"title": "The Cooperative Structure of the Federal Home Loan Banks: A Model for Government Sponsored Enterprises"
+}
+]
 },
 {
 "rank": 23,
@@ -2296,7 +3691,36 @@ window.DASH = {
 "North Carolina Law Review",
 "Seattle University Law Review"
 ],
-"sample": "Dealing with Disruption: Emerging Approaches to Fintech Regulation"
+"titles": [
+{
+"year": 2020,
+"title": "Dealing with Disruption: Emerging Approaches to Fintech Regulation"
+},
+{
+"year": 2019,
+"title": "The Too Big to Fail Problem"
+},
+{
+"year": 2015,
+"title": "\"Special,\" Vestigial, or Visionary? What Banking Regulation Tells Us About the Corporation—and Vice Versa"
+},
+{
+"year": 2011,
+"title": "That Which We Call a Bank: Revisiting the History of Bank Holding Company Regulation in the United States"
+},
+{
+"year": 2011,
+"title": "The Dodd-Frank Act: A New Deal for a New Age"
+},
+{
+"year": 2010,
+"title": "From Gramm-Leach-Bliley to Dodd-Frank: The Unfulfilled Promise of Section 23A of the Federal Reserve Act"
+},
+{
+"year": 2009,
+"title": "The New Crisis for the New Century: Some Observations on the Big-Picture Lessons of the Global Financial Crisis of 2008"
+}
+]
 },
 {
 "rank": 24,
@@ -2323,7 +3747,28 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Columbia Business Law Review"
 ],
-"sample": "Risk, Discretion, and Bank Supervision: Peter Conti-Brown & Sean Vanatta"
+"titles": [
+{
+"year": 2025,
+"title": "Risk, Discretion, and Bank Supervision"
+},
+{
+"year": 2025,
+"title": "Risk, Discretion, and Bank Supervision: Peter Conti-Brown & Sean Vanatta"
+},
+{
+"year": 2023,
+"title": "Revolving Door Governance: Bank Supervisors in the United States, 1863-1933"
+},
+{
+"year": 2020,
+"title": "Bank Supervision, the Great Depression, and the Creation of the New Deal"
+},
+{
+"year": 2020,
+"title": "Histories of Bank Supervision"
+}
+]
 },
 {
 "rank": 25,
@@ -2350,7 +3795,36 @@ window.DASH = {
 "SSRN Electronic Journal",
 "eYLS (Yale Law School)"
 ],
-"sample": "The Macroprudential Implications of the Qualified Mortgage Debate"
+"titles": [
+{
+"year": 2020,
+"title": "The Macroprudential Implications of the Qualified Mortgage Debate"
+},
+{
+"year": 2019,
+"title": "Why the Ability-to-Repay Rule Is Vital to Financial Stability"
+},
+{
+"year": 2016,
+"title": "Coalescence in the Housing Finance Reform Debate"
+},
+{
+"year": 2009,
+"title": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+},
+{
+"year": 2009,
+"title": "Systemic Risk through Securitization: The Result of Deregulation and Regulatory Failure"
+},
+{
+"year": 2008,
+"title": "The Impact of State Anti-Predatory Lending Laws: Policy Implications and Insights"
+},
+{
+"year": 2007,
+"title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
+}
+]
 },
 {
 "rank": 26,
@@ -2376,7 +3850,32 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "A Review and Assessment of the National Mortgage Settlement by Its Monitor"
+"titles": [
+{
+"year": 2017,
+"title": "A Review and Assessment of the National Mortgage Settlement by Its Monitor"
+},
+{
+"year": 2011,
+"title": "Home Mortgage Lending: Past, Present, and Future"
+},
+{
+"year": 2004,
+"title": "Financial Literacy, Regulation and Consumer Welfare"
+},
+{
+"year": 2002,
+"title": "Federal Banking Agencies' Guidance on Subprime Lending: Regulation with a Divided Mind"
+},
+{
+"year": 2001,
+"title": "Savings for the Poor: The Hidden Benefits of Electronic Banking: A Review and Response"
+},
+{
+"year": 2000,
+"title": "Retail Delivery of Financial Services after the Gramm-Leach-Bliley Act: How Will Public Policy Shape the Financial Services Supermarket"
+}
+]
 },
 {
 "rank": 27,
@@ -2404,7 +3903,32 @@ window.DASH = {
 "North Carolina Banking Institute",
 "Vanderbilt Faculty Publications"
 ],
-"sample": "A Theory of Everything: A Historically Grounded Understanding of Soft Law – and the Bank for International Settlements"
+"titles": [
+{
+"year": 2019,
+"title": "A Theory of Everything: A Historically Grounded Understanding of Soft Law – and the Bank for International Settlements"
+},
+{
+"year": 2019,
+"title": "Fintech and the Innovation Trilemma"
+},
+{
+"year": 2017,
+"title": "The Fintech Trilemma"
+},
+{
+"year": 2017,
+"title": "The Renminbi and Systemic Risk"
+},
+{
+"year": 2013,
+"title": "Domestic Bank Regulation in a Global Environment - A Comparative Dialogue"
+},
+{
+"year": 2010,
+"title": "How International Financial Law Works (and How it Doesn't)"
+}
+]
 },
 {
 "rank": 28,
@@ -2432,7 +3956,32 @@ window.DASH = {
 "Law and Contemporary Problems",
 "eYLS (Yale Law School)"
 ],
-"sample": "Relocating the Community Reinvestment Act"
+"titles": [
+{
+"year": 2024,
+"title": "Relocating the Community Reinvestment Act"
+},
+{
+"year": 2013,
+"title": "Europe and the Future of International Monetary Law"
+},
+{
+"year": 2011,
+"title": "Living Wills and Pre-Commitment"
+},
+{
+"year": 2009,
+"title": "Symposium: The Future of Law and Development, Part III"
+},
+{
+"year": 2007,
+"title": "Commercial Lending and the Separation of Banking and Commerce"
+},
+{
+"year": 2007,
+"title": "Equitable Subordination, Fraudulent Transfer, and Sovereign Debt"
+}
+]
 },
 {
 "rank": 29,
@@ -2460,7 +4009,32 @@ window.DASH = {
 "American University Business Law Review",
 "University of Cincinnati law review"
 ],
-"sample": "The Volcker Rule and regulatory complementarity"
+"titles": [
+{
+"year": 2015,
+"title": "The Volcker Rule and regulatory complementarity"
+},
+{
+"year": 2014,
+"title": "Principles for Publicness"
+},
+{
+"year": 2013,
+"title": "The Expressive Synergies of the Volcker Rule"
+},
+{
+"year": 2012,
+"title": "Proprietary Trading: Of Scourges, Scapegoats, and Scofflaws"
+},
+{
+"year": 2011,
+"title": "Regulating Informational Intermediation"
+},
+{
+"year": 2010,
+"title": "Requiem for the Bulge Bracket?: Revisiting Investment Bank Regulation"
+}
+]
 },
 {
 "rank": 30,
@@ -2488,7 +4062,32 @@ window.DASH = {
 "Indiana Law Journal",
 "North Carolina Law Review"
 ],
-"sample": "Bankrupt Crypto Organizations"
+"titles": [
+{
+"year": 2025,
+"title": "Bankrupt Crypto Organizations"
+},
+{
+"year": 2025,
+"title": "Regulating Stablecoins: Comparing MiCAR and the GENIUS Act"
+},
+{
+"year": 2024,
+"title": "Considerations on the Monetary Policy Framework of the European Central Bank"
+},
+{
+"year": 2024,
+"title": "Floating Liens Over Crypto-in-Commerce"
+},
+{
+"year": 2023,
+"title": "The Intersection of NFTs and Structured Finance"
+},
+{
+"year": 2022,
+"title": "The Private Law of Stablecoins"
+}
+]
 },
 {
 "rank": 31,
@@ -2515,7 +4114,32 @@ window.DASH = {
 "North Carolina Banking Institute",
 "FIU Law Review"
 ],
-"sample": "Effective Compliance Risk Management in a Rapidly Changing Regulatory Environment: A Conversation from the Clearinghouse Annual Conference"
+"titles": [
+{
+"year": 2013,
+"title": "Domestic Bank Regulation in a Global Environment - A Comparative Dialogue"
+},
+{
+"year": 2013,
+"title": "Effective Compliance Risk Management in a Rapidly Changing Regulatory Environment: A Conversation from the Clearinghouse Annual Conference"
+},
+{
+"year": 2011,
+"title": "The Dodd-Frank Act: Tarp Bailout Backlash and Too Big To Fail"
+},
+{
+"year": 2009,
+"title": "Extraordinary Government Intervention to Bolster Bank Balance Sheets"
+},
+{
+"year": 2005,
+"title": "The First One Hundred Years of Banking in North Carolina"
+},
+{
+"year": 2000,
+"title": "Banking and Insurance: Before and after the Gramm-Leach-Bliley Act"
+}
+]
 },
 {
 "rank": 32,
@@ -2543,7 +4167,28 @@ window.DASH = {
 "Vanderbilt Law Review",
 "University of Chicago Law Review"
 ],
-"sample": "Federal Corporate Law and the Business of Banking"
+"titles": [
+{
+"year": 2021,
+"title": "FedAccounts: Digital Dollars"
+},
+{
+"year": 2021,
+"title": "Federal Corporate Law and the Business of Banking"
+},
+{
+"year": 2018,
+"title": "A Public Option for Bank Accounts (Or Central Banking for All)"
+},
+{
+"year": 2016,
+"title": "Entry Restriction, Shadow Banking, and the Structure of Monetary Institutions"
+},
+{
+"year": 2012,
+"title": "A Regulatory Design for Monetary Stability"
+}
+]
 },
 {
 "rank": 33,
@@ -2569,7 +4214,28 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "Exigent Circumstances: Section 13(3) of the Federal Reserve Act and Federal Emergency Lending Programs"
+"titles": [
+{
+"year": 2021,
+"title": "Exigent Circumstances: Section 13(3) of the Federal Reserve Act and Federal Emergency Lending Programs"
+},
+{
+"year": 2013,
+"title": "Sweeping Away the Cobwebs: North Carolina's Banking Law Modernization Act"
+},
+{
+"year": 2007,
+"title": "Bank Holding Company Trust Preferred Securities: Recent Developments"
+},
+{
+"year": 2002,
+"title": "Financial and Bank Holding Company Issuance of Trust Preferred Securities"
+},
+{
+"year": 2000,
+"title": "New Millennium Heralds Changes in North Carolina's Financial Services Landscape"
+}
+]
 },
 {
 "rank": 34,
@@ -2597,7 +4263,24 @@ window.DASH = {
 "Northwestern University Law Review",
 "Columbia Business Law Review"
 ],
-"sample": "Rethinking Countercyclical Financial Regulation"
+"titles": [
+{
+"year": 2021,
+"title": "Rethinking Countercyclical Financial Regulation"
+},
+{
+"year": 2020,
+"title": "Too Many to Fail: Against Community Bank Deregulation"
+},
+{
+"year": 2019,
+"title": "Overlapping Legal Rules in Financial Regulation and the Administrative State"
+},
+{
+"year": 2016,
+"title": "The Convergence of Insurance with Banking and Securities Industries, and the Limits of Regulatory Arbitrage in Finance"
+}
+]
 },
 {
 "rank": 35,
@@ -2625,7 +4308,28 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Minnesota law review"
 ],
-"sample": "Americans, Beyond States and Territories"
+"titles": [
+{
+"year": 2023,
+"title": "Americans, Beyond States and Territories"
+},
+{
+"year": 2019,
+"title": "Artificial Intelligence, Finance, and the Law"
+},
+{
+"year": 2014,
+"title": "The New Financial Industry"
+},
+{
+"year": 2012,
+"title": "The New Investor"
+},
+{
+"year": 2010,
+"title": "Too Big to Fail, Too Blind to See"
+}
+]
 },
 {
 "rank": 36,
@@ -2651,7 +4355,28 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "Dodd-Frank's Requirement of Skin in the game for Asset-Backed Securities May Scalp Corporate Loan Liquidity"
+"titles": [
+{
+"year": 2011,
+"title": "Dodd-Frank's Requirement of Skin in the game for Asset-Backed Securities May Scalp Corporate Loan Liquidity"
+},
+{
+"year": 2010,
+"title": "Necessity is the Mother of Innovation during the Credit Crisis"
+},
+{
+"year": 2003,
+"title": "Discussion Draft of the Proposed North Carolina Bar Association Illustrative Form of Legal Opinion for Uniform Commercial Code Secured Lending Transactions"
+},
+{
+"year": 2002,
+"title": "Deposit Accounts under the New World Order"
+},
+{
+"year": 2000,
+"title": "How to Be Secure When Your Collateral Is a Security: A Guide to the Creation and Perfection of Security Interests in Investment Property under the 1994 Revisions to the Uniform Commercial Code"
+}
+]
 },
 {
 "rank": 37,
@@ -2679,7 +4404,28 @@ window.DASH = {
 "Nebraska Law Review",
 "Jbel"
 ],
-"sample": "Is There a Dual Banking System?"
+"titles": [
+{
+"year": 2012,
+"title": "Is There a Dual Banking System?"
+},
+{
+"year": 2008,
+"title": "Is There a Dual Banking System"
+},
+{
+"year": 2006,
+"title": "Check Clearing for the 21st Century Act - A Wrong Turn in the Road to Improvement of the U.S. Payments System, The"
+},
+{
+"year": 2006,
+"title": "The Check Clearing for the 21st Century Act-A Wrong Turn in the Road to Improvement of the U.S. Payments System"
+},
+{
+"year": 2003,
+"title": "Business Divisions from the Perspective of the U.S. Banking System"
+}
+]
 },
 {
 "rank": 38,
@@ -2707,7 +4453,28 @@ window.DASH = {
 "Nebraska Law Review",
 "Jbel"
 ],
-"sample": "Is There a Dual Banking System?"
+"titles": [
+{
+"year": 2012,
+"title": "Is There a Dual Banking System?"
+},
+{
+"year": 2008,
+"title": "Is There a Dual Banking System"
+},
+{
+"year": 2006,
+"title": "Check Clearing for the 21st Century Act - A Wrong Turn in the Road to Improvement of the U.S. Payments System, The"
+},
+{
+"year": 2006,
+"title": "The Check Clearing for the 21st Century Act-A Wrong Turn in the Road to Improvement of the U.S. Payments System"
+},
+{
+"year": 2003,
+"title": "Business Divisions from the Perspective of the U.S. Banking System"
+}
+]
 },
 {
 "rank": 39,
@@ -2735,7 +4502,28 @@ window.DASH = {
 "University of Chicago Law Review",
 "Minnesota Law Review"
 ],
-"sample": "What Legal Authority Does the Fed Need During a Financial Crisis?"
+"titles": [
+{
+"year": 2017,
+"title": "What Legal Authority Does the Fed Need During a Financial Crisis?"
+},
+{
+"year": 2015,
+"title": "A Framework for Bailout Regulation"
+},
+{
+"year": 2015,
+"title": "How Do Bank Regulators Determine Capital-Adequacy Requirements?"
+},
+{
+"year": 2003,
+"title": "Do States Have a Moral Obligation to Obey International Law"
+},
+{
+"year": 2003,
+"title": "Nondelegation: A Post-Mortem"
+}
+]
 },
 {
 "rank": 40,
@@ -2763,7 +4551,28 @@ window.DASH = {
 "North Carolina Law Review",
 "SSRN Electronic Journal"
 ],
-"sample": "The Mess at Morgan: Risk, Incentives and Shareholder Empowerment"
+"titles": [
+{
+"year": 2015,
+"title": "The Mess at Morgan: Risk, Incentives and Shareholder Empowerment"
+},
+{
+"year": 2014,
+"title": "The Broken Buck Stops Here: Embracing Sponsor Support in Money Market Fund Reform"
+},
+{
+"year": 2013,
+"title": "The Long Road Back: Business Roundtable and the Future of SEC Rulemaking"
+},
+{
+"year": 2011,
+"title": "A Floating NAV for Money Market Funds: Fix or Fantasy?"
+},
+{
+"year": 2008,
+"title": "Panel Discussion: Subprime Mortgage Meltdown and the Global Financial Crisis"
+}
+]
 },
 {
 "rank": 41,
@@ -2791,7 +4600,28 @@ window.DASH = {
 "Nebraska Law Review",
 "SSRN Electronic Journal"
 ],
-"sample": "FedAccounts: Digital Dollars"
+"titles": [
+{
+"year": 2021,
+"title": "FedAccounts: Digital Dollars"
+},
+{
+"year": 2018,
+"title": "A Public Option for Bank Accounts (Or Central Banking for All)"
+},
+{
+"year": 2018,
+"title": "Resolution Triggers for Systemically Important Financial Institutions"
+},
+{
+"year": 2017,
+"title": "Lesson Unlearned?: Regulatory Reform and Financial Stability in the Trump Administration"
+},
+{
+"year": 2015,
+"title": "Capital Accounts: Bank Capital, Crises, and the Determinants of an Optimal Regulatory Approach"
+}
+]
 },
 {
 "rank": 42,
@@ -2815,7 +4645,24 @@ window.DASH = {
 "Vanderbilt Journal of Transnational Law",
 "SSRN Electronic Journal"
 ],
-"sample": "Fintech and International Financial Regulation"
+"titles": [
+{
+"year": 2020,
+"title": "Fintech and International Financial Regulation"
+},
+{
+"year": 2019,
+"title": "Fintech and the Innovation Trilemma"
+},
+{
+"year": 2017,
+"title": "The Fintech Trilemma"
+},
+{
+"year": 2010,
+"title": "The Specter of Sisyphus: Re-Making International Financial Regulation After the Global Financial Crisis"
+}
+]
 },
 {
 "rank": 43,
@@ -2843,7 +4690,24 @@ window.DASH = {
 "Washington and Lee Law Review",
 "Nevada Law Journal"
 ],
-"sample": "From Fire Hose to Garden Hose: Section 13(3) of the Federal Reserve Act"
+"titles": [
+{
+"year": 2018,
+"title": "From Fire Hose to Garden Hose: Section 13(3) of the Federal Reserve Act"
+},
+{
+"year": 2013,
+"title": "Regulatory Arbitrage, Extraterritorial Jurisdiction, and Dodd-Frank: The Implications of US Global OTC Derivative Regulation"
+},
+{
+"year": 2007,
+"title": "Assessing a Decade of Interstate Bank\nBranching"
+},
+{
+"year": 2004,
+"title": "Justice and the Administrative State: The FDIC and the Superior Bank Failure"
+}
+]
 },
 {
 "rank": 44,
@@ -2871,7 +4735,20 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Journal of Financial Regulation"
 ],
-"sample": "Systemic Risk and Managerial Incentives in the Dodd-Frank Orderly Liquidation Authority"
+"titles": [
+{
+"year": 2015,
+"title": "Systemic Risk and Managerial Incentives in the Dodd-Frank Orderly Liquidation Authority"
+},
+{
+"year": 2014,
+"title": "Anti-Herding Regulation"
+},
+{
+"year": 2012,
+"title": "Recoupment Under Dodd-Frank: Punishing Financial Executives and Perpetuating 'Too Big to Fail'"
+}
+]
 },
 {
 "rank": 45,
@@ -2899,7 +4776,24 @@ window.DASH = {
 "Brooklyn Law Review",
 "William & Mary Business Law Review"
 ],
-"sample": "Securities and Exchange Commission vs. Kim Kardashian, Cryptocurrencies and the \"Major Questions Doctrine\""
+"titles": [
+{
+"year": 2022,
+"title": "Securities and Exchange Commission vs. Kim Kardashian, Cryptocurrencies and the \"Major Questions Doctrine\""
+},
+{
+"year": 2017,
+"title": "Regulating the “Too Big to Jail” Financial Institutions"
+},
+{
+"year": 2000,
+"title": "Banking Regulation: Its History and Future"
+},
+{
+"year": 2000,
+"title": "Banking and Insurance: Before and after the Gramm-Leach-Bliley Act"
+}
+]
 },
 {
 "rank": 46,
@@ -2919,7 +4813,24 @@ window.DASH = {
 "Chapman Law Review",
 "Hastings Business Law Journal"
 ],
-"sample": "Political Reality and Crypto Regulation"
+"titles": [
+{
+"year": 2022,
+"title": "Political Reality and Crypto Regulation"
+},
+{
+"year": 2021,
+"title": "Cinderella’s Slipper: A Better Approach to Regulating Cryptoassets as Securities"
+},
+{
+"year": 2021,
+"title": "What Does the Decline in the U.S. Dollar’s Global Role Mean for Cryptocurrencies?"
+},
+{
+"year": 2020,
+"title": "Using Cybersecurity Failures to Critique the SEC's Approach to Crypto Regulation"
+}
+]
 },
 {
 "rank": 47,
@@ -2947,7 +4858,24 @@ window.DASH = {
 "Indiana Law Journal",
 "Georgia Law Review"
 ],
-"sample": "Governmental Debanking"
+"titles": [
+{
+"year": 2025,
+"title": "Governmental Debanking"
+},
+{
+"year": 2019,
+"title": "Regulating Bank Reputation Risk"
+},
+{
+"year": 2014,
+"title": "When Bank Examiners Get It Wrong: Financial Institution Appeals of Material Supervisory Determinations"
+},
+{
+"year": 2012,
+"title": "Bank Capital Regulation by Enforcement: An Empirical Study"
+}
+]
 },
 {
 "rank": 48,
@@ -2971,7 +4899,24 @@ window.DASH = {
 "Columbia Business Law Review",
 "eYLS (Yale Law School)"
 ],
-"sample": "Shadow Investment Companies"
+"titles": [
+{
+"year": 2026,
+"title": "Shadow Investment Companies"
+},
+{
+"year": 2025,
+"title": "Shadow Banking and Securities Law"
+},
+{
+"year": 2013,
+"title": "Assessing Transnational Private Regulation of the OTC Derivatives Market: ISDA, the BBA, and the Future of Financial Reform"
+},
+{
+"year": 2013,
+"title": "Revolution in Manipulation Law: The New CFTC Rules and the Urgent Need for Economic and Empirical Analyses"
+}
+]
 },
 {
 "rank": 49,
@@ -2994,7 +4939,24 @@ window.DASH = {
 "Facsch Lawrev",
 "American University Faculty Scholarship"
 ],
-"sample": "The Complex Implications of Fintech for Financial Inclusion"
+"titles": [
+{
+"year": 2021,
+"title": "The Complex Implications of Fintech for Financial Inclusion"
+},
+{
+"year": 2011,
+"title": "Securitization and Suburbia"
+},
+{
+"year": 2010,
+"title": "Securitization of Worker Remittances"
+},
+{
+"year": 2008,
+"title": "Understanding the Development Potential of Worker Remittance Securitization"
+}
+]
 },
 {
 "rank": 50,
@@ -3022,7 +4984,24 @@ window.DASH = {
 "SSRN Electronic Journal",
 "UNC Faculty Scholarship"
 ],
-"sample": "Dodd-Frank Regulatory Innovation, and the Safety of Consumer Financial Products"
+"titles": [
+{
+"year": 2011,
+"title": "Consumer Protection, Legal Services, and Financial Stability: An Exchange"
+},
+{
+"year": 2011,
+"title": "Dodd-Frank Regulatory Innovation, and the Safety of Consumer Financial Products"
+},
+{
+"year": 2009,
+"title": "Bankruptcy Reform and the Financial Crisis"
+},
+{
+"year": 2008,
+"title": "Homeownership Risk Beyond a Subprime Crisis: The Role of Delinquency Management"
+}
+]
 },
 {
 "rank": 51,
@@ -3046,7 +5025,24 @@ window.DASH = {
 "North Carolina Banking Institute",
 "Transactions: The Tennessee Journal of Business Law"
 ],
-"sample": "10 Things Judges Should Know About Cryptocurrency"
+"titles": [
+{
+"year": 2022,
+"title": "10 Things Judges Should Know About Cryptocurrency"
+},
+{
+"year": 2021,
+"title": "Cryptocurrency and the State: An Unholy Alliance"
+},
+{
+"year": 2019,
+"title": "BANKING ON THE CLOUD"
+},
+{
+"year": 2019,
+"title": "Bitcoin Futures: From Self-Certification to Systemic Risk"
+}
+]
 },
 {
 "rank": 52,
@@ -3074,7 +5070,24 @@ window.DASH = {
 "SSRN Electronic Journal",
 "The Journal of Legal Studies"
 ],
-"sample": "The Missed Opportunity and Challenge of Capital Regulation"
+"titles": [
+{
+"year": 2016,
+"title": "The Missed Opportunity and Challenge of Capital Regulation"
+},
+{
+"year": 2014,
+"title": "The Compelling Case for Stronger and More Effective Leverage Regulation in Banking"
+},
+{
+"year": 2013,
+"title": "Financial Regulation Reform: Politics, Implementation and Alternatives"
+},
+{
+"year": 2011,
+"title": "Liability Holding Companies"
+}
+]
 },
 {
 "rank": 53,
@@ -3102,7 +5115,24 @@ window.DASH = {
 "Law and Contemporary Problems",
 "eYLS (Yale Law School)"
 ],
-"sample": "Bursting the Auto Loan Bubble in the Wake of COVID-19"
+"titles": [
+{
+"year": 2020,
+"title": "Bursting the Auto Loan Bubble in the Wake of COVID-19"
+},
+{
+"year": 2020,
+"title": "Fintech's Role In Exacerbating or Reducing The Wealth Gap"
+},
+{
+"year": 2018,
+"title": "Comments of Financial Regulation and Consumer Protection Scholars, and Former Regulators on CFPB's RFI Regarding Bureau Public Reporting Practices of Consumer Complaint Information (Docket No. CFPB-2018-0006)"
+},
+{
+"year": 2016,
+"title": "Calling on the CFPB for Help: Telling Stories and Consumer Protection"
+}
+]
 },
 {
 "rank": 54,
@@ -3130,7 +5160,24 @@ window.DASH = {
 "American University Business Law Review",
 "American University Faculty Scholarship"
 ],
-"sample": "Virtual Currencies: Growing Regulatory Framework and Challenges in the Emerging Fintech Ecosystem"
+"titles": [
+{
+"year": 2017,
+"title": "Virtual Currencies: Growing Regulatory Framework and Challenges in the Emerging Fintech Ecosystem"
+},
+{
+"year": 2015,
+"title": "International Banking Law"
+},
+{
+"year": 2014,
+"title": "\"Ringfencing\" U.S. Bank Foreign Branch Deposits: Working Toward A Clearer Understanding Of Where Deposits Are Payable In The Midst Of Chaos"
+},
+{
+"year": 2013,
+"title": "After the Dodd-Frank Indusrial Loan Company Moratorium: What's Next"
+}
+]
 },
 {
 "rank": 55,
@@ -3158,7 +5205,24 @@ window.DASH = {
 "Brooklyn Journal of Corporate, Financial & Commercial Law",
 "SSRN Electronic Journal"
 ],
-"sample": "Accountability and the Bureau of Consumer Financial Protection"
+"titles": [
+{
+"year": 2012,
+"title": "Accountability and the Bureau of Consumer Financial Protection"
+},
+{
+"year": 2011,
+"title": "Reforming Regulation in the Markets for Home Loans"
+},
+{
+"year": 2010,
+"title": "Demand-Side Gatekeepers in the Market for Home Loans"
+},
+{
+"year": 2002,
+"title": "E-Reputation: Building Trust in Electronic Commerce"
+}
+]
 },
 {
 "rank": 56,
@@ -3176,7 +5240,24 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "Past, Present and Future Threats to Federal Safety Net Benefits in Bank Accounts"
+"titles": [
+{
+"year": 2012,
+"title": "Past, Present and Future Threats to Federal Safety Net Benefits in Bank Accounts"
+},
+{
+"year": 2006,
+"title": "The Credit Card Market and Regulation: In Need of Repair"
+},
+{
+"year": 2003,
+"title": "A Case Study of the Challenge of Designing Effective Electronic Consumer Credit Disclosures: The Interim Rule for the Truth in Lending Act"
+},
+{
+"year": 2002,
+"title": "The Increase in Predatory Lending and Appropriate Remedial Actions"
+}
+]
 },
 {
 "rank": 57,
@@ -3203,7 +5284,24 @@ window.DASH = {
 "Facsch Lawrev",
 "SSRN Electronic Journal"
 ],
-"sample": "Consumer Protection, Legal Services, and Financial Stability: An Exchange"
+"titles": [
+{
+"year": 2011,
+"title": "Consumer Protection, Legal Services, and Financial Stability: An Exchange"
+},
+{
+"year": 2009,
+"title": "Rewriting Frankenstein Contracts: The Workout Prohibition in Residential Mortgage-Backed Securities"
+},
+{
+"year": 2007,
+"title": "Wal-Mart Bank in Mexico: Money to the Masses and the Home-Host Hole"
+},
+{
+"year": 2006,
+"title": "Pathways through Financial Crisis: Argentina Understanding Pathways through Financial Crises and the Impact of the IMF"
+}
+]
 },
 {
 "rank": 58,
@@ -3231,7 +5329,20 @@ window.DASH = {
 "Seattle University Law Review",
 "Hastings Business Law Journal"
 ],
-"sample": "\"Special,\" Vestigial, or Visionary? What Banking Regulation Tells Us About the Corporation—and Vice Versa"
+"titles": [
+{
+"year": 2015,
+"title": "\"Special,\" Vestigial, or Visionary? What Banking Regulation Tells Us About the Corporation—and Vice Versa"
+},
+{
+"year": 2013,
+"title": "Six Years On and Still Counting: Sifting Through the Mortgage Mess"
+},
+{
+"year": 2009,
+"title": "BRINGING IT ALL BACK HOME: HOW TO SAVE MAIN STREET, IGNORE K STREET, AND THEREBY SAVE WALL STREET"
+}
+]
 },
 {
 "rank": 59,
@@ -3259,7 +5370,20 @@ window.DASH = {
 "Jbel",
 "Columbia Business Law Review"
 ],
-"sample": "The Upside-Down Law of Property and Contract: Of Fannie Mae, Freddie Mac, and San Jose Pensions"
+"titles": [
+{
+"year": 2014,
+"title": "The Upside-Down Law of Property and Contract: Of Fannie Mae, Freddie Mac, and San Jose Pensions"
+},
+{
+"year": 2012,
+"title": "\"The Subprime Crisis: Why One Bad Turn Leads to Another\" at Pepperdine University School of Law"
+},
+{
+"year": 2005,
+"title": "The Regulation of Interchange Fees: Australian Fine-Tuning Gone Awry"
+}
+]
 },
 {
 "rank": 60,
@@ -3283,7 +5407,20 @@ window.DASH = {
 "European Company and Financial Law Review",
 "Journal of Financial Regulation"
 ],
-"sample": "Federal Home Loan Banks and Financial Stability"
+"titles": [
+{
+"year": 2023,
+"title": "Federal Home Loan Banks and Financial Stability"
+},
+{
+"year": 2022,
+"title": "Administrative Discretion in U. S. Banking Regulation"
+},
+{
+"year": 2022,
+"title": "Bank Supervision and Administrative Law"
+}
+]
 },
 {
 "rank": 61,
@@ -3311,7 +5448,20 @@ window.DASH = {
 "Mjlr",
 "Michigan Faculty Scholarship"
 ],
-"sample": "The Fed of the Future: A Framework to Optimize Short-Term Lending Practices"
+"titles": [
+{
+"year": 2022,
+"title": "The Fed of the Future: A Framework to Optimize Short-Term Lending Practices"
+},
+{
+"year": 2021,
+"title": "Central Bank of the Future Summary and Recommendations for Further Inquiry"
+},
+{
+"year": 2020,
+"title": "Strengthening Sanctions: Solutions to Curtail the Evasion of International Economic Sanctions Through the Use of Cryptocurrency"
+}
+]
 },
 {
 "rank": 62,
@@ -3339,7 +5489,20 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Duke Faculty Scholarship"
 ],
-"sample": "Protecting Financial Stability: Lessons from the COVID-19 Pandemic"
+"titles": [
+{
+"year": 2021,
+"title": "Protecting Financial Stability: Lessons from the COVID-19 Pandemic"
+},
+{
+"year": 2020,
+"title": "The Nature of the Fintech Firm"
+},
+{
+"year": 2016,
+"title": "Financial Regulation: Law and Policy, Chapter 1.1 - Finance Today"
+}
+]
 },
 {
 "rank": 63,
@@ -3366,7 +5529,20 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Supreme Court Economic Review"
 ],
-"sample": "Deregulating America’s Big Banks and What It Means for You (with transcript)"
+"titles": [
+{
+"year": 2015,
+"title": "Deregulating America’s Big Banks and What It Means for You (with transcript)"
+},
+{
+"year": 2014,
+"title": "Single Point of Entry and the Bankruptcy Alternative"
+},
+{
+"year": 2013,
+"title": "Behaviorism in Finance and Securities Law"
+}
+]
 },
 {
 "rank": 64,
@@ -3390,7 +5566,20 @@ window.DASH = {
 "Yale Law Journal",
 "eYLS (Yale Law School)"
 ],
-"sample": "Horizons of Risk: Climate Stress and the Federal Reserve"
+"titles": [
+{
+"year": 2025,
+"title": "Horizons of Risk: Climate Stress and the Federal Reserve"
+},
+{
+"year": 2020,
+"title": "Technocratic pragmatism, bureaucratic expertise, and the federal reserve"
+},
+{
+"year": 2019,
+"title": "Coin-Operated Capitalism"
+}
+]
 },
 {
 "rank": 65,
@@ -3416,7 +5605,20 @@ window.DASH = {
 "venues": [
 "Facsch Lawrev"
 ],
-"sample": "The Financial Stability Oversight Council: New or Deja Vu?"
+"titles": [
+{
+"year": 2011,
+"title": "SEC and CFTC Joint Rulemakings Under Dodd-Frank - A Regulatory Odd Couple?"
+},
+{
+"year": 2011,
+"title": "The Consumer Financial Protection Bureau: Stand-Up or Stand Off?"
+},
+{
+"year": 2011,
+"title": "The Financial Stability Oversight Council: New or Deja Vu?"
+}
+]
 },
 {
 "rank": 66,
@@ -3440,7 +5642,16 @@ window.DASH = {
 "American University Business Law Review",
 "Minnesota Faculty Articles"
 ],
-"sample": "Designing Countercyclical Capital Buffers"
+"titles": [
+{
+"year": 2013,
+"title": "Designing Countercyclical Capital Buffers"
+},
+{
+"year": 2012,
+"title": "Financial Regulation Reform and Too Big to Fail"
+}
+]
 },
 {
 "rank": 67,
@@ -3467,7 +5678,20 @@ window.DASH = {
 "Columbia Business Law Review",
 "eYLS (Yale Law School)"
 ],
-"sample": "Money Market Funds Run Risk: Will Floating Net Asset Value Fix the Problem?"
+"titles": [
+{
+"year": 2019,
+"title": "Money Market Funds Run Risk: Will Floating Net Asset Value Fix the Problem?"
+},
+{
+"year": 2018,
+"title": "The Origins of a Capital Market Union in the United States"
+},
+{
+"year": 2012,
+"title": "Corporate Governance and Executive Compensation in Financial Firms: The Case for Convertible Equity-based Pay"
+}
+]
 },
 {
 "rank": 68,
@@ -3489,7 +5713,20 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "The Federal Home Loan Banks Approach 100: Evolution from Housing Lender to Liquidity Provider"
+"titles": [
+{
+"year": 2024,
+"title": "The Federal Home Loan Banks Approach 100: Evolution from Housing Lender to Liquidity Provider"
+},
+{
+"year": 2022,
+"title": "Regulatory Loan Forbearance in the Banking Industry"
+},
+{
+"year": 2020,
+"title": "An Examination of the Factors Influencing the Enactment of Banking Legislation and Regulation: Evidence from Fifty Years of Banking Laws and Twenty-Five Years of Regulation"
+}
+]
 },
 {
 "rank": 69,
@@ -3507,7 +5744,20 @@ window.DASH = {
 "venues": [
 "SSRN Electronic Journal"
 ],
-"sample": "Let’s Stop Treating Crypto Trading as If It Were Finance"
+"titles": [
+{
+"year": 2022,
+"title": "Let’s Stop Treating Crypto Trading as If It Were Finance"
+},
+{
+"year": 2018,
+"title": "The Power of the Salary Link: Assessing the Benefits of Employer-Sponsored FinTech Liquidity and Credit Solutions for Low-Wage Working Americans and their Employers"
+},
+{
+"year": 2017,
+"title": "FinTech Alternatives to Short-Term Small-Dollar Credit: Helping Low-Income Working Families Escape the High-Cost Lending Trap"
+}
+]
 },
 {
 "rank": 70,
@@ -3533,7 +5783,20 @@ window.DASH = {
 "venues": [
 "SSRN Electronic Journal"
 ],
-"sample": "Financial Regulation: Law and Policy, Chapter 1.1 - Finance Today"
+"titles": [
+{
+"year": 2016,
+"title": "Financial Regulation: Law and Policy, Chapter 1.1 - Finance Today"
+},
+{
+"year": 2011,
+"title": "That Which We Call a Bank: Revisiting the History of Bank Holding Company Regulation in the United States"
+},
+{
+"year": 2011,
+"title": "Transparency and Confidentiality in the Post Financial Crisis World - Where to Strike the Balance?"
+}
+]
 },
 {
 "rank": 71,
@@ -3551,7 +5814,20 @@ window.DASH = {
 "venues": [
 "SSRN Electronic Journal"
 ],
-"sample": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+"titles": [
+{
+"year": 2009,
+"title": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+},
+{
+"year": 2008,
+"title": "The Impact of State Anti-Predatory Lending Laws: Policy Implications and Insights"
+},
+{
+"year": 2007,
+"title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
+}
+]
 },
 {
 "rank": 72,
@@ -3574,7 +5850,20 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "Michigan Faculty Scholarship"
 ],
-"sample": "The Enduring Distinction Between Business Entities and Security Interests"
+"titles": [
+{
+"year": 2018,
+"title": "The Enduring Distinction Between Business Entities and Security Interests"
+},
+{
+"year": 2013,
+"title": "Assessing Transnational Private Regulation of the OTC Derivatives Market: ISDA, the BBA, and the Future of Financial Reform"
+},
+{
+"year": 2013,
+"title": "Revolution in Manipulation Law: The New CFTC Rules and the Urgent Need for Economic and Empirical Analyses"
+}
+]
 },
 {
 "rank": 73,
@@ -3592,7 +5881,20 @@ window.DASH = {
 "venues": [
 "SSRN Electronic Journal"
 ],
-"sample": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+"titles": [
+{
+"year": 2009,
+"title": "Mortgage Product Substitution and State Anti-Predatory Lending Laws: Better Loans and Better Borrowers?"
+},
+{
+"year": 2008,
+"title": "The Impact of State Anti-Predatory Lending Laws: Policy Implications and Insights"
+},
+{
+"year": 2007,
+"title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
+}
+]
 },
 {
 "rank": 74,
@@ -3620,7 +5922,20 @@ window.DASH = {
 "Columbia Academic Commons (Columbia University)",
 "eYLS (Yale Law School)"
 ],
-"sample": "Reliable Perfection of Security Interests in Crypto-Currency"
+"titles": [
+{
+"year": 2018,
+"title": "Reliable Perfection of Security Interests in Crypto-Currency"
+},
+{
+"year": 2001,
+"title": "Information Technology and Non-Legal Sanctions in Financing Transactions"
+},
+{
+"year": 2000,
+"title": "The Role of Letters of Credit in Payment Transactions"
+}
+]
 },
 {
 "rank": 75,
@@ -3639,7 +5954,20 @@ window.DASH = {
 "Iplj",
 "Hastings Law Journal"
 ],
-"sample": "How Crisis Affects Crypto: Coronavirus as a Test Case"
+"titles": [
+{
+"year": 2023,
+"title": "How Crisis Affects Crypto: Coronavirus as a Test Case"
+},
+{
+"year": 2022,
+"title": "Speak Out: Verifying and Unmasking Cryptocurrency User Identity"
+},
+{
+"year": 2020,
+"title": "The Regulation of Cryptocurrencies: Between a Currency and a Financial Product"
+}
+]
 },
 {
 "rank": 76,
@@ -3667,7 +5995,20 @@ window.DASH = {
 "Journal of Financial Regulation",
 "eYLS (Yale Law School)"
 ],
-"sample": "Strengthening the Treasury Market"
+"titles": [
+{
+"year": 2022,
+"title": "Strengthening the Treasury Market"
+},
+{
+"year": 2021,
+"title": "Self-Regulation in the Derivatives Markets: Stability Through Collaboration"
+},
+{
+"year": 2020,
+"title": "The Enduring Legacy of the Dodd-Frank Act’s Derivatives Reforms"
+}
+]
 },
 {
 "rank": 77,
@@ -3691,7 +6032,20 @@ window.DASH = {
 "Loyola University Chicago Law Journal",
 "Brigham Young University Law Review"
 ],
-"sample": "Are SOX and Dodd-Frank Securities Law? The Answer is Up in the Air"
+"titles": [
+{
+"year": 2013,
+"title": "Are SOX and Dodd-Frank Securities Law? The Answer is Up in the Air"
+},
+{
+"year": 2012,
+"title": "Mutiny by the Bounties? The Attempt to Reform Wall Street by the New Whistleblower Provisions of the Dodd-Frank Act"
+},
+{
+"year": 2012,
+"title": "Regulating Online Peer-to-Peer\nLending in the Aftermath of\nDodd–Frank: In Search of an\nEvolving Regulatory Regime\nfor an Evolving Industry"
+}
+]
 },
 {
 "rank": 78,
@@ -3719,7 +6073,20 @@ window.DASH = {
 "eYLS (Yale Law School)",
 "SSRN Electronic Journal"
 ],
-"sample": "Are Banks Obsolete?"
+"titles": [
+{
+"year": 2025,
+"title": "Are Banks Obsolete?"
+},
+{
+"year": 2020,
+"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
+},
+{
+"year": 2000,
+"title": "The Business of Banking: Before and After Gramm-Leach-Bliley"
+}
+]
 },
 {
 "rank": 79,
@@ -3739,7 +6106,20 @@ window.DASH = {
 "Indiana Law Journal",
 "Emory Law Journal"
 ],
-"sample": "Is it Credit?"
+"titles": [
+{
+"year": 2025,
+"title": "Is it Credit?"
+},
+{
+"year": 2020,
+"title": "Advertising Injustices: Marketing Race and Credit in America"
+},
+{
+"year": 2011,
+"title": "Regulating on the Fringe: Reexamining the Link Between Fringe Banking and Financial Distress"
+}
+]
 },
 {
 "rank": 80,
@@ -3762,7 +6142,20 @@ window.DASH = {
 "North Carolina Banking Institute",
 "Maine Law Review"
 ],
-"sample": "New Wine Into Old Bottles: Fintech Meets the Bank Regulatory World"
+"titles": [
+{
+"year": 2016,
+"title": "New Wine Into Old Bottles: Fintech Meets the Bank Regulatory World"
+},
+{
+"year": 2008,
+"title": "The Role of a Banking System in Nation-Building"
+},
+{
+"year": 2000,
+"title": "Cyberbanking: Legal and Regulatory Considerations for Banking Organizations"
+}
+]
 },
 {
 "rank": 81,
@@ -3788,7 +6181,20 @@ window.DASH = {
 "venues": [
 "North Carolina Banking Institute"
 ],
-"sample": "Yelling \"Fire\" in the Financial Theater: Bank Runs in the Social Media Age and the Threat to Financial Stability"
+"titles": [
+{
+"year": 2024,
+"title": "Yelling \"Fire\" in the Financial Theater: Bank Runs in the Social Media Age and the Threat to Financial Stability"
+},
+{
+"year": 2023,
+"title": "The Supreme Court's Major Questions Doctrine: Implications for Responding to Financial Crises"
+},
+{
+"year": 2020,
+"title": "The Long Game: The Decade-Long Effort to Dismantle the Dodd-Frank Act"
+}
+]
 },
 {
 "rank": 82,
@@ -3812,7 +6218,20 @@ window.DASH = {
 "Jlp",
 "Brooklyn Faculty Scholarship"
 ],
-"sample": "Fintech and Race-Based Inequality in the Home Mortgage and Auto Financing Markets"
+"titles": [
+{
+"year": 2021,
+"title": "Fintech and Race-Based Inequality in the Home Mortgage and Auto Financing Markets"
+},
+{
+"year": 2011,
+"title": "Proving Racial Discrimination and Monitoring Fair Lending Compliance: The Missing Data Problem in Nonmortgage Credit"
+},
+{
+"year": 2009,
+"title": "Eliminating Racial Discrimination in the Subprime Mortgage Market: Proposals for Fair Lending Reform"
+}
+]
 },
 {
 "rank": 83,
@@ -3840,7 +6259,20 @@ window.DASH = {
 "Transactions: The Tennessee Journal of Business Law",
 "Mjlr"
 ],
-"sample": "The Federal Reserve as Collateral's Last Resort"
+"titles": [
+{
+"year": 2020,
+"title": "The Federal Reserve as Collateral's Last Resort"
+},
+{
+"year": 2019,
+"title": "BANKING ON THE CLOUD"
+},
+{
+"year": 2012,
+"title": "The Federal Reserve as Last Resort"
+}
+]
 },
 {
 "rank": 84,
@@ -3864,7 +6296,20 @@ window.DASH = {
 "Minnesota Law Review",
 "Loyola Consumer Law Review"
 ],
-"sample": "American Usury Law and the Military Lending Act"
+"titles": [
+{
+"year": 2019,
+"title": "American Usury Law and the Military Lending Act"
+},
+{
+"year": 2008,
+"title": "Usury Law, Payday Loans, and Statutory Sleight of Hand: Salience Distortion in American Credit Pricing Limits"
+},
+{
+"year": 2006,
+"title": "Preemption, Agency Cost Theory, and Predatory Lending by Banking Agents: Are Federal Regulators Biting off More than They Can Chew"
+}
+]
 },
 {
 "rank": 85,
@@ -3887,7 +6332,20 @@ window.DASH = {
 "Minnesota Faculty Articles",
 "Chapman Law Review"
 ],
-"sample": "Limits of Dodd-Frank’s Rating Agency Reform"
+"titles": [
+{
+"year": 2011,
+"title": "Limits of Dodd-Frank’s Rating Agency Reform"
+},
+{
+"year": 2011,
+"title": "Why Didn't Subprime Investors Demand a (Much Larger) Lemons Premium?"
+},
+{
+"year": 2010,
+"title": "Why Did Rating Agencies Do Such a Bad Job Rating Subprime Securities?"
+}
+]
 },
 {
 "rank": 86,
@@ -3911,7 +6369,20 @@ window.DASH = {
 "Harvard law & policy review./Harvard law & policy review",
 "Harvard civil rights-civil liberties law review"
 ],
-"sample": "On Fairy Tales"
+"titles": [
+{
+"year": 2007,
+"title": "Backlash's Travel"
+},
+{
+"year": 2007,
+"title": "On Fairy Tales"
+},
+{
+"year": 2005,
+"title": "Administrative Law Goes to War"
+}
+]
 },
 {
 "rank": 87,
@@ -3934,7 +6405,20 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Capital Markets Law Journal"
 ],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
+"titles": [
+{
+"year": 2021,
+"title": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
+},
+{
+"year": 2020,
+"title": "Bank–fintech partnerships, outsourcing arrangements and the case for a mentorship regime"
+},
+{
+"year": 2020,
+"title": "Pandemic Crisis and Financial Stability"
+}
+]
 },
 {
 "rank": 88,
@@ -3958,7 +6442,20 @@ window.DASH = {
 "Vanderbilt Law Review",
 "University of Chicago Law Review"
 ],
-"sample": "Financial Stability and Bank Agency Discretion"
+"titles": [
+{
+"year": 2025,
+"title": "Financial Stability and Bank Agency Discretion"
+},
+{
+"year": 2021,
+"title": "Central Bank Activism"
+},
+{
+"year": 2021,
+"title": "Central Banks and Climate Change"
+}
+]
 },
 {
 "rank": 89,
@@ -3986,7 +6483,20 @@ window.DASH = {
 "University of Chicago Law Review",
 "Facsch Lawrev"
 ],
-"sample": "Rent-A-Bank: Bank Partnerships and The Evasion of Usury Laws"
+"titles": [
+{
+"year": 2021,
+"title": "Rent-A-Bank: Bank Partnerships and The Evasion of Usury Laws"
+},
+{
+"year": 2016,
+"title": "Safe Banking: Finance and Democracy"
+},
+{
+"year": 2009,
+"title": "Rewriting Frankenstein Contracts: The Workout Prohibition in Residential Mortgage-Backed Securities"
+}
+]
 },
 {
 "rank": 90,
@@ -4014,7 +6524,20 @@ window.DASH = {
 "Columbia Business Law Review",
 "SSRN Electronic Journal"
 ],
-"sample": "Comment Letter - Office of the Comptroller of the Currency: Warning of the Dangers Posed by the Shadow Payment System and Shadow Digital Money"
+"titles": [
+{
+"year": 2020,
+"title": "Comment Letter - Office of the Comptroller of the Currency: Warning of the Dangers Posed by the Shadow Payment System and Shadow Digital Money"
+},
+{
+"year": 2018,
+"title": "Brother, Can You Spare a Dollar? Designing an Effective Framework for Foreign Currency Liquidity Assistance"
+},
+{
+"year": 2015,
+"title": "Law and Finance in the Chinese Shadow Banking System"
+}
+]
 },
 {
 "rank": 91,
@@ -4038,7 +6561,20 @@ window.DASH = {
 "Catholic University Law Review",
 "Minnesota Law Review"
 ],
-"sample": "Congress Protected the Troops: Can the\nNew CFPB Protect Civilians from\nPayday Lending?"
+"titles": [
+{
+"year": 2012,
+"title": "Congress Protected the Troops: Can the\nNew CFPB Protect Civilians from\nPayday Lending?"
+},
+{
+"year": 2011,
+"title": "America’s First Consumer Financial Watchdog Is on a Leash: Can the CFPB Use Its Authority to Declare Payday-Loan Practices Unfair, Abusive, and Deceptive?"
+},
+{
+"year": 2002,
+"title": "Payday Loans: Shrewd Business or Predatory Lending?"
+}
+]
 },
 {
 "rank": 92,
@@ -4062,7 +6598,20 @@ window.DASH = {
 "Minnesota Law Review",
 "Fordham Faculty Scholarship"
 ],
-"sample": "What Would We Do Without Them: Whistleblowers in the Era of Sarbanes-Oxley and Dodd-Frank"
+"titles": [
+{
+"year": 2017,
+"title": "What Would We Do Without Them: Whistleblowers in the Era of Sarbanes-Oxley and Dodd-Frank"
+},
+{
+"year": 2014,
+"title": "Substituted Compliance and Systemic Risk: How to Make a Global Market in Derivatives Regulation"
+},
+{
+"year": 2012,
+"title": "Governing Systemic Risk: Towards a Governance Structure for Derivatives Clearhouses"
+}
+]
 },
 {
 "rank": 93,
@@ -4085,7 +6634,20 @@ window.DASH = {
 "SSRN Electronic Journal",
 "Journal of Financial Regulation"
 ],
-"sample": "Always Crashing in the Same Car—Clearinghouse Rescue in the United States under Dodd–Frank"
+"titles": [
+{
+"year": 2017,
+"title": "Always Crashing In The Same Car – Clearinghouse Rescue After Dodd-Frank"
+},
+{
+"year": 2017,
+"title": "Always Crashing in the Same Car—Clearinghouse Rescue in the United States under Dodd–Frank"
+},
+{
+"year": 2008,
+"title": "The Sale of the Century and Its Impact on Asset Securitization: Lehman Brothers"
+}
+]
 },
 {
 "rank": 94,
@@ -4112,7 +6674,20 @@ window.DASH = {
 "Michigan Faculty Scholarship",
 "SSRN Electronic Journal"
 ],
-"sample": "Should Central Banks Use Distributed Ledger Technology and Digital Currencies to Advance Financial Inclusion?"
+"titles": [
+{
+"year": 2021,
+"title": "Central Bank of the Future Summary and Recommendations for Further Inquiry"
+},
+{
+"year": 2021,
+"title": "Should Central Banks Use Distributed Ledger Technology and Digital Currencies to Advance Financial Inclusion?"
+},
+{
+"year": 2020,
+"title": "Building the Payment System of the Future: How Central Banks Can Improve Payments to Enhance Financial Inclusion"
+}
+]
 },
 {
 "rank": 95,
@@ -4138,7 +6713,20 @@ window.DASH = {
 "venues": [
 "Abapreview"
 ],
-"sample": "Does the National Bank Act Preempt a State Law That Requires Banks to Pay Interest on Mortgage-Escrow Accounts?"
+"titles": [
+{
+"year": 2024,
+"title": "Does the National Bank Act Preempt a State Law That Requires Banks to Pay Interest on Mortgage-Escrow Accounts?"
+},
+{
+"year": 2023,
+"title": "Is the Consumer Financial Protection Bureau's Payday Lending Rule Invalid because the Bureau Receives Its Budget from the Federal Reserve System, and Not a Direct Annual Appropriation from Congress?"
+},
+{
+"year": 2020,
+"title": "Does the For-Cause Removal Provision for the Director of the Consumer Financial Protection Bureau Impermissibly Encroach on the President's Constitutional Power to Direct and Control the Executive Branch - If So, is It Severable from the Rest of the Dodd-Frank Act?"
+}
+]
 },
 {
 "rank": 96,
@@ -4166,7 +6754,20 @@ window.DASH = {
 "William & Mary Business Law Review",
 "Hastings International Comparative Law Review"
 ],
-"sample": "Disciplining CBDCs: Achieving the Balance between Privacy Protection and Central Bank Independence"
+"titles": [
+{
+"year": 2022,
+"title": "Disciplining CBDCs: Achieving the Balance between Privacy Protection and Central Bank Independence"
+},
+{
+"year": 2020,
+"title": "Should The Proud Dragon Repent? A Relative Theory for China’s State Capitalist Banking Sector Based On East Asia’s Experience"
+},
+{
+"year": 2018,
+"title": "Government Ownership of Banks: A Curse or a Blessing for the United States?"
+}
+]
 },
 {
 "rank": 97,
@@ -4185,7 +6786,16 @@ window.DASH = {
 "Vanderbilt Law Review",
 "eYLS (Yale Law School)"
 ],
-"sample": "Regulating Fintech"
+"titles": [
+{
+"year": 2018,
+"title": "Financial Regulation in the Bitcoin Era"
+},
+{
+"year": 2018,
+"title": "Regulating Fintech"
+}
+]
 },
 {
 "rank": 98,
@@ -4205,7 +6815,20 @@ window.DASH = {
 "SSRN Electronic Journal",
 "UNC Faculty Scholarship"
 ],
-"sample": "Bankrupt Crypto Organizations"
+"titles": [
+{
+"year": 2025,
+"title": "Bankrupt Crypto Organizations"
+},
+{
+"year": 2024,
+"title": "Crypto Failure in the Shadows"
+},
+{
+"year": 2022,
+"title": "The Private Law of Stablecoins"
+}
+]
 },
 {
 "rank": 99,
@@ -4232,7 +6855,20 @@ window.DASH = {
 "Duke Faculty Scholarship",
 "Duke Law Journal"
 ],
-"sample": "Adaptive Financial Regulation and RegTech: A Concept Article on Realistic Protection for Victims of Bank Failures"
+"titles": [
+{
+"year": 2016,
+"title": "Adaptive Financial Regulation and RegTech: A Concept Article on Realistic Protection for Victims of Bank Failures"
+},
+{
+"year": 2012,
+"title": "A Current Assessment of Some Extraterritorial Impacts of the Dodd-Frank Act with Special Focus on the Volcker Rule and Derivatives Regulation"
+},
+{
+"year": 2010,
+"title": "The Internationalization of Law: The “Complex” Case of Bank Regulation"
+}
+]
 },
 {
 "rank": 100,
@@ -4260,2589 +6896,20 @@ window.DASH = {
 "Georgia Law Review",
 "Mjlr"
 ],
-"sample": "Decentralized Finance: Regulating Cryptocurrency Exchanges"
-},
-{
-"rank": 101,
-"name": "Partnoy, Frank",
-"n": 3,
-"first": 2006,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Securitization & structured finance",
-"n": 1
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal",
-"Washington Law Review"
-],
-"sample": "What’s (Still) Wrong with Credit Ratings?"
-},
-{
-"rank": 102,
-"name": "Feinstein, Brian D.",
-"n": 3,
-"first": 2020,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "UNCLASSIFIED",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal",
-"Journal of Financial Regulation"
-],
-"sample": "Board Diversity Matters: An Empirical Assessment of Community Lending at Federal Reserve-Regulated Banks"
-},
-{
-"rank": 103,
-"name": "Pagano, Marco",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 104,
-"name": "Bodellini, Marco",
-"n": 2,
-"first": 2016,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-}
-],
-"venues": [
-"Brooklyn Journal of Corporate, Financial & Commercial Law",
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 105,
-"name": "Lamandini, Marco",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 106,
-"name": "Buchheit, Lee C.",
-"n": 2,
-"first": 2007,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Other / international banking",
-"n": 2
-}
-],
-"venues": [
-"Law and Contemporary Problems",
-"Capital Markets Law Journal"
-],
-"sample": "Sovereign debt restructuring and US executive power"
-},
-{
-"rank": 107,
-"name": "Morais, Luís Silva",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 108,
-"name": "Blanco, Luisa",
-"n": 2,
-"first": 2016,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Pepperdine Faculty Publications"
-],
-"sample": "Understanding the Racial/Ethnic Gap in Bank Account Ownership among Older Adults"
-},
-{
-"rank": 109,
-"name": "Smeehuijzen, Lodewijk",
-"n": 2,
-"first": 2018,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 2
-}
-],
-"venues": [
-"Cornell International Law Journal",
-"UNC Faculty Scholarship"
-],
-"sample": "Can Soft Regulation Prevent Financial Crises?: The Dutch Central Bank's Supervision of Behavior and Culture"
-},
-{
-"rank": 110,
-"name": "Abramowicz, Michael B.",
-"n": 2,
-"first": 2015,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"GW Law Faculty Publications"
-],
-"sample": "Autonocoin: A Proof-of-Belief Cryptocurrency"
-},
-{
-"rank": 111,
-"name": "Belle, Megan M. La",
-"n": 2,
-"first": 2014,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"eYLS (Yale Law School)"
-],
-"sample": "Fintech: New Battle Lines in the Patent Wars?"
-},
-{
-"rank": 112,
-"name": "Lehmann, Matthias",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 113,
-"name": "Stojkovic, Marko",
-"n": 2,
-"first": 2016,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Loyola Public Interest Law Reporter"
-],
-"sample": "The Dodd-Frank Solution to Predatory Lending"
-},
-{
-"rank": 114,
-"name": "Levi, Michael",
-"n": 2,
-"first": 2024,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Anti-Money Laundering: An Inquiry into a Disciplinary Transnational Legal Order"
-},
-{
-"rank": 115,
-"name": "Taylor, Michael W.",
-"n": 2,
-"first": 2003,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Glass-Steagall, GLBA & bank-securities boundary",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"eYLS (Yale Law School)"
-],
-"sample": "Regulatory Reform in the U.K."
-},
-{
-"rank": 116,
-"name": "Greenberger, Michael",
-"n": 2,
-"first": 2011,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"Journal of Business & Technology Law"
-],
-"sample": "Too Big to Fail — U.S. Banks’ Regulatory Alchemy: Converting an Obscure Agency Footnote into an “At Will” Nullification of Dodd-Frank’s Regulation of the Multi-Trillion Dollar Financial Swaps Market"
-},
-{
-"rank": 117,
-"name": "Pasley, Robert S.",
-"n": 2,
-"first": 2002,
-"last": 2005,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 2
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Recent Developments in Bank Secrecy Act Enforcement"
-},
-{
-"rank": 118,
-"name": "Alexander, Ronald E.",
-"n": 2,
-"first": 2015,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 2
-}
-],
-"venues": [
-"Akronlawreview"
-],
-"sample": "Developments in Ohio Savings and Loan Law: 1980"
-},
-{
-"rank": 119,
-"name": "Kini, Satish M.",
-"n": 2,
-"first": 2002,
-"last": 2006,
-"aff": "",
-"topics": [
-{
-"topic": "Glass-Steagall, GLBA & bank-securities boundary",
-"n": 1
-},
-{
-"topic": "Data privacy & cybersecurity",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Notice Requirements: Common Themes and Differences in the Regulatory and Legislative Responses to Data Security Breaches"
-},
-{
-"rank": 120,
-"name": "Buckley, Ross",
-"n": 2,
-"first": 2020,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law",
-"Law Journal Law Policy"
-],
-"sample": "Governing FinTech 4.0: BigTech, Platform Finance, and Sustainable Development"
-},
-{
-"rank": 121,
-"name": "Angrisani, Marco",
-"n": 2,
-"first": 2016,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Pepperdine Faculty Publications"
-],
-"sample": "Understanding the Racial/Ethnic Gap in Bank Account Ownership among Older Adults"
-},
-{
-"rank": 122,
-"name": "Greenlee, Mark B.",
-"n": 2,
-"first": 2021,
-"last": 2025,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Commercial lending, secured transactions & UCC",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Color in Line: Discrimination Against People of Color at the Deposit Window"
-},
-{
-"rank": 123,
-"name": "Casey, Anthony J",
-"n": 2,
-"first": 2014,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 2
-}
-],
-"venues": [
-"Notre Dame Law Review",
-"Housing Law And Policy"
-],
-"sample": "A Framework for Bailout Regulation"
-},
-{
-"rank": 124,
-"name": "Helfer, Michael",
-"n": 2,
-"first": 2013,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Bank Directors: Heightened Expectations and Blurred Lines in a Changing Regulatory Framework, A Conversation from The Clearing House Annual Conference (Moderators: Lissa L. Broome and Derek M. Bush)"
-},
-{
-"rank": 125,
-"name": "Alibrandi, Antonella Sciarrone",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 126,
-"name": "Schwartz, Paul M.",
-"n": 2,
-"first": 2002,
-"last": 2006,
-"aff": "",
-"topics": [
-{
-"topic": "Glass-Steagall, GLBA & bank-securities boundary",
-"n": 1
-},
-{
-"topic": "Data privacy & cybersecurity",
-"n": 1
-}
-],
-"venues": [
-"Minnesota Law Review",
-"eYLS (Yale Law School)"
-],
-"sample": "Notification of Data Security Breaches"
-},
-{
-"rank": 127,
-"name": "Martin, Nathalie",
-"n": 2,
-"first": 2020,
-"last": 2020,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"eYLS (Yale Law School)",
-"SSRN Electronic Journal"
-],
-"sample": "Fintech's Role In Exacerbating or Reducing The Wealth Gap"
-},
-{
-"rank": 128,
-"name": "Yahya, Moin A.",
-"n": 2,
-"first": 2022,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"Scitech",
-"Jtlp"
-],
-"sample": "In Defense of the Free-Banking Stablecoins"
-},
-{
-"rank": 129,
-"name": "Siri, Michele",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 130,
-"name": "Farrell, Scott",
-"n": 2,
-"first": 2022,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Journal of Business & Technology Law",
-"Florida Journal of International Law"
-],
-"sample": "Embedding Open Banking in Banking Law: Responsibilities, Performance, Risk and Trust"
-},
-{
-"rank": 131,
-"name": "Boyack, Andrea J.",
-"n": 2,
-"first": 2010,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"American University Law Review",
-"Ebdj"
-],
-"sample": "Just Consumer Financial Protection: Prevention or Cure"
-},
-{
-"rank": 132,
-"name": "Painter, Richard W.",
-"n": 2,
-"first": 2010,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"eYLS (Yale Law School)",
-"Minnesota Faculty Articles"
-],
-"sample": "The Dodd-Frank Extraterritorial Jurisdiction Provision: Was It Effective, Needed or Sufficient?"
-},
-{
-"rank": 133,
-"name": "Neiman, Richard",
-"n": 2,
-"first": 2008,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"eYLS (Yale Law School)"
-],
-"sample": "Effective Compliance Risk Management in a Rapidly Changing Regulatory Environment: A Conversation from the Clearinghouse Annual Conference"
-},
-{
-"rank": 134,
-"name": "Karmel, Roberta S.",
-"n": 2,
-"first": 2011,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 2
-}
-],
-"venues": [
-"Hastings Law Journal",
-"Brooklyn Faculty Scholarship"
-],
-"sample": "Is the Public Utility Holding Company Act a Model for Breaking Up the Banks That Are Too-Big-to-Fail?"
-},
-{
-"rank": 135,
-"name": "Phillips, Todd",
-"n": 2,
-"first": 2022,
-"last": 2025,
-"aff": "",
-"topics": [
-{
-"topic": "Deposit insurance & FDIC",
-"n": 2
-}
-],
-"venues": [
-"Marquette Law Review",
-"Dlj Online"
-],
-"sample": "Regulation by Deposit Insurance"
-},
-{
-"rank": 136,
-"name": "Vermeule, Adrian",
-"n": 2,
-"first": 2003,
-"last": 2009,
-"aff": "",
-"topics": [
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"The University of Chicago Law Review",
-"The Journal of Legal Analysis"
-],
-"sample": "Many-Minds Arguments in Legal Theory"
-},
-{
-"rank": 137,
-"name": "White, Alan M.",
-"n": 2,
-"first": 2012,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Washington and Lee Law Review",
-"Loyola Consumer Law Review"
-],
-"sample": "Credit and Human Welfare: Lessons\nfrom Microcredit in Developing Nations"
-},
-{
-"rank": 138,
-"name": "Semeraro, Steven",
-"n": 2,
-"first": 2012,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"Loyola Consumer Law Review",
-"Columbia Business Law Review"
-],
-"sample": "Settlement Without Consent: Assessing the Credit Card Merchant Fee Class Action"
-},
-{
-"rank": 139,
-"name": "Halliday, Terence C.",
-"n": 2,
-"first": 2024,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Anti-Money Laundering: An Inquiry into a Disciplinary Transnational Legal Order"
-},
-{
-"rank": 140,
-"name": "Romano, Alessandro",
-"n": 2,
-"first": 2020,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-}
-],
-"venues": [
-"eYLS (Yale Law School)",
-"Minnesota law review"
-],
-"sample": "Green Gatekeepers"
-},
-{
-"rank": 141,
-"name": "Ramirez, Steven A.",
-"n": 2,
-"first": 2009,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Stress testing & macroprudential supervision",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Saint Louis University Law Journal",
-"Chapman Law Review"
-],
-"sample": "Dodd-Frank as Maginot Line"
-},
-{
-"rank": 142,
-"name": "Steinway, Sonia",
-"n": 2,
-"first": 2012,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law"
-],
-"sample": "Skeletons in the Database: An Early Analysis of the CFPB's Consumer Complaints"
-},
-{
-"rank": 143,
-"name": "Chu, Stephen P.",
-"n": 2,
-"first": 2008,
-"last": 2008,
-"aff": "",
-"topics": [
-{
-"topic": "Shadow banking & nonbank financial intermediation",
-"n": 2
-}
-],
-"venues": [
-"Columbia Business Law Review"
-],
-"sample": "Job Well Done: Preventing the Use of Private Placement Life Insurance to Wrap Hedge Fund Investments"
-},
-{
-"rank": 144,
-"name": "Zywicki, Todd J.",
-"n": 2,
-"first": 2010,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Washington and Lee Law Review",
-"Loyola Consumer Law Review"
-],
-"sample": "The Economics and Regulation of Bank\nOverdraft Protection"
-},
-{
-"rank": 145,
-"name": "Filippone, Agostino S.",
-"n": 2,
-"first": 2012,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "Bank fraud, enforcement & litigation",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"Loyola Consumer Law Review"
-],
-"sample": "Recent Developments in Mortgage Foreclosure Process Provides Relief to Consumers"
-},
-{
-"rank": 146,
-"name": "Wetzer, Thom",
-"n": 2,
-"first": 2022,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Climate & ESG banking regulation",
-"n": 2
-}
-],
-"venues": [
-"Columbia Business Law Review"
-],
-"sample": "Mandatory Corporate Climate Disclosures: Now, But How?"
-},
-{
-"rank": 147,
-"name": "Fitzpatrick, Thomas J.",
-"n": 2,
-"first": 2011,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Securitization & structured finance",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Complexity, Complicity, and Liability Up the Securitization Food Chain: Investor and Arranger Exposure to Consumer Claims"
-},
-{
-"rank": 148,
-"name": "Joo, Thomas W.",
-"n": 2,
-"first": 2011,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 1
-},
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-}
-],
-"venues": [
-"Brooklyn Journal of Corporate, Financial & Commercial Law",
-"Loyola University Chicago Law Journal"
-],
-"sample": "Lehman 10 Years Later: The Dodd-Frank Rollback"
-},
-{
-"rank": 149,
-"name": "Hazen, Thomas Lee",
-"n": 2,
-"first": 2009,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 2
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Stock Broker Fiduciary Duties and the Impact of the Dodd-Frank Act"
-},
-{
-"rank": 150,
-"name": "Meyer, Timothy",
-"n": 2,
-"first": 2010,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"The Journal of Legal Analysis",
-"eYLS (Yale Law School)"
-],
-"sample": "Saving the Political Consensus in Favor of Free Trade"
-},
-{
-"rank": 151,
-"name": "Johnson, Simon",
-"n": 2,
-"first": 2013,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"SSRN Electronic Journal"
-],
-"sample": "Keynote Address: The Continuing Problem of Too Big to Fail"
-},
-{
-"rank": 152,
-"name": "Green, Shelby D.",
-"n": 2,
-"first": 2017,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Federal preemption & dual banking system",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"Cleveland State Law Review",
-"American University Business Law Review"
-],
-"sample": "Non-Debt and Non-Bank Financing for Home Purchase: Promises and Risks"
-},
-{
-"rank": 153,
-"name": "Van Loo, Rory",
-"n": 2,
-"first": 2022,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-},
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-}
-],
-"venues": [
-"Northwestern University Law Review",
-"Vanderbilt Law Review"
-],
-"sample": "Against Monetary Primacy"
-},
-{
-"rank": 154,
-"name": "Kim, Peter S.",
-"n": 2,
-"first": 2008,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Deposit insurance & FDIC",
-"n": 1
-},
-{
-"topic": "Shadow banking & nonbank financial intermediation",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"Columbia Business Law Review"
-],
-"sample": "The FDIC's Special Assessment: Basing Deposit Insurance on Assets Instead of Deposits"
-},
-{
-"rank": 155,
-"name": "Reuter, Peter H.",
-"n": 2,
-"first": 2024,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Anti-Money Laundering: An Inquiry into a Disciplinary Transnational Legal Order"
-},
-{
-"rank": 156,
-"name": "Garcia, Rebecca",
-"n": 2,
-"first": 2019,
-"last": 2020,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Loyola Consumer Law Review"
-],
-"sample": "CFPB Seeks to Further Strategy to Prevent Consumer Harm"
-},
-{
-"rank": 157,
-"name": "Tuch, Andrew F.",
-"n": 2,
-"first": 2020,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-}
-],
-"venues": [
-"Law Journal Law Policy",
-"Minnesota law review"
-],
-"sample": "Green Gatekeepers"
-},
-{
-"rank": 158,
-"name": "Manns, Jeffrey",
-"n": 2,
-"first": 2008,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"Florida Law Review",
-"GW Law Faculty Publications"
-],
-"sample": "Building Better Bailouts: The Case for a Long-Term Investment Approach"
-},
-{
-"rank": 159,
-"name": "Conley, John M",
-"n": 2,
-"first": 2018,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 2
-}
-],
-"venues": [
-"Cornell International Law Journal",
-"UNC Faculty Scholarship"
-],
-"sample": "Can Soft Regulation Prevent Financial Crises?: The Dutch Central Bank's Supervision of Behavior and Culture"
-},
-{
-"rank": 160,
-"name": "Coffee Jr., John C.",
-"n": 2,
-"first": 2011,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-}
-],
-"venues": [
-"Cornell Law Review",
-"Columbia Business Law Review"
-],
-"sample": "The Future of Disclosure: ESG, Common Ownership, and Systematic Risk"
-},
-{
-"rank": 161,
-"name": "Armour, John",
-"n": 2,
-"first": 2022,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Climate & ESG banking regulation",
-"n": 2
-}
-],
-"venues": [
-"Columbia Business Law Review"
-],
-"sample": "Mandatory Corporate Climate Disclosures: Now, But How?"
-},
-{
-"rank": 162,
-"name": "Annunziata, Filippo",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 163,
-"name": "Hirsch Jr., Frank A.",
-"n": 2,
-"first": 2008,
-"last": 2009,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-},
-{
-"topic": "Bank M&A, chartering, branching",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Whither Wachovia - Wells Fargo Wins the Battle for the Storied North Carolina Banking Institution"
-},
-{
-"rank": 164,
-"name": "Gulati, G. Mitu",
-"n": 2,
-"first": 2007,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Other / international banking",
-"n": 2
-}
-],
-"venues": [
-"eYLS (Yale Law School)",
-"Capital Markets Law Journal"
-],
-"sample": "Sovereign debt restructuring and US executive power"
-},
-{
-"rank": 165,
-"name": "Sitaraman, Ganesh",
-"n": 2,
-"first": 2014,
-"last": 2020,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-},
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "The Political Economy of the Removal Power"
-},
-{
-"rank": 166,
-"name": "Gorton, Gary B.",
-"n": 2,
-"first": 2023,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"University of Chicago Law Review",
-"Michigan Faculty Scholarship"
-],
-"sample": "Bank Runs During Crypto Winter"
-},
-{
-"rank": 167,
-"name": "Review, Georgia State University Law",
-"n": 2,
-"first": 2003,
-"last": 2007,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"Georgia State University Law Review"
-],
-"sample": "CRIMES AND OFFENSES Payday Lending:  Amend Title 7 of the Official Code of Georgia Annotated, Relating to Banking and Finance, so as to Provide for Licensing of Persons Who Provide Deferred Presentment Services; Provide for a Short Title; Define Certain Terms; Provide for Licenses, Qualifications, and Application Therefore; Provide for Fees; Provide for Limitations; Provide for Consumer Notices; Provide for Rules and Regulations; Provide for Penalties and Hearings; Provide for Complaint Investigation; Provide for Annual Reports; Amend Chapter 17 of Title 16 of the Official Code of Georgia Annotated, Relating to Payday Lending, so as to Delete References to Deferred Presentments as Payday Loans; Prevent Unlicensed Payday Lenders from Operating in this State; Provide for Legislative Findings; Provide for Related Matters; Provide for Severability; Provide for Preemption; Provide an Effective Date; Repeal Conflicting Laws; and for Other Purposes"
-},
-{
-"rank": 168,
-"name": "Anabtawi, Iman",
-"n": 2,
-"first": 2011,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"Ndlr",
-"Duke Faculty Scholarship"
-],
-"sample": "Regulating Systemic Risk: Towards an Analytical Framework"
-},
-{
-"rank": 169,
-"name": "Braucher, Jean",
-"n": 2,
-"first": 2003,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Payments systems & Fed services",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"Brooklyn Journal of Corporate, Financial & Commercial Law"
-],
-"sample": "Form and Substance in Consumer Financial Protection"
-},
-{
-"rank": 170,
-"name": "Chiu, Iris H-Y",
-"n": 2,
-"first": 2022,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"Vanderbilt Journal of Transnational Law",
-"Ncilj"
-],
-"sample": "Protecting What Matters: Reflections on a Central Bank's Role at Times of War"
-},
-{
-"rank": 171,
-"name": "Orescanin, James",
-"n": 2,
-"first": 2018,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Loyola Consumer Law Review"
-],
-"sample": "The CFPB's New Direction"
-},
-{
-"rank": 172,
-"name": "Spindler, James C.",
-"n": 2,
-"first": 2016,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Capital requirements & Basel III/IV",
-"n": 1
-}
-],
-"venues": [
-"William & Mary Law Review",
-"Indiana Law Journal"
-],
-"sample": "Shaq, <em>Ripple</em>, and the Future of Crypto Regulation"
-},
-{
-"rank": 173,
-"name": "Solana, Javier",
-"n": 2,
-"first": 2019,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 2
-}
-],
-"venues": [
-"University of Miami Business Law Review"
-],
-"sample": "Bank Resolution and Creditor Distribution: The Tension Shaping Global Banking – Part I: “External and Intra-Group Funding” and “Ex Ante planning v. Ex Post Execution” Dimensions*"
-},
-{
-"rank": 174,
-"name": "Ayres, Ian",
-"n": 2,
-"first": 2013,
-"last": 2014,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law",
-"eYLS (Yale Law School)"
-],
-"sample": "Anti-Herding Regulation"
-},
-{
-"rank": 175,
-"name": "Engoron, Ian A.",
-"n": 2,
-"first": 2017,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law"
-],
-"sample": "A Novel Approach to Defining \"Whistleblower\" in Dodd-Frank"
-},
-{
-"rank": 176,
-"name": "Peirce, Hester",
-"n": 2,
-"first": 2014,
-"last": 2016,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Money market funds & repo",
-"n": 1
-}
-],
-"venues": [
-"Cleveland State Law Review",
-"Pace Law Review"
-],
-"sample": "Derivatives Clearinghouses: Clearing the Way to Failure"
-},
-{
-"rank": 177,
-"name": "George, Barbara Crutchfield",
-"n": 2,
-"first": 2002,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Northwestern Journal of International Law & Business",
-"Florida Journal of International Law"
-],
-"sample": "The End of an Era of Limited Oversight: The Restructured Regulatory Landscape of Private Investment Funds Through the U.S. Dodd-Frank Act and the E.U. Alternative Investment Fund Managers Directive"
-},
-{
-"rank": 178,
-"name": "Almond, Joshua S.",
-"n": 2,
-"first": 2023,
-"last": 2025,
-"aff": "",
-"topics": [
-{
-"topic": "Commercial lending, secured transactions & UCC",
-"n": 1
-},
-{
-"topic": "Deposit insurance & FDIC",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "An Analysis of FDIC Misrepresentation Prevention Through the Lens of the Lanham Act"
-},
-{
-"rank": 179,
-"name": "Nygaard, Kaleb B",
-"n": 2,
-"first": 2022,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "UNCLASSIFIED",
-"n": 1
-},
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "The Federal Reserve System: Diversity and Governance&amp;nbsp;"
-},
-{
-"rank": 180,
-"name": "Howell-Best, Katherine E.",
-"n": 2,
-"first": 2002,
-"last": 2003,
-"aff": "",
-"topics": [
-{
-"topic": "Bank M&A, chartering, branching",
-"n": 1
-},
-{
-"topic": "Commercial lending, secured transactions & UCC",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Can Credit Union Member Business Loans Meet the Need for More Credit to Small Businesses"
-},
-{
-"rank": 181,
-"name": "Thrasher, Karin",
-"n": 2,
-"first": 2021,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"Mjlr",
-"Michigan Faculty Scholarship"
-],
-"sample": "The Fed of the Future: A Framework to Optimize Short-Term Lending Practices"
-},
-{
-"rank": 182,
-"name": "Chueh, Kuang-Wei",
-"n": 2,
-"first": 2008,
-"last": 2008,
-"aff": "",
-"topics": [
-{
-"topic": "Shadow banking & nonbank financial intermediation",
-"n": 2
-}
-],
-"venues": [
-"Columbia Business Law Review"
-],
-"sample": "Is Hedge Fund Activism New Hope for the Market?"
-},
-{
-"rank": 183,
-"name": "Eggert, Kurt",
-"n": 2,
-"first": 2009,
-"last": 2011,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Securitization & structured finance",
-"n": 1
-}
-],
-"venues": [
-"Chapman Law Review",
-"Connecticut Law Review"
-],
-"sample": "Foreclosing on the Federal Power Grab: Dodd-Frank, Preemption, and the State Role in Mortgage Servicing Regulation"
-},
-{
-"rank": 184,
-"name": "Johnston, Kenneth C.",
-"n": 2,
-"first": 2008,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-},
-{
-"topic": "Bank fraud, enforcement & litigation",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Ponzi Schemes and Litigation Risks: What Every Financial Services Company Should Know"
-},
-{
-"rank": 185,
-"name": "Hylton, Keith N.",
-"n": 2,
-"first": 2000,
-"last": 2006,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Community banks & regulatory tiering",
-"n": 1
-}
-],
-"venues": [
-"Lawreview",
-"Yale journal on regulation"
-],
-"sample": "DEVELOPMENT LENDING AND THE COMMUNITY REINVESTMENT ACT"
-},
-{
-"rank": 186,
-"name": "Hunt, John Patrick",
-"n": 2,
-"first": 2011,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 1
-},
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-}
-],
-"venues": [
-"Washington and Lee Law Review",
-"Columbia Business Law Review"
-],
-"sample": "Green Bond Reporting: John Patrick Hunt"
-},
-{
-"rank": 187,
-"name": "Younger, Josh",
-"n": 2,
-"first": 2025,
-"last": 2025,
-"aff": "",
-"topics": [
-{
-"topic": "Federal Reserve governance & agency independence",
-"n": 1
-},
-{
-"topic": "UNCLASSIFIED",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "One System, Two Mandates: The Fed and Orderly Markets in Government Debt"
-},
-{
-"rank": 188,
-"name": "Clarke, Blánaid",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 189,
-"name": "Hummel, Joseph",
-"n": 2,
-"first": 2008,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-},
-{
-"topic": "Bank fraud, enforcement & litigation",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Ponzi Schemes and Litigation Risks: What Every Financial Services Company Should Know"
-},
-{
-"rank": 190,
-"name": "Joosen, E.P.M.",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 191,
-"name": "Aguila, Emma",
-"n": 2,
-"first": 2016,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Pepperdine Faculty Publications"
-],
-"sample": "Understanding the Racial/Ethnic Gap in Bank Account Ownership among Older Adults"
-},
-{
-"rank": 192,
-"name": "Chaffee, Eric C.",
-"n": 2,
-"first": 2010,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Washington and Lee Law Review",
-"American University Law Review"
-],
-"sample": "Regulating Online Peer-to-Peer\nLending in the Aftermath of\nDodd–Frank: In Search of an\nEvolving Regulatory Regime\nfor an Evolving Industry"
-},
-{
-"rank": 193,
-"name": "Chason, Eric D.",
-"n": 2,
-"first": 2012,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-}
-],
-"venues": [
-"William & Mary Law Review",
-"Louisiana Law Review"
-],
-"sample": "Regulating Crypto, On and Off the Chain"
-},
-{
-"rank": 194,
-"name": "Dana, David A.",
-"n": 2,
-"first": 2010,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"Fordham Urban Law Journal",
-"Loyola Consumer Law Review"
-],
-"sample": "Why Mortgage \"Formalities\" Matter"
-},
-{
-"rank": 195,
-"name": "Busch, Danny",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 196,
-"name": "Min, David",
-"n": 2,
-"first": 2016,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 2
-}
-],
-"venues": [
-"Seattle University Law Review",
-"Loyola University Chicago Law Journal"
-],
-"sample": "Federalizing Bank Governance"
-},
-{
-"rank": 197,
-"name": "Evans, David S.",
-"n": 2,
-"first": 2005,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-}
-],
-"venues": [
-"Loyola Consumer Law Review",
-"Columbia Business Law Review"
-],
-"sample": "The Effect of the Consumer Financial Protection Agency Act of 2009 on Consumer Credit"
-},
+"titles": [
 {
-"rank": 198,
-"name": "Ramos, David",
-"n": 2,
-"first": 2019,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 2
-}
-],
-"venues": [
-"University of Miami Business Law Review"
-],
-"sample": "Bank Resolution and Creditor Distribution: The Tension Shaping Global Banking – Part I: “External and Intra-Group Funding” and “Ex Ante planning v. Ex Post Execution” Dimensions*"
-},
-{
-"rank": 199,
-"name": "Rupp, Deborah E.",
-"n": 2,
-"first": 2018,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 2
-}
-],
-"venues": [
-"Cornell International Law Journal",
-"UNC Faculty Scholarship"
-],
-"sample": "Can Soft Regulation Prevent Financial Crises?: The Dutch Central Bank's Supervision of Behavior and Culture"
-},
-{
-"rank": 200,
-"name": "Pridgen, Dee",
-"n": 2,
-"first": 2012,
-"last": 2013,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"Wyoming Law Review",
-"Loyola Consumer Law Review"
-],
-"sample": "Sea Changes in Consumer Financial Protection: Stronger Agency and Stronger Laws"
-},
-{
-"rank": 201,
-"name": "Mu&ntilde;oz, David Ramos",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 202,
-"name": "Schiltz, Elizabeth R.",
-"n": 2,
-"first": 2004,
-"last": 2007,
-"aff": "",
-"topics": [
-{
-"topic": "Federal preemption & dual banking system",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"Florida State University Law Review",
-"Minnesota Law Review"
-],
-"sample": "Damning <em>Watters</em>: Channeling the Power of Federal Preemption of State Consumer Banking Laws"
-},
-{
-"rank": 203,
-"name": "Griffith, Elwin",
-"n": 2,
-"first": 2007,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"San Diego Law Review",
-"Akronlawreview"
-],
-"sample": "Challenges Under Truth In Lending: Suing For Rescission, Giving Clear and Conspicuous Notice, and Electing Not To Rescind"
-},
-{
-"rank": 204,
-"name": "Arner, Douglas",
-"n": 2,
-"first": 2020,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law",
-"Law Journal Law Policy"
-],
-"sample": "Governing FinTech 4.0: BigTech, Platform Finance, and Sustainable Development"
-},
-{
-"rank": 205,
-"name": "Renuart, Elizabeth",
-"n": 2,
-"first": 2006,
-"last": 2007,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 1
-},
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute",
-"SSRN Electronic Journal"
-],
-"sample": "The Legal Infrastructure of Subprime and Nontraditional Home Mortgages"
-},
-{
-"rank": 206,
-"name": "Langevoort, Donald C.",
-"n": 2,
-"first": 2004,
-"last": 2009,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Securitization & structured finance",
-"n": 1
-}
-],
-"venues": [
-"Washington and Lee law review",
-"University of Pittsburgh Law Review"
-],
-"sample": "Brokers As Fiduciaries"
-},
-{
-"rank": 207,
-"name": "Lampe, Donald C.",
-"n": 2,
-"first": 2009,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "The Consumer Financial Protection Bureau at Five: A Survey of the Bureau's Activities"
-},
-{
-"rank": 208,
-"name": "Zetzsche, Dirk",
-"n": 2,
-"first": 2020,
-"last": 2022,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"Fordham Journal of Corporate & Financial Law",
-"Law Journal Law Policy"
-],
-"sample": "Governing FinTech 4.0: BigTech, Platform Finance, and Sustainable Development"
-},
-{
-"rank": 209,
-"name": "Zetzsche, Dirk Andreas",
-"n": 2,
-"first": 2013,
-"last": 2014,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-},
-{
-"topic": "Capital requirements & Basel III/IV",
-"n": 1
-}
-],
-"venues": [
-"European Company and Financial Law Review",
-"SSRN Electronic Journal"
-],
-"sample": "Quack Corporate Governance, Round Ill? Bank Board Regulation Under the New European Capital Requirement Directive"
-},
-{
-"rank": 210,
-"name": "Gortsos, Christos V.",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 211,
-"name": "Swift, Chris",
-"n": 2,
-"first": 2009,
-"last": 2009,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 2
-}
-],
-"venues": [
-"Businessdiss",
-"Financefacpub"
-],
-"sample": "Two Empirical Essays on Mutual Thrift Conversions"
-},
-{
-"rank": 212,
-"name": "Morra, Concetta Brescia",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 213,
-"name": "Frigeni, Claudio",
-"n": 2,
-"first": 2020,
-"last": 2021,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal"
-],
-"sample": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"rank": 214,
-"name": "Waldrep, Carolyn E.",
-"n": 2,
-"first": 2009,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Housing finance & GSE regulation",
-"n": 2
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "The North Carolina Banking Institute Symposium on the Foreclosure Crisis: Overview"
-},
-{
-"rank": 215,
-"name": "Williams, Cynthia A.",
-"n": 2,
-"first": 2018,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 2
-}
-],
-"venues": [
-"Cornell International Law Journal",
-"UNC Faculty Scholarship"
-],
-"sample": "Can Soft Regulation Prevent Financial Crises?: The Dutch Central Bank's Supervision of Behavior and Culture"
-},
-{
-"rank": 216,
-"name": "Milhaupt, Curtis J.",
-"n": 2,
-"first": 2001,
-"last": 2014,
-"aff": "",
-"topics": [
-{
-"topic": "Bank governance, executive comp, culture",
-"n": 2
-}
-],
-"venues": [
-"Columbia Business Law Review",
-"University of Pennsylvania Law Review"
-],
-"sample": "Corporate Governance and Executive Compensation: Evidence From Japan"
-},
-{
-"rank": 217,
-"name": "Howard, Cory",
-"n": 2,
-"first": 2017,
-"last": 2018,
-"aff": "",
-"topics": [
-{
-"topic": "AML / BSA / sanctions",
-"n": 2
-}
-],
-"venues": [
-"Transactions: The Tennessee Journal of Business Law",
-"University of Memphis Law Review"
-],
-"sample": "Financial Crimes Compliance Self Governance: Applying the Faragher\nDefense to Bank Secrecy Act/Anti Money Laundering Violations"
-},
-{
-"rank": 218,
-"name": "O'Brien, Carrie A.",
-"n": 2,
-"first": 2001,
-"last": 2005,
-"aff": "",
-"topics": [
-{
-"topic": "Payments systems & Fed services",
-"n": 1
-},
-{
-"topic": "Consumer financial protection",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Payroll Cards: Would You Like Your Pay with Those Fries"
+"year": 2020,
+"title": "Decentralized Finance: Regulating Cryptocurrency Exchanges"
 },
 {
-"rank": 219,
-"name": "Calomiris, Charles W.",
-"n": 2,
-"first": 2004,
-"last": 2015,
-"aff": "",
-"topics": [
-{
-"topic": "Securitization & structured finance",
-"n": 1
-},
-{
-"topic": "Capital requirements & Basel III/IV",
-"n": 1
-}
-],
-"venues": [
-"Journal of Financial Services Research",
-"European Economic Review"
-],
-"sample": "How does credit supply respond to monetary policy and bank minimum capital requirements?"
-},
-{
-"rank": 220,
-"name": "Murdock, Charles W.",
-"n": 2,
-"first": 2011,
-"last": 2012,
-"aff": "",
-"topics": [
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-}
-],
-"venues": [
-"SMU Law Review",
-"Denver Law Review"
-],
-"sample": "The Big Banks: Background, Deregulation, Financial Innovation, and Too Big to Fail"
-},
-{
-"rank": 221,
-"name": "Wu, Chi Chi",
-"n": 2,
-"first": 2006,
-"last": 2010,
-"aff": "",
-"topics": [
-{
-"topic": "Consumer financial protection",
-"n": 2
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "Automated Injustice: How a Mechanized Dispute System Frustrates Consumers Seeking to Fix Errors in Their Credit Reports"
-},
-{
-"rank": 222,
-"name": "Chamorro-Courtland, Christian",
-"n": 2,
-"first": 2011,
-"last": 2016,
-"aff": "",
-"topics": [
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Brooklyn Journal of Corporate, Financial & Commercial Law",
-"William & Mary Business Law Review"
-],
-"sample": "Collateral Damage: The Legal and Regulatory Protections for Customer Margin in the U.S. Derivatives Markets"
-},
-{
-"rank": 223,
-"name": "Horn, Charles M.",
-"n": 2,
-"first": 2001,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Data privacy & cybersecurity",
-"n": 1
-},
-{
-"topic": "Federal preemption & dual banking system",
-"n": 1
-}
-],
-"venues": [
-"North Carolina Banking Institute"
-],
-"sample": "The Curious Case of Madden v. Midland Funding and the Survival of the Valid-When-Made Doctrine"
-},
-{
-"rank": 224,
-"name": "Nguyen, Xuan-Thao",
-"n": 2,
-"first": 2021,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Climate & ESG banking regulation",
-"n": 1
-},
-{
-"topic": "Cross-border / international banking",
-"n": 1
-}
-],
-"venues": [
-"Washington Law Review",
-"Brooklyn Law Review"
-],
-"sample": "Too Woke to Fail? ESG and Silicon Valley Bank's Demise"
+"year": 2015,
+"title": "Cyber Risks: Emerging Risk Management Concerns for Financial Institutions"
 },
-{
-"rank": 225,
-"name": "Unterman, Aaron",
-"n": 2,
-"first": 2008,
-"last": 2009,
-"aff": "",
-"topics": [
 {
-"topic": "Securitization & structured finance",
-"n": 2
+"year": 2011,
+"title": "Addressing Gaps in the Dodd-Frank Act: Directors' Risk Management Oversight Obligations"
 }
-],
-"venues": [
-"Hastings Business Law Journal"
-],
-"sample": "Innovative Destruction - Structured Finance and Credit Market Reform in the Bubble Era"
+]
 }
 ],
 "influence": [

@@ -221,7 +221,7 @@
   <section id="scholars"><div class="wrap">
     <p class="seclabel">Who writes it</p>
     <h2>The scholar explorer</h2>
-    <p class="sub">Every author with multiple banking-law articles in the corpus, with their dominant topics and venues. Search by name, school, or topic; click any row for detail; click a column to sort.</p>
+    <p class="sub">The <b>100 most prolific</b> banking-law authors in the corpus, with their dominant topics, venues, and the <b>full list of their banking-law articles</b>. Search by name, school, or topic; click any row to expand a scholar's complete title list; click a column to sort.</p>
     <div class="tools">
       <input type="search" id="scholarSearch" placeholder="Search name, school, topic…">
       <span id="scholarCount" style="font-size:13px;color:var(--ink-soft)"></span>
@@ -524,6 +524,7 @@ drawTrend();
   var body=$("#scholarBody"), search=$("#scholarSearch"), cnt=$("#scholarCount");
   var state={q:"",k:"n",dir:-1,open:null};
   var maxN=Math.max.apply(null,D.scholars.map(function(s){return s.n}));
+  function escHtml(t){return String(t).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");}
   function matches(s){
     if(!state.q)return true;
     var q=state.q.toLowerCase();
@@ -564,7 +565,12 @@ drawTrend();
       '<div><div class="meta-k">Dominant topics</div>'+(topics||"—")+'</div>'+
       '<div><div class="meta-k">Top venues</div>'+(venues||"—")+'</div></div>'+
       (s.aff?'<div style="margin-top:10px"><div class="meta-k">Affiliation</div>'+s.aff+'</div>':"")+
-      (s.sample?'<div style="margin-top:10px"><div class="meta-k">Representative title</div><i>'+s.sample+'</i></div>':"")+
+      ((s.titles&&s.titles.length)?
+        '<div style="margin-top:10px"><div class="meta-k">Banking-law articles ('+s.titles.length+')</div>'+
+        '<ol style="margin:6px 0 0;padding-left:22px;max-height:300px;overflow:auto;font-size:13px;line-height:1.55;color:var(--ink)">'+
+        s.titles.map(function(t){return '<li style="margin:3px 0"><span style="color:var(--ink-soft);font-variant-numeric:tabular-nums">'+(t.year||"—")+'</span>&nbsp; <i>'+escHtml(t.title)+'</i></li>';}).join("")+
+        '</ol></div>'
+        :"")+
       '</td>';
     tr.parentNode.insertBefore(d,tr.nextSibling);
   }

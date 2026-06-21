@@ -102,10 +102,17 @@ for r in rows("trends_by_topic_period.csv"):
     })
 
 # --------------------------------------------------------------------------
-# 4. Scholar explorer
+# 4. Scholar explorer  (top 100, each with its full list of relevant titles)
 # --------------------------------------------------------------------------
+TOP_SCHOLARS = 100
+# full banking-relevant title list per scholar (newest first)
+titles_by_scholar = {}
+for r in rows("scholar_titles.csv"):
+    titles_by_scholar.setdefault(r["display_name"], []).append(
+        {"year": num(r["year"]), "title": fix_mojibake(r["title"])})
+
 scholars = []
-for r in rows("top_banking_scholars.csv"):
+for r in rows("top_banking_scholars.csv")[:TOP_SCHOLARS]:
     topics = []
     for i in (1, 2, 3):
         t = r.get(f"top_topic_{i}")
@@ -123,7 +130,7 @@ for r in rows("top_banking_scholars.csv"):
         "aff": fix_mojibake(r.get("affiliation_openalex", "")) if r.get("affiliation_openalex", "") not in ("", "nan") else "",
         "topics": topics,
         "venues": venues,
-        "sample": fix_mojibake(r.get("sample_title_1", "")),
+        "titles": titles_by_scholar.get(r["display_name"], []),
     })
 
 # --------------------------------------------------------------------------
@@ -197,7 +204,8 @@ meta = {
     "total_articles": sum(yoy.values()),
     "year_min": min(years),
     "year_max": max(years),
-    "n_scholars": len(scholars),
+    "n_scholars": len(rows("top_banking_scholars.csv")),  # full corpus total
+    "n_scholars_shown": len(scholars),                    # explorer cap (top 100)
     "n_topics": len([t for t in topic_cols if t != "UNCLASSIFIED"]),
     "period_cols": period_cols,
     "venue_period_cols": vp_cols,
