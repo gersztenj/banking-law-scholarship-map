@@ -1,9 +1,9 @@
 window.DASH = {
 "meta": {
-"total_articles": 2041,
+"total_articles": 2075,
 "year_min": 2000,
 "year_max": 2025,
-"n_scholars": 225,
+"n_scholars": 226,
 "n_scholars_shown": 100,
 "n_topics": 30,
 "period_cols": [
@@ -66,7 +66,7 @@ window.DASH = {
 10,
 4,
 6,
-11,
+12,
 6,
 20,
 32,
@@ -74,9 +74,37 @@ window.DASH = {
 38,
 27,
 41,
-26,
+27,
 29,
-29
+31
+],
+"Dodd-Frank specific": [
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+1,
+9,
+54,
+36,
+32,
+21,
+17,
+23,
+20,
+8,
+5,
+7,
+6,
+2,
+3,
+2,
+0
 ],
 "Consumer financial protection": [
 6,
@@ -91,48 +119,20 @@ window.DASH = {
 9,
 12,
 12,
-21,
+22,
 10,
 3,
 13,
-10,
+11,
 13,
 16,
 12,
 7,
-2,
+3,
 4,
 5,
 12,
 7
-],
-"Dodd-Frank specific": [
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-1,
-9,
-49,
-34,
-30,
-21,
-16,
-23,
-19,
-8,
-4,
-7,
-6,
-2,
-3,
-2,
-0
 ],
 "Securitization & structured finance": [
 1,
@@ -201,22 +201,50 @@ window.DASH = {
 1,
 3,
 3,
-6,
+7,
 10,
-6,
-6,
+7,
+7,
 10,
 7,
 6,
 6,
 2,
+5,
+3,
+3,
 4,
 3,
 3,
-3,
+3
+],
+"General bank regulation, supervision & reform": [
+4,
+5,
+2,
+5,
+0,
+1,
+1,
+2,
+2,
+4,
+4,
+2,
+2,
+13,
+2,
+2,
+2,
+1,
+2,
+4,
 3,
 2,
-3
+5,
+2,
+0,
+5
 ],
 "Federal Reserve governance & agency independence": [
 0,
@@ -246,34 +274,6 @@ window.DASH = {
 11,
 7
 ],
-"General bank regulation, supervision & reform": [
-4,
-5,
-2,
-5,
-0,
-1,
-1,
-2,
-2,
-4,
-4,
-1,
-2,
-12,
-2,
-2,
-2,
-1,
-2,
-4,
-3,
-2,
-4,
-2,
-0,
-5
-],
 "Crisis-era programs (TARP, emergency lending, 13(3))": [
 1,
 0,
@@ -302,6 +302,34 @@ window.DASH = {
 1,
 3
 ],
+"Shadow banking & nonbank financial intermediation": [
+0,
+0,
+1,
+0,
+0,
+1,
+0,
+1,
+3,
+2,
+1,
+0,
+4,
+6,
+4,
+3,
+7,
+2,
+3,
+7,
+0,
+4,
+1,
+2,
+4,
+2
+],
 "AML / BSA / sanctions": [
 0,
 0,
@@ -327,34 +355,6 @@ window.DASH = {
 3,
 3,
 5,
-4,
-2
-],
-"Shadow banking & nonbank financial intermediation": [
-0,
-0,
-1,
-0,
-0,
-1,
-0,
-1,
-3,
-2,
-1,
-0,
-4,
-5,
-4,
-3,
-7,
-2,
-3,
-7,
-0,
-4,
-1,
-2,
 4,
 2
 ],
@@ -386,6 +386,34 @@ window.DASH = {
 2,
 3
 ],
+"Federal preemption & dual banking system": [
+2,
+2,
+0,
+1,
+4,
+1,
+5,
+3,
+1,
+3,
+3,
+2,
+3,
+2,
+2,
+1,
+2,
+5,
+0,
+1,
+1,
+2,
+2,
+0,
+3,
+1
+],
 "Resolution, bail-in & TLAC": [
 0,
 0,
@@ -413,34 +441,6 @@ window.DASH = {
 3,
 4,
 4
-],
-"Federal preemption & dual banking system": [
-2,
-2,
-0,
-1,
-4,
-1,
-5,
-3,
-1,
-3,
-3,
-1,
-3,
-2,
-2,
-1,
-2,
-5,
-0,
-1,
-1,
-2,
-2,
-0,
-3,
-1
 ],
 "Climate & ESG banking regulation": [
 0,
@@ -564,7 +564,7 @@ window.DASH = {
 1,
 1,
 1,
-0,
+1,
 1,
 0,
 2,
@@ -581,6 +581,34 @@ window.DASH = {
 1,
 0,
 2
+],
+"Data privacy & cybersecurity": [
+1,
+3,
+0,
+0,
+1,
+0,
+4,
+1,
+1,
+0,
+0,
+1,
+0,
+0,
+0,
+4,
+1,
+2,
+2,
+7,
+5,
+1,
+0,
+0,
+1,
+1
 ],
 "Deposit insurance & FDIC": [
 2,
@@ -610,33 +638,33 @@ window.DASH = {
 3,
 3
 ],
-"Data privacy & cybersecurity": [
+"Bank M&A, chartering, branching": [
+0,
+1,
+2,
+0,
+2,
+1,
+1,
+2,
+4,
+2,
+0,
+1,
+2,
+1,
+0,
 1,
 3,
 0,
-0,
-1,
-0,
-4,
-1,
-1,
-0,
-0,
-1,
-0,
-0,
-0,
-4,
 1,
 2,
-2,
-7,
-5,
+3,
+1,
+1,
 1,
 0,
-0,
-0,
-1
+2
 ],
 "Capital requirements & Basel III/IV": [
 1,
@@ -663,34 +691,6 @@ window.DASH = {
 0,
 0,
 0,
-0,
-2
-],
-"Bank M&A, chartering, branching": [
-0,
-1,
-2,
-0,
-2,
-1,
-1,
-2,
-3,
-2,
-0,
-1,
-2,
-1,
-0,
-1,
-3,
-0,
-1,
-2,
-3,
-1,
-1,
-1,
 0,
 2
 ],
@@ -797,7 +797,7 @@ window.DASH = {
 1,
 2,
 0,
-0,
+1,
 3,
 2,
 1,
@@ -920,33 +920,33 @@ window.DASH = {
 ]
 },
 "topicTotals": {
-"Fintech, crypto banking, stablecoins, CBDC": 352,
-"Consumer financial protection": 243,
-"Dodd-Frank specific": 234,
+"Fintech, crypto banking, stablecoins, CBDC": 356,
+"Dodd-Frank specific": 246,
+"Consumer financial protection": 246,
 "Securitization & structured finance": 97,
 "Housing finance & GSE regulation": 96,
-"Too-big-to-fail & systemic risk": 88,
+"Too-big-to-fail & systemic risk": 94,
+"General bank regulation, supervision & reform": 77,
 "Federal Reserve governance & agency independence": 76,
-"General bank regulation, supervision & reform": 74,
 "Crisis-era programs (TARP, emergency lending, 13(3))": 62,
+"Shadow banking & nonbank financial intermediation": 58,
 "AML / BSA / sanctions": 58,
-"Shadow banking & nonbank financial intermediation": 57,
 "UNCLASSIFIED": 56,
+"Federal preemption & dual banking system": 52,
 "Resolution, bail-in & TLAC": 52,
-"Federal preemption & dual banking system": 51,
 "Climate & ESG banking regulation": 43,
 "Payments systems & Fed services": 40,
 "Glass-Steagall, GLBA & bank-securities boundary": 38,
 "Other / international banking": 37,
-"Commercial lending, secured transactions & UCC": 35,
+"Commercial lending, secured transactions & UCC": 36,
+"Data privacy & cybersecurity": 36,
 "Deposit insurance & FDIC": 35,
-"Data privacy & cybersecurity": 35,
+"Bank M&A, chartering, branching": 34,
 "Capital requirements & Basel III/IV": 34,
-"Bank M&A, chartering, branching": 33,
 "Cross-border / international banking": 26,
 "Bank fraud, enforcement & litigation": 24,
 "Bank governance, executive comp, culture": 23,
-"Stress testing & macroprudential supervision": 16,
+"Stress testing & macroprudential supervision": 17,
 "Community banks & regulatory tiering": 14,
 "Money market funds & repo": 9,
 "Liquidity regulation (LCR/NSFR)": 2,
@@ -954,27 +954,27 @@ window.DASH = {
 },
 "rankedTopics": [
 "Fintech, crypto banking, stablecoins, CBDC",
-"Consumer financial protection",
 "Dodd-Frank specific",
+"Consumer financial protection",
 "Securitization & structured finance",
 "Housing finance & GSE regulation",
 "Too-big-to-fail & systemic risk",
-"Federal Reserve governance & agency independence",
 "General bank regulation, supervision & reform",
+"Federal Reserve governance & agency independence",
 "Crisis-era programs (TARP, emergency lending, 13(3))",
-"AML / BSA / sanctions",
 "Shadow banking & nonbank financial intermediation",
-"Resolution, bail-in & TLAC",
+"AML / BSA / sanctions",
 "Federal preemption & dual banking system",
+"Resolution, bail-in & TLAC",
 "Climate & ESG banking regulation",
 "Payments systems & Fed services",
 "Glass-Steagall, GLBA & bank-securities boundary",
 "Other / international banking",
 "Commercial lending, secured transactions & UCC",
-"Deposit insurance & FDIC",
 "Data privacy & cybersecurity",
-"Capital requirements & Basel III/IV",
+"Deposit insurance & FDIC",
 "Bank M&A, chartering, branching",
+"Capital requirements & Basel III/IV",
 "Cross-border / international banking",
 "Bank fraud, enforcement & litigation",
 "Bank governance, executive comp, culture",
@@ -1027,32 +1027,32 @@ window.DASH = {
 },
 {
 "year": 2008,
-"all": 58,
+"all": 59,
 "fintech": 2
 },
 {
 "year": 2009,
-"all": 74,
+"all": 75,
 "fintech": 5
 },
 {
 "year": 2010,
-"all": 82,
+"all": 83,
 "fintech": 4
 },
 {
 "year": 2011,
-"all": 126,
+"all": 133,
 "fintech": 5
 },
 {
 "year": 2012,
-"all": 129,
+"all": 133,
 "fintech": 10
 },
 {
 "year": 2013,
-"all": 118,
+"all": 123,
 "fintech": 4
 },
 {
@@ -1062,27 +1062,27 @@ window.DASH = {
 },
 {
 "year": 2015,
-"all": 112,
-"fintech": 11
+"all": 114,
+"fintech": 12
 },
 {
 "year": 2016,
-"all": 96,
+"all": 97,
 "fintech": 6
 },
 {
 "year": 2017,
-"all": 89,
+"all": 90,
 "fintech": 20
 },
 {
 "year": 2018,
-"all": 101,
+"all": 102,
 "fintech": 32
 },
 {
 "year": 2019,
-"all": 123,
+"all": 125,
 "fintech": 31
 },
 {
@@ -1092,28 +1092,28 @@ window.DASH = {
 },
 {
 "year": 2021,
-"all": 78,
+"all": 79,
 "fintech": 27
 },
 {
 "year": 2022,
-"all": 91,
+"all": 93,
 "fintech": 41
 },
 {
 "year": 2023,
-"all": 80,
-"fintech": 26
+"all": 81,
+"fintech": 27
 },
 {
 "year": 2024,
-"all": 96,
+"all": 98,
 "fintech": 29
 },
 {
 "year": 2025,
-"all": 87,
-"fintech": 29
+"all": 89,
+"fintech": 31
 }
 ],
 "accel": [
@@ -1127,15 +1127,15 @@ window.DASH = {
 {
 "topic": "Data privacy & cybersecurity",
 "early": 1,
-"late": 7,
-"ratio": 7,
+"late": 8,
+"ratio": 8,
 "direction": "RISING"
 },
 {
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
 "early": 29,
-"late": 190,
-"ratio": 6.55,
+"late": 193,
+"ratio": 6.66,
 "direction": "RISING"
 },
 {
@@ -1203,16 +1203,9 @@ window.DASH = {
 },
 {
 "topic": "Shadow banking & nonbank financial intermediation",
-"early": 14,
+"early": 15,
 "late": 13,
-"ratio": 0.93,
-"direction": "STEADY"
-},
-{
-"topic": "Federal preemption & dual banking system",
-"early": 11,
-"late": 9,
-"ratio": 0.82,
+"ratio": 0.87,
 "direction": "STEADY"
 },
 {
@@ -1223,13 +1216,6 @@ window.DASH = {
 "direction": "STEADY"
 },
 {
-"topic": "General bank regulation, supervision & reform",
-"early": 21,
-"late": 16,
-"ratio": 0.76,
-"direction": "STEADY"
-},
-{
 "topic": "Bank fraud, enforcement & litigation",
 "early": 8,
 "late": 6,
@@ -1237,17 +1223,31 @@ window.DASH = {
 "direction": "STEADY"
 },
 {
+"topic": "Federal preemption & dual banking system",
+"early": 12,
+"late": 9,
+"ratio": 0.75,
+"direction": "STEADY"
+},
+{
+"topic": "General bank regulation, supervision & reform",
+"early": 23,
+"late": 17,
+"ratio": 0.74,
+"direction": "STEADY"
+},
+{
 "topic": "Consumer financial protection",
-"early": 58,
-"late": 37,
+"early": 59,
+"late": 38,
 "ratio": 0.64,
 "direction": "DECLINING"
 },
 {
 "topic": "Too-big-to-fail & systemic risk",
-"early": 38,
-"late": 17,
-"ratio": 0.45,
+"early": 41,
+"late": 19,
+"ratio": 0.46,
 "direction": "DECLINING"
 },
 {
@@ -1301,9 +1301,9 @@ window.DASH = {
 },
 {
 "topic": "Dodd-Frank specific",
-"early": 143,
+"early": 152,
 "late": 20,
-"ratio": 0.14,
+"ratio": 0.13,
 "direction": "DECLINING"
 },
 {
@@ -1331,35 +1331,35 @@ window.DASH = {
 "periods": [
 {
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
-"total": 352,
+"total": 356,
 "counts": [
 18,
 15,
 29,
-100,
-190
-]
-},
-{
-"topic": "Consumer financial protection",
-"total": 243,
-"counts": [
-27,
-57,
-58,
-64,
-37
+101,
+193
 ]
 },
 {
 "topic": "Dodd-Frank specific",
-"total": 234,
+"total": 246,
 "counts": [
 0,
 1,
-143,
-70,
+152,
+73,
 20
+]
+},
+{
+"topic": "Consumer financial protection",
+"total": 246,
+"counts": [
+27,
+57,
+59,
+65,
+38
 ]
 },
 {
@@ -1386,12 +1386,23 @@ window.DASH = {
 },
 {
 "topic": "Too-big-to-fail & systemic risk",
-"total": 88,
+"total": 94,
 "counts": [
 0,
 8,
-38,
-25,
+41,
+26,
+19
+]
+},
+{
+"topic": "General bank regulation, supervision & reform",
+"total": 77,
+"counts": [
+16,
+10,
+23,
+11,
 17
 ]
 },
@@ -1404,17 +1415,6 @@ window.DASH = {
 14,
 14,
 40
-]
-},
-{
-"topic": "General bank regulation, supervision & reform",
-"total": 74,
-"counts": [
-16,
-10,
-21,
-11,
-16
 ]
 },
 {
@@ -1441,11 +1441,11 @@ window.DASH = {
 },
 {
 "topic": "Shadow banking & nonbank financial intermediation",
-"total": 57,
+"total": 58,
 "counts": [
 1,
 7,
-14,
+15,
 22,
 13
 ]
@@ -1463,11 +1463,11 @@ window.DASH = {
 },
 {
 "topic": "Federal preemption & dual banking system",
-"total": 51,
+"total": 52,
 "counts": [
 9,
 13,
-11,
+12,
 9,
 9
 ]
@@ -1518,13 +1518,24 @@ window.DASH = {
 },
 {
 "topic": "Commercial lending, secured transactions & UCC",
-"total": 35,
+"total": 36,
 "counts": [
 10,
-6,
+7,
 5,
 7,
 7
+]
+},
+{
+"topic": "Data privacy & cybersecurity",
+"total": 36,
+"counts": [
+5,
+6,
+1,
+16,
+8
 ]
 },
 {
@@ -1539,14 +1550,14 @@ window.DASH = {
 ]
 },
 {
-"topic": "Data privacy & cybersecurity",
-"total": 35,
+"topic": "Bank M&A, chartering, branching",
+"total": 34,
 "counts": [
 5,
-6,
-1,
-16,
-7
+10,
+4,
+7,
+8
 ]
 },
 {
@@ -1558,17 +1569,6 @@ window.DASH = {
 13,
 12,
 4
-]
-},
-{
-"topic": "Bank M&A, chartering, branching",
-"total": 33,
-"counts": [
-5,
-9,
-4,
-7,
-8
 ]
 },
 {
@@ -1606,12 +1606,12 @@ window.DASH = {
 },
 {
 "topic": "Stress testing & macroprudential supervision",
-"total": 16,
+"total": 17,
 "counts": [
 1,
 1,
 3,
-6,
+7,
 5
 ]
 },
@@ -1818,6 +1818,10 @@ window.DASH = {
 },
 {
 "year": 2013,
+"title": "25 Years of Banking Regulation - Socio-Economics Perspectives"
+},
+{
+"year": 2013,
 "title": "A New Philosophy for Financial Stability Regulation"
 },
 {
@@ -1893,8 +1897,8 @@ window.DASH = {
 ],
 "venues": [
 "Duke Faculty Scholarship",
-"Vanderbilt Law Review",
-"Notre Dame Law Review"
+"Notre Dame Law Review",
+"Vanderbilt Law Review"
 ],
 "titles": [
 {
@@ -1920,6 +1924,10 @@ window.DASH = {
 {
 "year": 2019,
 "title": "Systematic Regulation of Systemic Risk"
+},
+{
+"year": 2018,
+"title": "Beyond Bankruptcy: Resolution as a Macroprudential Regulatory Tool"
 },
 {
 "year": 2018,
@@ -2682,7 +2690,7 @@ window.DASH = {
 "topics": [
 {
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 9
+"n": 10
 },
 {
 "topic": "Consumer financial protection",
@@ -2696,7 +2704,7 @@ window.DASH = {
 "venues": [
 "SSRN Electronic Journal",
 "eYLS (Yale Law School)",
-"Indiana Law Journal"
+"North Carolina Law Review"
 ],
 "titles": [
 {
@@ -2716,12 +2724,12 @@ window.DASH = {
 "title": "The Intersection of NFTs and Structured Finance"
 },
 {
-"year": 2022,
-"title": "Crypto Finance in Real Estate Markets"
+"year": 2023,
+"title": "The Private Law of Stablecoins"
 },
 {
 "year": 2022,
-"title": "The Private Law of Stablecoins"
+"title": "Crypto Finance in Real Estate Markets"
 },
 {
 "year": 2021,
@@ -3411,6 +3419,79 @@ window.DASH = {
 },
 {
 "rank": 17,
+"name": "Enriques, Luca",
+"n": 11,
+"first": 2009,
+"last": 2024,
+"aff": "",
+"topics": [
+{
+"topic": "Too-big-to-fail & systemic risk",
+"n": 4
+},
+{
+"topic": "Climate & ESG banking regulation",
+"n": 3
+},
+{
+"topic": "Fintech, crypto banking, stablecoins, CBDC",
+"n": 2
+}
+],
+"venues": [
+"SSRN Electronic Journal",
+"Columbia Business Law Review",
+"Journal of Corporate Law Studies"
+],
+"titles": [
+{
+"year": 2024,
+"title": "Green Gatekeepers"
+},
+{
+"year": 2022,
+"title": "Mandatory Corporate Climate Disclosures"
+},
+{
+"year": 2022,
+"title": "Mandatory Corporate Climate Disclosures: Now, But How?"
+},
+{
+"year": 2021,
+"title": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
+},
+{
+"year": 2020,
+"title": "Bank–fintech partnerships, outsourcing arrangements and the case for a mentorship regime"
+},
+{
+"year": 2020,
+"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
+},
+{
+"year": 2020,
+"title": "Pandemic Crisis and Financial Stability"
+},
+{
+"year": 2019,
+"title": "Extended Shareholder Liability for Systemically Important Financial Institutions"
+},
+{
+"year": 2014,
+"title": "Quack Corporate Governance, Round Ill? Bank Board Regulation Under the New European Capital Requirement Directive"
+},
+{
+"year": 2013,
+"title": "The Risky Business of Regulating Risk Management in Listed Companies"
+},
+{
+"year": 2009,
+"title": "<i>Centros</i> and the Cost of Branching"
+}
+]
+},
+{
+"rank": 18,
 "name": "Schwarcz, Daniel",
 "n": 10,
 "first": 2010,
@@ -3475,75 +3556,6 @@ window.DASH = {
 {
 "year": 2010,
 "title": "Regulating Insurance Sales or Selling Insurance Regulation?: Against Regulatory Competition in Insurance"
-}
-]
-},
-{
-"rank": 18,
-"name": "Enriques, Luca",
-"n": 10,
-"first": 2009,
-"last": 2024,
-"aff": "",
-"topics": [
-{
-"topic": "Climate & ESG banking regulation",
-"n": 3
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 3
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-}
-],
-"venues": [
-"SSRN Electronic Journal",
-"Columbia Business Law Review",
-"Journal of Corporate Law Studies"
-],
-"titles": [
-{
-"year": 2024,
-"title": "Green Gatekeepers"
-},
-{
-"year": 2022,
-"title": "Mandatory Corporate Climate Disclosures"
-},
-{
-"year": 2022,
-"title": "Mandatory Corporate Climate Disclosures: Now, But How?"
-},
-{
-"year": 2021,
-"title": "Financial Stability Amidst the Pandemic Crisis: On Top of the Wave"
-},
-{
-"year": 2020,
-"title": "Bank–fintech partnerships, outsourcing arrangements and the case for a mentorship regime"
-},
-{
-"year": 2020,
-"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
-},
-{
-"year": 2020,
-"title": "Pandemic Crisis and Financial Stability"
-},
-{
-"year": 2014,
-"title": "Quack Corporate Governance, Round Ill? Bank Board Regulation Under the New European Capital Requirement Directive"
-},
-{
-"year": 2013,
-"title": "The Risky Business of Regulating Risk Management in Listed Companies"
-},
-{
-"year": 2009,
-"title": "<i>Centros</i> and the Cost of Branching"
 }
 ]
 },
@@ -4073,6 +4085,67 @@ window.DASH = {
 },
 {
 "rank": 27,
+"name": "Brummer, Chris",
+"n": 8,
+"first": 2010,
+"last": 2019,
+"aff": "",
+"topics": [
+{
+"topic": "Too-big-to-fail & systemic risk",
+"n": 3
+},
+{
+"topic": "Fintech, crypto banking, stablecoins, CBDC",
+"n": 2
+},
+{
+"topic": "General bank regulation, supervision & reform",
+"n": 1
+}
+],
+"venues": [
+"SSRN Electronic Journal",
+"North Carolina Banking Institute",
+"Vanderbilt Faculty Publications"
+],
+"titles": [
+{
+"year": 2019,
+"title": "A Theory of Everything: A Historically Grounded Understanding of Soft Law – and the Bank for International Settlements"
+},
+{
+"year": 2019,
+"title": "Fintech and the Innovation Trilemma"
+},
+{
+"year": 2017,
+"title": "The Fintech Trilemma"
+},
+{
+"year": 2017,
+"title": "The Renminbi and Systemic Risk"
+},
+{
+"year": 2013,
+"title": "Domestic Bank Regulation in a Global Environment - A Comparative Dialogue"
+},
+{
+"year": 2013,
+"title": "Systemically Important Banks (SIBs) in the Post-Crisis Era: 'The' Global Response, and Responses Around the Globe for 135 Countries"
+},
+{
+"year": 2012,
+"title": "Charter of the Financial Stability Board, Introductory Note"
+},
+{
+"year": 2010,
+"title": "How International Financial Law Works (and How it Doesn't)"
+}
+]
+},
+{
+"rank": 28,
 "name": "Baker, Colleen",
 "n": 8,
 "first": 2011,
@@ -4133,7 +4206,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 28,
+"rank": 29,
 "name": "Baradaran, Mehrsa",
 "n": 7,
 "first": 2010,
@@ -4190,7 +4263,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 29,
+"rank": 30,
 "name": "O'Shields, Reginald T.",
 "n": 7,
 "first": 2009,
@@ -4245,7 +4318,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 30,
+"rank": 31,
 "name": "Vanatta, Sean H.",
 "n": 7,
 "first": 2020,
@@ -4293,7 +4366,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 31,
+"rank": 32,
 "name": "Wächter, Susan M.",
 "n": 7,
 "first": 2007,
@@ -4345,63 +4418,6 @@ window.DASH = {
 {
 "year": 2007,
 "title": "State and Local Anti-Predatory Lending Laws: The Effect of Legal Enforcement Mechanisms"
-}
-]
-},
-{
-"rank": 32,
-"name": "Brummer, Chris",
-"n": 7,
-"first": 2010,
-"last": 2019,
-"aff": "",
-"topics": [
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 2
-},
-{
-"topic": "Too-big-to-fail & systemic risk",
-"n": 2
-},
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal",
-"North Carolina Banking Institute",
-"Vanderbilt Faculty Publications"
-],
-"titles": [
-{
-"year": 2019,
-"title": "A Theory of Everything: A Historically Grounded Understanding of Soft Law – and the Bank for International Settlements"
-},
-{
-"year": 2019,
-"title": "Fintech and the Innovation Trilemma"
-},
-{
-"year": 2017,
-"title": "The Fintech Trilemma"
-},
-{
-"year": 2017,
-"title": "The Renminbi and Systemic Risk"
-},
-{
-"year": 2013,
-"title": "Domestic Bank Regulation in a Global Environment - A Comparative Dialogue"
-},
-{
-"year": 2012,
-"title": "Charter of the Financial Stability Board, Introductory Note"
-},
-{
-"year": 2010,
-"title": "How International Financial Law Works (and How it Doesn't)"
 }
 ]
 },
@@ -4472,7 +4488,7 @@ window.DASH = {
 "topics": [
 {
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 5
+"n": 6
 },
 {
 "topic": "Securitization & structured finance",
@@ -4514,7 +4530,7 @@ window.DASH = {
 "title": "The Intersection of NFTs and Structured Finance"
 },
 {
-"year": 2022,
+"year": 2023,
 "title": "The Private Law of Stablecoins"
 }
 ]
@@ -5341,6 +5357,112 @@ window.DASH = {
 },
 {
 "rank": 50,
+"name": "Macey, Jonathan R.",
+"n": 6,
+"first": 2000,
+"last": 2025,
+"aff": "",
+"topics": [
+{
+"topic": "General bank regulation, supervision & reform",
+"n": 1
+},
+{
+"topic": "Fintech, crypto banking, stablecoins, CBDC",
+"n": 1
+},
+{
+"topic": "Glass-Steagall, GLBA & bank-securities boundary",
+"n": 1
+}
+],
+"venues": [
+"SSRN Electronic Journal",
+"Ucblr",
+"eYLS (Yale Law School)"
+],
+"titles": [
+{
+"year": 2025,
+"title": "Are Banks Obsolete?"
+},
+{
+"year": 2020,
+"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
+},
+{
+"year": 2019,
+"title": "Extended Shareholder Liability for Systemically Important Financial Institutions"
+},
+{
+"year": 2009,
+"title": "Helping Law Catch Up to Markets: Applying Broker-Dealer Law to Subprime Mortgages"
+},
+{
+"year": 2006,
+"title": "Commercial Banking and Democracy: The Illusive Quest for Deregulation"
+},
+{
+"year": 2000,
+"title": "The Business of Banking: Before and After Gramm-Leach-Bliley"
+}
+]
+},
+{
+"rank": 51,
+"name": "Lubben, Stephen J.",
+"n": 6,
+"first": 2008,
+"last": 2019,
+"aff": "",
+"topics": [
+{
+"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
+"n": 2
+},
+{
+"topic": "Securitization & structured finance",
+"n": 1
+},
+{
+"topic": "Resolution, bail-in & TLAC",
+"n": 1
+}
+],
+"venues": [
+"SSRN Electronic Journal",
+"Journal of Financial Regulation",
+"Futures & Derivatives Law Report"
+],
+"titles": [
+{
+"year": 2019,
+"title": "Not a Bank, Not a SIFI; Still Too Big to Fail"
+},
+{
+"year": 2017,
+"title": "Always Crashing In The Same Car – Clearinghouse Rescue After Dodd-Frank"
+},
+{
+"year": 2017,
+"title": "Always Crashing in the Same Car—Clearinghouse Rescue in the United States under Dodd–Frank"
+},
+{
+"year": 2016,
+"title": "Central Counterparties and Orderly Liquidation Authority"
+},
+{
+"year": 2015,
+"title": "Failure of the Clearinghouse: Dodd-Frank's Fatal Flaw?"
+},
+{
+"year": 2008,
+"title": "The Sale of the Century and Its Impact on Asset Securitization: Lehman Brothers"
+}
+]
+},
+{
+"rank": 52,
 "name": "Johnson, Kristin N.",
 "n": 6,
 "first": 2011,
@@ -5393,7 +5515,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 51,
+"rank": 53,
 "name": "Eveson, Todd H.",
 "n": 5,
 "first": 2000,
@@ -5440,7 +5562,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 52,
+"rank": 54,
 "name": "Lin, Tom C. W.",
 "n": 5,
 "first": 2010,
@@ -5489,7 +5611,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 53,
+"rank": 55,
 "name": "Batty, David Line",
 "n": 5,
 "first": 2000,
@@ -5536,7 +5658,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 54,
+"rank": 56,
 "name": "Posner, Eric A.",
 "n": 5,
 "first": 2003,
@@ -5585,7 +5707,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 55,
+"rank": 57,
 "name": "Fisch, Jill E.",
 "n": 5,
 "first": 2008,
@@ -5634,7 +5756,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 56,
+"rank": 58,
 "name": "Hill, Julie Andersen",
 "n": 5,
 "first": 2012,
@@ -5683,7 +5805,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 57,
+"rank": 59,
 "name": "Reiners, Lee",
 "n": 5,
 "first": 2019,
@@ -5728,7 +5850,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 58,
+"rank": 60,
 "name": "Gelpern, Anna",
 "n": 5,
 "first": 2004,
@@ -5777,7 +5899,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 59,
+"rank": 61,
 "name": "Hockett, Robert",
 "n": 5,
 "first": 2009,
@@ -5826,7 +5948,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 60,
+"rank": 62,
 "name": "Epstein, Richard A.",
 "n": 5,
 "first": 2005,
@@ -5875,7 +5997,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 61,
+"rank": 63,
 "name": "Skeel, David A.",
 "n": 5,
 "first": 2005,
@@ -5924,7 +6046,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 62,
+"rank": 64,
 "name": "Gordon, Jeffrey N.",
 "n": 5,
 "first": 2011,
@@ -5973,7 +6095,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 63,
+"rank": 65,
 "name": "Handorf, William C.",
 "n": 5,
 "first": 2016,
@@ -6021,56 +6143,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 64,
-"name": "Macey, Jonathan R.",
-"n": 5,
-"first": 2000,
-"last": 2025,
-"aff": "",
-"topics": [
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 1
-},
-{
-"topic": "Glass-Steagall, GLBA & bank-securities boundary",
-"n": 1
-}
-],
-"venues": [
-"Ucblr",
-"eYLS (Yale Law School)",
-"SSRN Electronic Journal"
-],
-"titles": [
-{
-"year": 2025,
-"title": "Are Banks Obsolete?"
-},
-{
-"year": 2020,
-"title": "Extended Shareholder Liability for Systematically Important Financial Institutions"
-},
-{
-"year": 2009,
-"title": "Helping Law Catch Up to Markets: Applying Broker-Dealer Law to Subprime Mortgages"
-},
-{
-"year": 2006,
-"title": "Commercial Banking and Democracy: The Illusive Quest for Deregulation"
-},
-{
-"year": 2000,
-"title": "The Business of Banking: Before and After Gramm-Leach-Bliley"
-}
-]
-},
-{
-"rank": 65,
+"rank": 66,
 "name": "Ringe, Wolf-Georg",
 "n": 5,
 "first": 2018,
@@ -6119,7 +6192,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 66,
+"rank": 67,
 "name": "Johnson, Creola",
 "n": 5,
 "first": 2002,
@@ -6168,7 +6241,56 @@ window.DASH = {
 ]
 },
 {
-"rank": 67,
+"rank": 68,
+"name": "Baxter, Lawrence G.",
+"n": 5,
+"first": 2010,
+"last": 2016,
+"aff": "",
+"topics": [
+{
+"topic": "General bank regulation, supervision & reform",
+"n": 2
+},
+{
+"topic": "Resolution, bail-in & TLAC",
+"n": 1
+},
+{
+"topic": "Dodd-Frank specific",
+"n": 1
+}
+],
+"venues": [
+"Duke Faculty Scholarship",
+"Duke Law Journal",
+"North Carolina Banking Institute"
+],
+"titles": [
+{
+"year": 2016,
+"title": "Adaptive Financial Regulation and RegTech: A Concept Article on Realistic Protection for Victims of Bank Failures"
+},
+{
+"year": 2014,
+"title": "Götterdämmerung"
+},
+{
+"year": 2012,
+"title": "A Current Assessment of Some Extraterritorial Impacts of the Dodd-Frank Act with Special Focus on the Volcker Rule and Derivatives Regulation"
+},
+{
+"year": 2011,
+"title": "Exploring the WFO Option for Global Banking Regulation"
+},
+{
+"year": 2010,
+"title": "The Internationalization of Law: The “Complex” Case of Bank Regulation"
+}
+]
+},
+{
+"rank": 69,
 "name": "Yadav, Yesha",
 "n": 4,
 "first": 2010,
@@ -6209,7 +6331,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 68,
+"rank": 70,
 "name": "Mitts, Joshua",
 "n": 4,
 "first": 2012,
@@ -6250,7 +6372,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 69,
+"rank": 71,
 "name": "Hughes, Heather",
 "n": 4,
 "first": 2008,
@@ -6290,7 +6412,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 70,
+"rank": 72,
 "name": "Jacoby, Melissa B.",
 "n": 4,
 "first": 2008,
@@ -6335,7 +6457,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 71,
+"rank": 73,
 "name": "Admati, Anat R.",
 "n": 4,
 "first": 2011,
@@ -6380,7 +6502,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 72,
+"rank": 74,
 "name": "Foohey, Pamela",
 "n": 4,
 "first": 2016,
@@ -6425,7 +6547,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 73,
+"rank": 75,
 "name": "Comizio, V. Gerard",
 "n": 4,
 "first": 2013,
@@ -6470,7 +6592,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 74,
+"rank": 76,
 "name": "Block‐Lieb, Susan",
 "n": 4,
 "first": 2002,
@@ -6515,7 +6637,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 75,
+"rank": 77,
 "name": "Saunders, Margot",
 "n": 4,
 "first": 2002,
@@ -6550,7 +6672,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 76,
+"rank": 78,
 "name": "Lamson, Donald",
 "n": 4,
 "first": 2011,
@@ -6594,7 +6716,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 77,
+"rank": 79,
 "name": "Taylor, Winnie F.",
 "n": 4,
 "first": 2009,
@@ -6635,7 +6757,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 78,
+"rank": 80,
 "name": "Griffith, Sean J.",
 "n": 4,
 "first": 2012,
@@ -6680,52 +6802,7 @@ window.DASH = {
 ]
 },
 {
-"rank": 79,
-"name": "Lubben, Stephen J.",
-"n": 4,
-"first": 2008,
-"last": 2017,
-"aff": "",
-"topics": [
-{
-"topic": "Crisis-era programs (TARP, emergency lending, 13(3))",
-"n": 2
-},
-{
-"topic": "Securitization & structured finance",
-"n": 1
-},
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 1
-}
-],
-"venues": [
-"SSRN Electronic Journal",
-"Journal of Financial Regulation",
-"Futures & Derivatives Law Report"
-],
-"titles": [
-{
-"year": 2017,
-"title": "Always Crashing In The Same Car – Clearinghouse Rescue After Dodd-Frank"
-},
-{
-"year": 2017,
-"title": "Always Crashing in the Same Car—Clearinghouse Rescue in the United States under Dodd–Frank"
-},
-{
-"year": 2016,
-"title": "Central Counterparties and Orderly Liquidation Authority"
-},
-{
-"year": 2008,
-"title": "The Sale of the Century and Its Impact on Asset Securitization: Lehman Brothers"
-}
-]
-},
-{
-"rank": 80,
+"rank": 81,
 "name": "Yang, Yueh-Ping (Alex)",
 "n": 4,
 "first": 2018,
@@ -6766,51 +6843,6 @@ window.DASH = {
 {
 "year": 2018,
 "title": "Government Ownership of Banks: A Curse or a Blessing for the United States?"
-}
-]
-},
-{
-"rank": 81,
-"name": "Baxter, Lawrence G.",
-"n": 4,
-"first": 2010,
-"last": 2016,
-"aff": "",
-"topics": [
-{
-"topic": "Resolution, bail-in & TLAC",
-"n": 1
-},
-{
-"topic": "General bank regulation, supervision & reform",
-"n": 1
-},
-{
-"topic": "Dodd-Frank specific",
-"n": 1
-}
-],
-"venues": [
-"Duke Faculty Scholarship",
-"Duke Law Journal",
-"North Carolina Banking Institute"
-],
-"titles": [
-{
-"year": 2016,
-"title": "Adaptive Financial Regulation and RegTech: A Concept Article on Realistic Protection for Victims of Bank Failures"
-},
-{
-"year": 2014,
-"title": "Götterdämmerung"
-},
-{
-"year": 2012,
-"title": "A Current Assessment of Some Extraterritorial Impacts of the Dodd-Frank Act with Special Focus on the Volcker Rule and Derivatives Regulation"
-},
-{
-"year": 2010,
-"title": "The Internationalization of Law: The “Complex” Case of Bank Regulation"
 }
 ]
 },
@@ -7466,13 +7498,13 @@ window.DASH = {
 "topics": [
 {
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
-"n": 3
+"n": 4
 }
 ],
 "venues": [
+"UNC Faculty Scholarship",
 "North Carolina Law Review",
-"SSRN Electronic Journal",
-"UNC Faculty Scholarship"
+"SSRN Electronic Journal"
 ],
 "titles": [
 {
@@ -7484,7 +7516,7 @@ window.DASH = {
 "title": "Crypto Failure in the Shadows"
 },
 {
-"year": 2022,
+"year": 2023,
 "title": "The Private Law of Stablecoins"
 }
 ]
@@ -7677,7 +7709,7 @@ window.DASH = {
 },
 {
 "scholar": "Brummer, Chris",
-"articles": 7,
+"articles": 8,
 "presence": 17,
 "rd": "failed",
 "rd_detail": "CFTC Commissioner nominee (lapsed); FINRA NAC",
@@ -7693,7 +7725,7 @@ window.DASH = {
 },
 {
 "scholar": "Painter, Richard W.",
-"articles": 2,
+"articles": 3,
 "presence": 16,
 "rd": "",
 "rd_detail": "",
@@ -7868,6 +7900,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Peterson, Christopher L.",
+"articles": 12,
+"presence": 7,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Johnson, Kristin N.",
 "articles": 6,
 "presence": 7,
@@ -7889,14 +7929,6 @@ window.DASH = {
 "presence": 7,
 "rd": "served",
 "rd_detail": "Fed Board attorney; DOJ Antitrust counsel (detail)",
-"collision": false
-},
-{
-"scholar": "Peterson, Christopher L.",
-"articles": 12,
-"presence": 7,
-"rd": "",
-"rd_detail": "",
 "collision": false
 },
 {
@@ -7932,15 +7964,15 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Reiners, Lee",
-"articles": 5,
+"scholar": "Macey, Jonathan R.",
+"articles": 6,
 "presence": 6,
 "rd": "",
 "rd_detail": "",
 "collision": false
 },
 {
-"scholar": "Macey, Jonathan R.",
+"scholar": "Reiners, Lee",
 "articles": 5,
 "presence": 6,
 "rd": "",
@@ -8076,20 +8108,20 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Odinet, Christopher K.",
-"articles": 17,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Johnson, Creola",
 "articles": 5,
 "presence": 2,
 "rd": "",
 "rd_detail": "",
 "collision": true
+},
+{
+"scholar": "Odinet, Christopher K.",
+"articles": 17,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": false
 },
 {
 "scholar": "Menand, Lev",
@@ -8109,7 +8141,7 @@ window.DASH = {
 },
 {
 "scholar": "Lubben, Stephen J.",
-"articles": 4,
+"articles": 6,
 "presence": 2,
 "rd": "",
 "rd_detail": "",
@@ -8196,14 +8228,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Alexander, Ronald E.",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Johnson, Christian A.",
 "articles": 6,
 "presence": 1,
@@ -8212,7 +8236,7 @@ window.DASH = {
 "collision": true
 },
 {
-"scholar": "Gorton, Gary B.",
+"scholar": "Alexander, Ronald E.",
 "articles": 2,
 "presence": 1,
 "rd": "",
@@ -8222,6 +8246,14 @@ window.DASH = {
 {
 "scholar": "Markham, Jerry W.",
 "articles": 7,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Gorton, Gary B.",
+"articles": 2,
 "presence": 1,
 "rd": "",
 "rd_detail": "",
@@ -8509,7 +8541,7 @@ window.DASH = {
 },
 {
 "scholar": "Enriques, Luca",
-"articles": 10,
+"articles": 11,
 "presence": 0,
 "rd": "",
 "rd_detail": "",
@@ -8620,6 +8652,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Baxter, Lawrence G.",
+"articles": 5,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Hughes, Heather",
 "articles": 4,
 "presence": 0,
@@ -8653,14 +8693,6 @@ window.DASH = {
 },
 {
 "scholar": "Yang, Yueh-Ping (Alex)",
-"articles": 4,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Baxter, Lawrence G.",
 "articles": 4,
 "presence": 0,
 "rd": "",
@@ -8725,6 +8757,22 @@ window.DASH = {
 },
 {
 "scholar": "Feinstein, Brian D.",
+"articles": 3,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Romano, Alessandro",
+"articles": 3,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Arner, Douglas",
 "articles": 3,
 "presence": 0,
 "rd": "",
@@ -8885,14 +8933,6 @@ window.DASH = {
 },
 {
 "scholar": "Halliday, Terence C.",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Romano, Alessandro",
 "articles": 2,
 "presence": 0,
 "rd": "",
@@ -9188,14 +9228,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Arner, Douglas",
-"articles": 2,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Zetzsche, Dirk",
 "articles": 2,
 "presence": 0,
@@ -9290,6 +9322,14 @@ window.DASH = {
 "rd": "",
 "rd_detail": "",
 "collision": false
+},
+{
+"scholar": "Ondersma, Chrystin",
+"articles": 2,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
 }
 ],
 "leadlag": [
@@ -9335,7 +9375,7 @@ window.DASH = {
 "type": "crisis",
 "topic": "Too-big-to-fail & systemic risk",
 "pre": 1,
-"post": 12,
+"post": 13,
 "direction": "LAGS (reactive)"
 },
 {
@@ -9362,7 +9402,7 @@ window.DASH = {
 "type": "crisis",
 "topic": "Too-big-to-fail & systemic risk",
 "pre": 2,
-"post": 19,
+"post": 20,
 "direction": "LAGS (reactive)"
 },
 {
@@ -9398,7 +9438,7 @@ window.DASH = {
 "type": "policy",
 "topic": "General bank regulation, supervision & reform",
 "pre": 5,
-"post": 7,
+"post": 8,
 "direction": "LAGS (reactive)"
 },
 {
@@ -9407,7 +9447,7 @@ window.DASH = {
 "type": "statute",
 "topic": "Dodd-Frank specific",
 "pre": 1,
-"post": 113,
+"post": 122,
 "direction": "LAGS (reactive)"
 },
 {
@@ -9425,7 +9465,7 @@ window.DASH = {
 "type": "agency",
 "topic": "Consumer financial protection",
 "pre": 37,
-"post": 34,
+"post": 35,
 "direction": "LEADS (anticipatory)"
 },
 {
@@ -9487,7 +9527,7 @@ window.DASH = {
 "event": "CFPB arbitration agreements rule (later overturned by Congress)",
 "type": "rule",
 "topic": "Consumer financial protection",
-"pre": 26,
+"pre": 27,
 "post": 35,
 "direction": "LAGS (reactive)"
 },
@@ -9533,7 +9573,7 @@ window.DASH = {
 "type": "rule",
 "topic": "General bank regulation, supervision & reform",
 "pre": 7,
-"post": 8,
+"post": 9,
 "direction": "LAGS (reactive)"
 },
 {
@@ -9551,7 +9591,7 @@ window.DASH = {
 "type": "eo",
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
 "pre": 96,
-"post": 84,
+"post": 87,
 "direction": "LEADS (anticipatory)"
 },
 {
@@ -9559,8 +9599,8 @@ window.DASH = {
 "event": "Silicon Valley Bank failure",
 "type": "crisis",
 "topic": "Too-big-to-fail & systemic risk",
-"pre": 9,
-"post": 5,
+"pre": 10,
+"post": 6,
 "direction": "LEADS (anticipatory)"
 },
 {
@@ -9577,8 +9617,8 @@ window.DASH = {
 "event": "First Republic Bank failure (JPMorgan acquisition)",
 "type": "crisis",
 "topic": "Too-big-to-fail & systemic risk",
-"pre": 9,
-"post": 5,
+"pre": 10,
+"post": 6,
 "direction": "LEADS (anticipatory)"
 },
 {
@@ -9596,7 +9636,7 @@ window.DASH = {
 "type": "rule",
 "topic": "Fintech, crypto banking, stablecoins, CBDC",
 "pre": 106,
-"post": 58,
+"post": 60,
 "direction": "LEADS (anticipatory)"
 },
 {
@@ -9604,7 +9644,7 @@ window.DASH = {
 "event": "CRA modernization final rule (interagency)",
 "type": "rule",
 "topic": "General bank regulation, supervision & reform",
-"pre": 9,
+"pre": 10,
 "post": 5,
 "direction": "LEADS (anticipatory)"
 }
@@ -9612,44 +9652,44 @@ window.DASH = {
 "venuesPeriod": [
 {
 "venue": "North Carolina Banking Institute",
-"total": 409,
+"total": 410,
 "counts": [
 80,
 84,
 81,
 83,
-81
+82
 ]
 },
 {
 "venue": "Columbia Business Law Review",
-"total": 88,
+"total": 89,
 "counts": [
 0,
 12,
-16,
+17,
 26,
 34
 ]
 },
 {
 "venue": "SSRN Electronic Journal",
-"total": 82,
+"total": 86,
 "counts": [
 4,
 8,
-18,
-15,
+20,
+17,
 37
 ]
 },
 {
 "venue": "eYLS (Yale Law School)",
-"total": 74,
+"total": 75,
 "counts": [
 5,
 6,
-18,
+19,
 29,
 16
 ]
@@ -9666,6 +9706,17 @@ window.DASH = {
 ]
 },
 {
+"venue": "Fordham Journal of Corporate & Financial Law",
+"total": 47,
+"counts": [
+3,
+7,
+19,
+9,
+9
+]
+},
+{
 "venue": "Yale Journal on Regulation",
 "total": 47,
 "counts": [
@@ -9677,23 +9728,12 @@ window.DASH = {
 ]
 },
 {
-"venue": "Fordham Journal of Corporate & Financial Law",
-"total": 44,
-"counts": [
-3,
-5,
-18,
-9,
-9
-]
-},
-{
 "venue": "Harvard Business Law Review",
-"total": 34,
+"total": 35,
 "counts": [
 0,
 0,
-21,
+22,
 8,
 5
 ]
@@ -9765,6 +9805,17 @@ window.DASH = {
 ]
 },
 {
+"venue": "Duke Faculty Scholarship",
+"total": 15,
+"counts": [
+0,
+0,
+9,
+5,
+1
+]
+},
+{
 "venue": "Northwestern Journal of International Law & Business",
 "total": 15,
 "counts": [
@@ -9787,14 +9838,25 @@ window.DASH = {
 ]
 },
 {
-"venue": "Duke Faculty Scholarship",
-"total": 14,
+"venue": "Jbel",
+"total": 13,
 "counts": [
 0,
 0,
-8,
+4,
+7,
+2
+]
+},
+{
+"venue": "Southern California Law Review",
+"total": 13,
+"counts": [
+0,
+0,
 5,
-1
+1,
+7
 ]
 },
 {
@@ -9820,36 +9882,25 @@ window.DASH = {
 ]
 },
 {
-"venue": "Southern California Law Review",
-"total": 13,
-"counts": [
-0,
-0,
-5,
-1,
-7
-]
-},
-{
 "venue": "American University Business Law Review",
-"total": 12,
+"total": 13,
 "counts": [
 0,
 0,
 7,
 2,
-3
+4
 ]
 },
 {
-"venue": "Transactions: The Tennessee Journal of Business Law",
+"venue": "George Washington Law Review",
 "total": 12,
 "counts": [
-1,
-1,
+0,
+0,
+2,
 4,
-5,
-1
+6
 ]
 },
 {
@@ -9860,6 +9911,17 @@ window.DASH = {
 5,
 2,
 4,
+1
+]
+},
+{
+"venue": "Transactions: The Tennessee Journal of Business Law",
+"total": 12,
+"counts": [
+1,
+1,
+4,
+5,
 1
 ]
 },
@@ -9875,25 +9937,25 @@ window.DASH = {
 ]
 },
 {
-"venue": "George Washington Law Review",
+"venue": "Bclj",
 "total": 12,
 "counts": [
-0,
-0,
 2,
+2,
+3,
 4,
-6
+1
 ]
 },
 {
-"venue": "Chapman Law Review",
+"venue": "University of Miami Business Law Review",
 "total": 11,
 "counts": [
 0,
-1,
-5,
 0,
-5
+3,
+4,
+4
 ]
 },
 {
@@ -9908,6 +9970,17 @@ window.DASH = {
 ]
 },
 {
+"venue": "Fordham International Law Journal",
+"total": 11,
+"counts": [
+2,
+2,
+4,
+2,
+1
+]
+},
+{
 "venue": "William & Mary Business Law Review",
 "total": 11,
 "counts": [
@@ -9916,17 +9989,6 @@ window.DASH = {
 4,
 4,
 3
-]
-},
-{
-"venue": "Jbel",
-"total": 11,
-"counts": [
-0,
-0,
-4,
-5,
-2
 ]
 },
 {
@@ -9941,35 +10003,68 @@ window.DASH = {
 ]
 },
 {
-"venue": "Bclj",
-"total": 11,
-"counts": [
-2,
-2,
-2,
-4,
-1
-]
-},
-{
-"venue": "Fordham International Law Journal",
-"total": 11,
-"counts": [
-2,
-2,
-4,
-2,
-1
-]
-},
-{
-"venue": "University of Miami Business Law Review",
+"venue": "Chapman Law Review",
 "total": 11,
 "counts": [
 0,
+1,
+5,
+0,
+5
+]
+},
+{
+"venue": "University of Pennsylvania Law Review",
+"total": 10,
+"counts": [
+2,
 0,
 3,
-4,
+2,
+3
+]
+},
+{
+"venue": "Columbia Law Review",
+"total": 10,
+"counts": [
+0,
+0,
+0,
+7,
+3
+]
+},
+{
+"venue": "Cornell Law Review",
+"total": 10,
+"counts": [
+0,
+0,
+6,
+2,
+2
+]
+},
+{
+"venue": "William & Mary Law Review",
+"total": 10,
+"counts": [
+0,
+0,
+0,
+1,
+9
+]
+},
+{
+"venue": "Fordham Law Review",
+"total": 10,
+"counts": [
+1,
+0,
+2,
+3,
 4
 ]
 },
@@ -9994,97 +10089,42 @@ window.DASH = {
 2,
 4
 ]
-},
-{
-"venue": "Columbia Law Review",
-"total": 10,
-"counts": [
-0,
-0,
-0,
-7,
-3
-]
-},
-{
-"venue": "William & Mary Law Review",
-"total": 10,
-"counts": [
-0,
-0,
-0,
-1,
-9
-]
-},
-{
-"venue": "Indiana Law Journal",
-"total": 10,
-"counts": [
-0,
-0,
-5,
-2,
-3
-]
-},
-{
-"venue": "Fordham Law Review",
-"total": 10,
-"counts": [
-1,
-0,
-2,
-3,
-4
-]
-},
-{
-"venue": "University of Pennsylvania Law Review",
-"total": 10,
-"counts": [
-2,
-0,
-3,
-2,
-3
-]
 }
 ],
 "schools": [
 {
 "school": "NCBI (UNC banking)",
-"n": 409,
+"n": 410,
 "top_topic": "Consumer financial protection"
 },
 {
 "school": "Yale (eYLS + JREG)",
-"n": 128,
+"n": 129,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
 "school": "Columbia (CBLR + faculty)",
-"n": 101,
+"n": 102,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
 "school": "Duke",
-"n": 58,
+"n": 59,
 "top_topic": "Securitization & structured finance"
 },
 {
 "school": "Harvard (HBLR + faculty)",
-"n": 51,
+"n": 52,
 "top_topic": "Dodd-Frank specific"
+},
+{
+"school": "Vanderbilt",
+"n": 32,
+"top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
 "school": "Michigan",
 "n": 31,
-"top_topic": "Fintech, crypto banking, stablecoins, CBDC"
-},
-{
-"school": "Vanderbilt",
-"n": 30,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
