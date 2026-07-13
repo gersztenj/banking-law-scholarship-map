@@ -7756,6 +7756,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Posner, Eric A.",
+"articles": 5,
+"presence": 13,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Phillips, Todd",
 "articles": 2,
 "presence": 13,
@@ -7766,14 +7774,6 @@ window.DASH = {
 {
 "scholar": "Chu, Stephen P.",
 "articles": 2,
-"presence": 13,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Posner, Eric A.",
-"articles": 5,
 "presence": 13,
 "rd": "",
 "rd_detail": "",
@@ -8140,6 +8140,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Batty, David Line",
+"articles": 5,
+"presence": 2,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Lubben, Stephen J.",
 "articles": 6,
 "presence": 2,
@@ -8150,14 +8158,6 @@ window.DASH = {
 {
 "scholar": "Meyer, Timothy",
 "articles": 2,
-"presence": 2,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Batty, David Line",
-"articles": 5,
 "presence": 2,
 "rd": "",
 "rd_detail": "",
@@ -8237,6 +8237,14 @@ window.DASH = {
 },
 {
 "scholar": "Alexander, Ronald E.",
+"articles": 2,
+"presence": 1,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
+"scholar": "Casey, Anthony J",
 "articles": 2,
 "presence": 1,
 "rd": "",
@@ -8372,14 +8380,6 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Casey, Anthony J",
-"articles": 2,
-"presence": 1,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
 "scholar": "Fitzpatrick, Thomas J.",
 "articles": 2,
 "presence": 1,
@@ -8484,6 +8484,14 @@ window.DASH = {
 "collision": false
 },
 {
+"scholar": "Hill, Claire",
+"articles": 7,
+"presence": 0,
+"rd": "",
+"rd_detail": "",
+"collision": false
+},
+{
 "scholar": "Skinner, Christina Parajon",
 "articles": 12,
 "presence": 0,
@@ -8492,8 +8500,8 @@ window.DASH = {
 "collision": false
 },
 {
-"scholar": "Hill, Claire",
-"articles": 7,
+"scholar": "Eveson, Todd H.",
+"articles": 5,
 "presence": 0,
 "rd": "",
 "rd_detail": "",
@@ -8622,14 +8630,6 @@ window.DASH = {
 {
 "scholar": "Bilali, Genci",
 "articles": 6,
-"presence": 0,
-"rd": "",
-"rd_detail": "",
-"collision": false
-},
-{
-"scholar": "Eveson, Todd H.",
-"articles": 5,
 "presence": 0,
 "rd": "",
 "rd_detail": "",
