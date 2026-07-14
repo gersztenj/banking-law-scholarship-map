@@ -1685,7 +1685,7 @@ window.DASH = {
 "venues": [
 "eYLS (Yale Law School)",
 "Facsch Lawrev",
-"SSRN Electronic Journal"
+"Loyola University Chicago Law Journal"
 ],
 "titles": [
 {
@@ -2254,8 +2254,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "eYLS (Yale Law School)",
+"Fordham Urban Law Journal",
 "Boston College environmental affairs law review"
 ],
 "titles": [
@@ -2395,9 +2395,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "University of Chicago Law Review",
-"Vanderbilt Law Review"
+"Vanderbilt Law Review",
+"Cornell Law Review"
 ],
 "titles": [
 {
@@ -2504,9 +2504,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Columbia Business Law Review",
-"Washington University Law Review"
+"Washington University Law Review",
+"Yale Law Journal"
 ],
 "titles": [
 {
@@ -2702,8 +2702,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "eYLS (Yale Law School)",
+"Indiana Law Journal",
 "North Carolina Law Review"
 ],
 "titles": [
@@ -2799,9 +2799,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Northwestern University Law Review",
-"Duke Law Journal"
+"Duke Law Journal",
+"Georgia Law Review"
 ],
 "titles": [
 {
@@ -2974,7 +2974,7 @@ window.DASH = {
 ],
 "venues": [
 "eYLS (Yale Law School)",
-"SSRN Electronic Journal",
+"University of Colorado Law Review",
 "Loyola Consumer Law Review"
 ],
 "titles": [
@@ -3055,8 +3055,8 @@ window.DASH = {
 ],
 "venues": [
 "eYLS (Yale Law School)",
-"SSRN Electronic Journal",
-"University of Chicago Law Review"
+"University of Chicago Law Review",
+"Virginia Law Review"
 ],
 "titles": [
 {
@@ -3131,8 +3131,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Fordham Urban Law Journal",
+"Texas Law Review",
 "Fordham law review"
 ],
 "titles": [
@@ -3439,9 +3439,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Columbia Business Law Review",
-"Journal of Corporate Law Studies"
+"Journal of Corporate Law Studies",
+"European Company and Financial Law Review"
 ],
 "titles": [
 {
@@ -3512,9 +3512,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "University of Chicago Law Review",
-"Minnesota Faculty Articles"
+"Minnesota Faculty Articles",
+"Minnesota law review"
 ],
 "titles": [
 {
@@ -3851,7 +3851,7 @@ window.DASH = {
 "venues": [
 "Yale Journal on Regulation",
 "Cornell International Law Journal",
-"Columbia Business Law Review"
+"European Business Organization Law Review"
 ],
 "titles": [
 {
@@ -3920,7 +3920,7 @@ window.DASH = {
 "venues": [
 "Brooklyn Journal of Corporate, Financial & Commercial Law",
 "eYLS (Yale Law School)",
-"SSRN Electronic Journal"
+"Brooklyn Faculty Scholarship"
 ],
 "titles": [
 {
@@ -4045,7 +4045,6 @@ window.DASH = {
 ],
 "venues": [
 "Michigan Faculty Scholarship",
-"SSRN Electronic Journal",
 "Lawreview"
 ],
 "titles": [
@@ -4105,8 +4104,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "North Carolina Banking Institute",
+"Journal of International Economic Law",
 "Vanderbilt Faculty Publications"
 ],
 "titles": [
@@ -4339,7 +4338,6 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Columbia Business Law Review"
 ],
 "titles": [
@@ -4387,8 +4385,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
-"eYLS (Yale Law School)"
+"eYLS (Yale Law School)",
+"Journal of Economics and Business",
+"Atlantic Economic Journal"
 ],
 "titles": [
 {
@@ -4500,9 +4499,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Indiana Law Journal",
-"North Carolina Law Review"
+"North Carolina Law Review",
+"Alabama Law Review"
 ],
 "titles": [
 {
@@ -4613,9 +4612,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Vanderbilt Law Review",
-"University of Chicago Law Review"
+"University of Chicago Law Review",
+"eYLS (Yale Law School)"
 ],
 "titles": [
 {
@@ -4842,8 +4841,8 @@ window.DASH = {
 ],
 "venues": [
 "Law Journal Law Policy",
-"SSRN Electronic Journal",
-"Duke Faculty Scholarship"
+"Duke Faculty Scholarship",
+"Yale Journal on Regulation"
 ],
 "titles": [
 {
@@ -5006,9 +5005,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Law and Contemporary Problems",
-"eYLS (Yale Law School)"
+"eYLS (Yale Law School)",
+"American University Business Law Review"
 ],
 "titles": [
 {
@@ -5059,9 +5058,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
+"Northwestern University Law Review",
 "Georgia Law Review",
-"Northwestern University Law Review"
+"Columbia Business Law Review"
 ],
 "titles": [
 {
@@ -5167,7 +5166,7 @@ window.DASH = {
 "venues": [
 "Hastings Law Journal",
 "Nebraska Law Review",
-"SSRN Electronic Journal"
+"eYLS (Yale Law School)"
 ],
 "titles": [
 {
@@ -5377,9 +5376,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Ucblr",
-"eYLS (Yale Law School)"
+"eYLS (Yale Law School)",
+"Journal of Corporation Law"
 ],
 "titles": [
 {
@@ -5430,9 +5429,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Journal of Financial Regulation",
-"Futures & Derivatives Law Report"
+"Futures & Derivatives Law Report",
+"Ebdj"
 ],
 "titles": [
 {
@@ -5583,7 +5582,6 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "eYLS (Yale Law School)",
 "Minnesota law review"
 ],
@@ -5730,7 +5728,7 @@ window.DASH = {
 "venues": [
 "eYLS (Yale Law School)",
 "North Carolina Law Review",
-"SSRN Electronic Journal"
+"Seattle University law review"
 ],
 "titles": [
 {
@@ -5872,7 +5870,6 @@ window.DASH = {
 ],
 "venues": [
 "Facsch Lawrev",
-"SSRN Electronic Journal",
 "International Finance"
 ],
 "titles": [
@@ -6164,9 +6161,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Capital Markets Law Journal",
-"American Bankruptcy Law Journal"
+"American Bankruptcy Law Journal",
+"European Journal of Risk Regulation"
 ],
 "titles": [
 {
@@ -6308,8 +6305,7 @@ window.DASH = {
 ],
 "venues": [
 "Vanderbilt Faculty Publications",
-"Vanderbilt Journal of Transnational Law",
-"SSRN Electronic Journal"
+"Vanderbilt Journal of Transnational Law"
 ],
 "titles": [
 {
@@ -6352,9 +6348,9 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
-"eYLS (Yale Law School)",
-"Journal of Financial Regulation"
+"Journal of Financial Regulation",
+"Yale Law Journal",
+"eYLS (Yale Law School)"
 ],
 "titles": [
 {
@@ -6434,7 +6430,6 @@ window.DASH = {
 ],
 "venues": [
 "North Carolina Banking Institute",
-"SSRN Electronic Journal",
 "UNC Faculty Scholarship"
 ],
 "titles": [
@@ -6479,8 +6474,8 @@ window.DASH = {
 ],
 "venues": [
 "North Carolina Banking Institute",
-"SSRN Electronic Journal",
-"The Journal of Legal Studies"
+"The Journal of Legal Studies",
+"National Institute Economic Review"
 ],
 "titles": [
 {
@@ -6523,7 +6518,6 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal",
 "Law and Contemporary Problems",
 "eYLS (Yale Law School)"
 ],
@@ -6615,7 +6609,7 @@ window.DASH = {
 "venues": [
 "eYLS (Yale Law School)",
 "Brooklyn Journal of Corporate, Financial & Commercial Law",
-"SSRN Electronic Journal"
+"Temple Law Review"
 ],
 "titles": [
 {
@@ -7007,9 +7001,7 @@ window.DASH = {
 "n": 3
 }
 ],
-"venues": [
-"SSRN Electronic Journal"
-],
+"venues": [],
 "titles": [
 {
 "year": 2022,
@@ -7046,9 +7038,7 @@ window.DASH = {
 "n": 1
 }
 ],
-"venues": [
-"SSRN Electronic Journal"
-],
+"venues": [],
 "titles": [
 {
 "year": 2016,
@@ -7078,7 +7068,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal"
+"Journal of Economics and Business",
+"Atlantic Economic Journal"
 ],
 "titles": [
 {
@@ -7109,7 +7100,8 @@ window.DASH = {
 }
 ],
 "venues": [
-"SSRN Electronic Journal"
+"Journal of Economics and Business",
+"Atlantic Economic Journal"
 ],
 "titles": [
 {
@@ -7403,8 +7395,7 @@ window.DASH = {
 }
 ],
 "venues": [
-"Michigan Faculty Scholarship",
-"SSRN Electronic Journal"
+"Michigan Faculty Scholarship"
 ],
 "titles": [
 {
@@ -7503,8 +7494,7 @@ window.DASH = {
 ],
 "venues": [
 "UNC Faculty Scholarship",
-"North Carolina Law Review",
-"SSRN Electronic Journal"
+"North Carolina Law Review"
 ],
 "titles": [
 {
@@ -9673,14 +9663,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "SSRN Electronic Journal",
-"total": 86,
+"venue": "",
+"total": 78,
 "counts": [
-4,
-8,
-20,
+2,
+7,
+16,
 17,
-37
+36
 ]
 },
 {
@@ -9706,17 +9696,6 @@ window.DASH = {
 ]
 },
 {
-"venue": "Fordham Journal of Corporate & Financial Law",
-"total": 47,
-"counts": [
-3,
-7,
-19,
-9,
-9
-]
-},
-{
 "venue": "Yale Journal on Regulation",
 "total": 47,
 "counts": [
@@ -9725,6 +9704,17 @@ window.DASH = {
 5,
 20,
 19
+]
+},
+{
+"venue": "Fordham Journal of Corporate & Financial Law",
+"total": 47,
+"counts": [
+3,
+7,
+19,
+9,
+9
 ]
 },
 {
@@ -9794,17 +9784,6 @@ window.DASH = {
 ]
 },
 {
-"venue": "Georgia Law Review",
-"total": 15,
-"counts": [
-0,
-2,
-1,
-8,
-4
-]
-},
-{
 "venue": "Duke Faculty Scholarship",
 "total": 15,
 "counts": [
@@ -9827,6 +9806,17 @@ window.DASH = {
 ]
 },
 {
+"venue": "Georgia Law Review",
+"total": 15,
+"counts": [
+0,
+2,
+1,
+8,
+4
+]
+},
+{
 "venue": "Hastings Business Law Journal",
 "total": 14,
 "counts": [
@@ -9835,50 +9825,6 @@ window.DASH = {
 4,
 1,
 5
-]
-},
-{
-"venue": "Jbel",
-"total": 13,
-"counts": [
-0,
-0,
-4,
-7,
-2
-]
-},
-{
-"venue": "Southern California Law Review",
-"total": 13,
-"counts": [
-0,
-0,
-5,
-1,
-7
-]
-},
-{
-"venue": "Vanderbilt Law Review",
-"total": 13,
-"counts": [
-0,
-0,
-3,
-3,
-7
-]
-},
-{
-"venue": "Journal of Business & Technology Law",
-"total": 13,
-"counts": [
-0,
-2,
-5,
-2,
-4
 ]
 },
 {
@@ -9893,25 +9839,58 @@ window.DASH = {
 ]
 },
 {
-"venue": "George Washington Law Review",
-"total": 12,
+"venue": "Vanderbilt Law Review",
+"total": 13,
 "counts": [
 0,
 0,
-2,
+3,
+3,
+7
+]
+},
+{
+"venue": "George Washington Law Review",
+"total": 13,
+"counts": [
+0,
+0,
+3,
 4,
 6
 ]
 },
 {
-"venue": "Chicago-Kent Law Review",
-"total": 12,
+"venue": "Jbel",
+"total": 13,
 "counts": [
 0,
+0,
+4,
+7,
+2
+]
+},
+{
+"venue": "Journal of Business & Technology Law",
+"total": 13,
+"counts": [
+0,
+2,
 5,
 2,
-4,
-1
+4
+]
+},
+{
+"venue": "Southern California Law Review",
+"total": 13,
+"counts": [
+0,
+0,
+5,
+1,
+7
 ]
 },
 {
@@ -9926,13 +9905,13 @@ window.DASH = {
 ]
 },
 {
-"venue": "Loyola University Chicago Law Journal",
+"venue": "Chicago-Kent Law Review",
 "total": 12,
 "counts": [
-1,
 0,
+5,
+2,
 4,
-6,
 1
 ]
 },
@@ -9948,25 +9927,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "University of Miami Business Law Review",
-"total": 11,
+"venue": "Loyola University Chicago Law Journal",
+"total": 12,
 "counts": [
+1,
 0,
-0,
-3,
 4,
-4
-]
-},
-{
-"venue": "Seattle University Law Review",
-"total": 11,
-"counts": [
-0,
-0,
-3,
 6,
-2
+1
 ]
 },
 {
@@ -9992,6 +9960,39 @@ window.DASH = {
 ]
 },
 {
+"venue": "Chapman Law Review",
+"total": 11,
+"counts": [
+0,
+1,
+5,
+0,
+5
+]
+},
+{
+"venue": "University of Miami Business Law Review",
+"total": 11,
+"counts": [
+0,
+0,
+3,
+4,
+4
+]
+},
+{
+"venue": "Seattle University Law Review",
+"total": 11,
+"counts": [
+0,
+0,
+3,
+6,
+2
+]
+},
+{
 "venue": "Washington and Lee Law Review",
 "total": 11,
 "counts": [
@@ -10003,14 +10004,36 @@ window.DASH = {
 ]
 },
 {
-"venue": "Chapman Law Review",
+"venue": "Harvard Law Review",
 "total": 11,
 "counts": [
+1,
+0,
+3,
+2,
+5
+]
+},
+{
+"venue": "William & Mary Law Review",
+"total": 10,
+"counts": [
+0,
+0,
 0,
 1,
-5,
+9
+]
+},
+{
+"venue": "Cornell Law Review",
+"total": 10,
+"counts": [
 0,
-5
+0,
+6,
+2,
+2
 ]
 },
 {
@@ -10036,28 +10059,6 @@ window.DASH = {
 ]
 },
 {
-"venue": "Cornell Law Review",
-"total": 10,
-"counts": [
-0,
-0,
-6,
-2,
-2
-]
-},
-{
-"venue": "William & Mary Law Review",
-"total": 10,
-"counts": [
-0,
-0,
-0,
-1,
-9
-]
-},
-{
 "venue": "Fordham Law Review",
 "total": 10,
 "counts": [
@@ -10069,25 +10070,14 @@ window.DASH = {
 ]
 },
 {
-"venue": "Georgetown Law Journal",
+"venue": "Indiana Law Journal",
 "total": 10,
 "counts": [
 0,
-1,
 0,
-3,
-6
-]
-},
-{
-"venue": "Harvard Law Review",
-"total": 10,
-"counts": [
-1,
-0,
-3,
+5,
 2,
-4
+3
 ]
 }
 ],
@@ -10099,7 +10089,7 @@ window.DASH = {
 },
 {
 "school": "Yale (eYLS + JREG)",
-"n": 129,
+"n": 130,
 "top_topic": "Fintech, crypto banking, stablecoins, CBDC"
 },
 {
@@ -10114,7 +10104,7 @@ window.DASH = {
 },
 {
 "school": "Harvard (HBLR + faculty)",
-"n": 52,
+"n": 54,
 "top_topic": "Dodd-Frank specific"
 },
 {
