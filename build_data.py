@@ -178,8 +178,10 @@ for r in rows("trends_top_venues_by_period.csv"):
 
 schools = []
 for r in rows("trends_school_concentration.csv"):
+    # strip the source-composition annotation, e.g. "Yale (eYLS + JREG)" -> "Yale",
+    # so no repository jargon (eYLS/faculty/CBLR) shows in the school labels.
     schools.append({
-        "school": r["school_proxy"],
+        "school": r["school_proxy"].split(" (")[0].strip(),
         "n": num(r["total_banking_articles"]),
         "top_topic": r["top_topic"],
     })
